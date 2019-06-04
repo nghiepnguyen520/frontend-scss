@@ -1,0 +1,108 @@
+
+
+@import  '../helper/mixin.scss';
+@import  '../helper/font.scss';
+
+.full-bg{
+    .container-full-bg{
+        .content{
+            .teachers{
+                background-color: white;
+                .tea-bg{
+                    background-image: url(../../assets/image6/3rd_section_img.jpg);
+                    background-position: center;
+                    background-size: cover;
+                    height: 300px;
+                }
+                .container-tea{
+                    margin: 0 auto;
+                    width: 90%;
+                    padding-top: 6%;
+                    padding-bottom: 10%;
+                    h2{
+                        @include h2;
+                    }
+                    h2:before{
+                        @include h2-border;
+                        border-color: #ffd263;
+                        width: 53%;
+                        margin: 0 auto;
+                        left: 0;
+                        right: 0;
+                    }
+                    .info-tea{
+                        display: flex;
+                        justify-content: space-between;
+                        padding-top: 10%;
+                        .info-tea-1{
+                            width: 31%;
+                            img{
+                                width: 100%;
+                                border-radius: 4px;
+                                cursor: pointer;
+                                transition: all 1s ease-out;
+                                &:hover{
+                                    transform: scale(1.1)
+                                }        
+                            }
+                            h3{
+                                @include p;
+                                margin-bottom: 0px; 
+                            }
+                            h4{
+                                @include p;
+                                letter-spacing: 1px;
+                                margin-top: 0px;
+                            }
+                            p{
+                                @include p;
+                                color : #8f8f8f;
+                            }
+                            i{
+                                color: $main-color;
+                                border-radius: 4px;
+                                margin-right: 4px;
+                                cursor: pointer;
+                                &:hover{
+                                    opacity: 0.8;
+                                }
+                            }
+                            .fa-twitter{
+                                padding: 10px;
+                                background-color: #55acee
+                            }
+                            .fa-facebook-f{
+                                padding: 10px 14px;
+                                background-color: #3b5998
+                            }
+                            .fa-google-plus-g{
+                                padding: 10px 8px;
+                                background-color: #dc4e41;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .full-bg{
+        .container-full-bg{
+            .content{
+                .teachers{
+                    .container-tea{
+                        .info-tea{
+                            display: block;
+                            .info-tea-1{
+                                width: 100%;
+                                padding-bottom: 15%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,152 @@
+
+@import  '../helper/mixin.scss';
+@import  '../helper/font.scss';
+
+.full-bg{
+    .container-full-bg{
+        .content{
+            .activities{
+                background-image: url(../../assets/image6/bg_section_1.jpg);
+                background-position: center;
+                background-size: cover;
+                .container-acti{
+                    margin: 0 auto;
+                    width: 90%;
+                    padding-top: 70px;
+                    padding-bottom: 10%;
+                    h2{
+                        @include h2;
+                        margin-top: 0px;
+                        color: white;
+                    }
+                    h2:before{
+                        @include h2-border;
+                        border-color: #ffd263;
+                        width: 53%;
+                        margin: 0 auto;
+                        left: 0;
+                        right: 0;
+                    }
+                    .info-acti{
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        padding-top: 55px;
+                        .info-acti-1{
+                            width: 47%;
+                            display: flex;
+                            justify-content: space-between;
+                            .img-acti{
+                                width: 30%;
+                                img{
+                                    width: 100%;
+                                    padding-top: 24px;
+                                }
+
+                            }
+                            .acti-1{
+                                width: 60%;
+                                h3{
+                                    @include p;
+                                    color : $main-color;
+                                    letter-spacing: 1px;
+                                    position: relative;
+                                    margin-bottom: 30px;
+                                }
+                                h3:before{
+                                    content:' ';
+                                    border-bottom: 2px solid #ffd263;
+                                    height: 2px;
+                                    width: 10%;
+                                    position: absolute;
+                                    top: 43px;
+                                }
+                                p{
+                                    @include p;
+                                    color : $main-color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 600px){
+    .full-bg{
+        .container-full-bg{
+            .content{
+                .activities{
+                    .container-acti{
+                        .info-acti{
+                            display: block;
+                            .info-acti-1{
+                                width: 100%;
+                                padding-bottom: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 415px){
+    .full-bg{
+        .container-full-bg{
+            .content{
+                .activities{
+                    .container-acti{
+                        .info-acti{
+                            .info-acti-1{
+                                .acti-1{
+                                    width: 65%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 385px){
+    .full-bg{
+        .container-full-bg{
+            .content{
+                .activities{
+                    .container-acti{
+                        h2:before{
+                            top: 125px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 320px){
+    .full-bg{
+        .container-full-bg{
+            .content{
+                .activities{
+                    .container-acti{
+                        .info-acti{
+                            padding-top: 10px;
+                            .info-acti-1{
+                                display: block;
+                                .img-acti{
+                                    width: 100%;
+                                }
+                                .acti-1{
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,137 @@
+.doctors {
+  background-color: #F7F7F7; }
+  .doctors .container-doctors {
+    margin: 0 auto;
+    width: 55%;
+    font-family: 'Mukta', sans-serif; }
+    .doctors .container-doctors .icon5 {
+      padding-top: 12%; }
+    .doctors .container-doctors h2 {
+      width: 30%;
+      position: relative;
+      font-size: 40px;
+      color: #747474;
+      margin-top: 1%; }
+    .doctors .container-doctors h2::before {
+      content: ' ';
+      border-bottom: 2px solid #D8D8D8;
+      width: 40%;
+      height: 2px;
+      width: 63%;
+      margin: 0 auto;
+      left: 0;
+      position: absolute;
+      top: 80px;
+      right: 0; }
+    .doctors .container-doctors .text-doc {
+      width: 76%;
+      padding: 6px; }
+      .doctors .container-doctors .text-doc p {
+        font-size: 20px;
+        color: #747474;
+        line-height: 40px; }
+    .doctors .container-doctors .info-doctors {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 90px;
+      padding-top: 5%; }
+      .doctors .container-doctors .info-doctors .info-doctor-1 {
+        width: 32%; }
+        .doctors .container-doctors .info-doctors .info-doctor-1 img {
+          width: 100%;
+          cursor: pointer;
+          transition: all 1s ease-out;
+          z-index: 100;
+          position: relative; }
+        .doctors .container-doctors .info-doctors .info-doctor-1 img:hover {
+          transform: scale(1.04);
+          box-shadow: 1px 1px 1px 1px #a8a7a7; }
+        .doctors .container-doctors .info-doctors .info-doctor-1 .about-doctor {
+          background-color: white;
+          position: relative;
+          bottom: 9px;
+          color: #747474; }
+          .doctors .container-doctors .info-doctors .info-doctor-1 .about-doctor .container-about {
+            padding: 20px; }
+            .doctors .container-doctors .info-doctors .info-doctor-1 .about-doctor .container-about p {
+              line-height: 32px; }
+            .doctors .container-doctors .info-doctors .info-doctor-1 .about-doctor .container-about .links-doctor {
+              padding-top: 15px; }
+              .doctors .container-doctors .info-doctors .info-doctor-1 .about-doctor .container-about .links-doctor span {
+                cursor: pointer;
+                padding-right: 2px; }
+                .doctors .container-doctors .info-doctors .info-doctor-1 .about-doctor .container-about .links-doctor span .fa-facebook-f {
+                  padding: 8px 12px;
+                  background: #3B5999;
+                  border-radius: 5px;
+                  color: white; }
+                .doctors .container-doctors .info-doctors .info-doctor-1 .about-doctor .container-about .links-doctor span .fa-twitter {
+                  padding: 8px 8px;
+                  background: #55ACEF;
+                  border-radius: 5px;
+                  color: white; }
+                .doctors .container-doctors .info-doctors .info-doctor-1 .about-doctor .container-about .links-doctor span .fa-instagram {
+                  padding: 8px 9px;
+                  background: #3E729A;
+                  border-radius: 5px;
+                  color: white; }
+              .doctors .container-doctors .info-doctors .info-doctor-1 .about-doctor .container-about .links-doctor span:hover {
+                opacity: 0.8; }
+
+@media only screen and (max-width: 1920px) {
+  .doctors .container-doctors h2 {
+    width: 35%; } }
+@media only screen and (max-width: 1680px) {
+  .doctors .container-doctors h2 {
+    width: 41%; } }
+@media only screen and (max-width: 1537px) {
+  .doctors .container-doctors h2 {
+    width: 45%; } }
+@media only screen and (max-width: 1440px) {
+  .doctors .container-doctors {
+    width: 60%; } }
+@media only screen and (max-width: 1024px) {
+  .doctors .container-doctors {
+    width: 91%; }
+    .doctors .container-doctors h2 {
+      width: 41%; }
+    .doctors .container-doctors img {
+      padding-top: 9%; } }
+@media only screen and (max-width: 800px) {
+  .doctors .container-doctors h2 {
+    width: 53%; } }
+@media only screen and (max-width: 600px) {
+  .doctors .container-doctors h2 {
+    width: 69%; }
+  .doctors .container-doctors .text-doc {
+    width: 100%; }
+  .doctors .container-doctors .info-doctors {
+    display: block; }
+    .doctors .container-doctors .info-doctors .info-doctor-1 {
+      width: 100%; } }
+@media only screen and (max-width: 415px) {
+  .doctors .container-doctors h2 {
+    width: 101%;
+    font-size: 38px; }
+  .doctors .container-doctors .text-doc p {
+    font-size: 17px; } }
+@media only screen and (max-width: 384px) {
+  .doctors .container-doctors h2 {
+    width: 83%;
+    font-size: 30px; }
+  .doctors .container-doctors h2::before {
+    top: 65px; } }
+@media only screen and (max-width: 376px) {
+  .doctors .container-doctors h2 {
+    width: 85%; }
+  .doctors .container-doctors .text-doc p {
+    font-size: 16px; } }
+@media only screen and (max-width: 360px) {
+  .doctors .container-doctors h2 {
+    width: 88%; } }
+@media only screen and (max-width: 320px) {
+  .doctors .container-doctors h2 {
+    width: 100%;
+    font-size: 28px; } }
+
+/*# sourceMappingURL=doctors.css.map */

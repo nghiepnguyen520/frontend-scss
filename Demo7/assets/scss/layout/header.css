@@ -1,0 +1,59 @@
+body {
+  margin: 0; }
+
+.full-demo7 {
+  overflow: hidden; }
+
+header {
+  background-image: url(../../assets/image7/home_slider.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 630px; }
+  header .container-header {
+    margin: 0 auto;
+    width: 60%;
+    padding-top: 13%; }
+    header .container-header h2 {
+      font-size: 50px;
+      font-family: 'Merriweather';
+      font-weight: 300;
+      color: white;
+      margin-bottom: 25px; }
+    header .container-header p {
+      font-family: "Merriweather";
+      color: white;
+      font-size: 20px;
+      margin-bottom: 45px; }
+    header .container-header button {
+      border: none;
+      background: white;
+      border-radius: 20px;
+      padding: 12px 30px;
+      color: #90a8ad;
+      cursor: pointer;
+      transition: all 0.5s ease-out; }
+      header .container-header button:hover {
+        background: none;
+        border: 1px solid white;
+        color: white; }
+
+@media only screen and (max-width: 1920px) {
+  header {
+    height: 745px; } }
+@media only screen and (max-width: 1600px) {
+  header {
+    height: 665px; } }
+@media only screen and (max-width: 1537px) {
+  header {
+    height: 640px; } }
+@media only screen and (max-width: 1400px) {
+  header {
+    height: 580px; } }
+@media only screen and (max-width: 1024px) {
+  header {
+    height: 520px; } }
+@media only screen and (max-width: 800px) {
+  header .container-header {
+    width: 90%; } }
+
+/*# sourceMappingURL=header.css.map */

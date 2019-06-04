@@ -1,0 +1,46 @@
+.together .container-together {
+  margin: 0 auto;
+  width: 49%;
+  padding: 7% 0px; }
+  .together .container-together h2 {
+    font-size: 50px;
+    font-family: 'Merriweather';
+    font-weight: 300;
+    font-size: 37px;
+    position: relative; }
+  .together .container-together h2::before {
+    content: ' ';
+    border-bottom: 1px solid;
+    height: 2px;
+    position: absolute;
+    top: 75px;
+    margin: 0 auto;
+    color: #c7d3d6;
+    width: 15%;
+    left: 0;
+    right: 0; }
+  .together .container-together p {
+    font-family: "Merriweather";
+    font-size: 14px;
+    line-height: 32px;
+    padding-top: 40px;
+    color: #7e8890; }
+.together .bg-together {
+  background-image: url(../../assets/image7/parallax_image_02-1.jpg);
+  background-size: cover;
+  height: 500px;
+  background-position: center top; }
+
+@media only screen and (max-width: 1024px) {
+  .together .container-together {
+    width: 90%; }
+  .together .bg-together {
+    height: 350px; } }
+@media only screen and (max-width: 415px) {
+  .together .container-together h2::before {
+    width: 25%; } }
+@media only screen and (max-width: 360px) {
+  .together .container-together h2::before {
+    top: 120px; } }
+
+/*# sourceMappingURL=together.css.map */

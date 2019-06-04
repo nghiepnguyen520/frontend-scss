@@ -1,0 +1,132 @@
+.story .container-story {
+  width: 65%;
+  margin: 0 auto;
+  padding-top: 7%;
+  padding-bottom: 3%; }
+  .story .container-story h2 {
+    font-size: 50px;
+    font-family: 'Merriweather';
+    font-weight: 300;
+    font-size: 37px;
+    position: relative;
+    margin-bottom: 60px; }
+  .story .container-story h2::before {
+    content: ' ';
+    border-bottom: 1px solid;
+    height: 2px;
+    position: absolute;
+    top: 75px;
+    margin: 0 auto;
+    color: #c7d3d6;
+    width: 10%;
+    left: 0;
+    right: 0; }
+  .story .container-story .text-story {
+    font-family: "Merriweather";
+    font-size: 14px;
+    width: 70%;
+    line-height: 32px;
+    color: #7e8890; }
+  .story .container-story .info-story {
+    padding-top: 5%;
+    width: 75%;
+    margin: 0 auto; }
+    .story .container-story .info-story .story-1 {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 8%; }
+      .story .container-story .info-story .story-1 .img-story-1 {
+        width: 22%; }
+        .story .container-story .info-story .story-1 .img-story-1 img {
+          width: 100%;
+          border-radius: 50%;
+          transition: all 0.5s ease-out;
+          cursor: pointer; }
+          .story .container-story .info-story .story-1 .img-story-1 img:hover {
+            transform: scale(0.9); }
+      .story .container-story .info-story .story-1 .info-story-1 {
+        width: 73%; }
+        .story .container-story .info-story .story-1 .info-story-1 div {
+          display: flex;
+          justify-content: space-between;
+          position: relative; }
+          .story .container-story .info-story .story-1 .info-story-1 div div {
+            width: 10%; }
+            .story .container-story .info-story .story-1 .info-story-1 div div img {
+              width: 55%;
+              height: 55%;
+              padding-top: 15px; }
+          .story .container-story .info-story .story-1 .info-story-1 div h3 {
+            width: 90%;
+            font-size: 17px;
+            font-family: "Merriweather"; }
+          .story .container-story .info-story .story-1 .info-story-1 div::before {
+            content: ' ';
+            border-bottom: 1px solid;
+            height: 2px;
+            position: absolute;
+            top: 75px;
+            margin: 0 auto;
+            color: #c7d3d6;
+            width: 23%; }
+        .story .container-story .info-story .story-1 .info-story-1 p {
+          font-family: "Merriweather";
+          color: #7e8890;
+          line-height: 32px;
+          font-size: 14px;
+          margin-top: 48px; }
+
+@media only screen and (max-width: 1367px) {
+  .story .container-story {
+    width: 75%; } }
+@media only screen and (max-width: 1024px) {
+  .story .container-story {
+    width: 90%; }
+    .story .container-story .text-story {
+      width: 100%; }
+    .story .container-story .info-story {
+      width: 90%; } }
+@media only screen and (max-width: 800px) {
+  .story .container-story .info-story .story-1 {
+    display: block; }
+    .story .container-story .info-story .story-1 .img-story-1 {
+      width: 50%;
+      margin: 0 auto; }
+    .story .container-story .info-story .story-1 .info-story-1 {
+      margin-top: 40px;
+      width: 100%; }
+      .story .container-story .info-story .story-1 .info-story-1 div div img {
+        width: 50%; } }
+@media only screen and (max-width: 600px) {
+  .story .container-story {
+    width: 93%; }
+    .story .container-story h2::before {
+      width: 20%; }
+    .story .container-story .info-story {
+      width: 100%; }
+      .story .container-story .info-story .story-1 .info-story-1 div div {
+        height: 90%; }
+      .story .container-story .info-story .story-1 .info-story-1 div h3 {
+        line-height: 30px; } }
+@media only screen and (max-width: 415px) {
+  .story .container-story h2::before {
+    top: 120px; }
+  .story .container-story .info-story {
+    width: 88%; }
+    .story .container-story .info-story .story-1 .info-story-1 div div {
+      width: 15%; }
+    .story .container-story .info-story .story-1 .info-story-1 div::before {
+      top: 95px; }
+    .story .container-story .info-story .story-1 .info-story-1 div h3 {
+      margin-top: 10px; } }
+@media only screen and (max-width: 385px) {
+  .story .container-story .info-story {
+    width: 91%; } }
+@media only screen and (max-width: 360px) {
+  .story .container-story .info-story .story-1 .info-story-1 div h3 {
+    font-size: 16px; } }
+@media only screen and (max-width: 320px) {
+  .story .container-story .info-story .story-1 .info-story-1 div h3 {
+    font-size: 14px; } }
+
+/*# sourceMappingURL=story.css.map */

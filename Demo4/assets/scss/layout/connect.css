@@ -1,0 +1,104 @@
+.connect {
+  background-image: url(../../assets/image4/smartphone_section_bg.jpg);
+  height: 840px;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden; }
+  .connect .container-connect {
+    margin: 0 auto;
+    width: 65%;
+    display: flex;
+    padding-top: 8%; }
+    .connect .container-connect .info-conn {
+      width: 40%;
+      font-family: "Source Sans Pro", Arial, Helvetica, sans-serif; }
+      .connect .container-connect .info-conn h3 {
+        font-size: 40px;
+        font-weight: 300;
+        color: #515b69;
+        margin-bottom: 2px;
+        margin-top: 0px; }
+      .connect .container-connect .info-conn p {
+        font-size: 18px;
+        color: #7f8795;
+        line-height: 30px; }
+      .connect .container-connect .info-conn button {
+        color: white;
+        background: #74849C;
+        border: none;
+        padding: 14px 25px;
+        border-radius: 4px;
+        font-size: 17px;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out; }
+      .connect .container-connect .info-conn button:hover {
+        background: #35baf2; }
+    .connect .container-connect .img-conn {
+      width: 55%; }
+      .connect .container-connect .img-conn img {
+        width: 100%; }
+
+@media only screen and (max-width: 1920px) {
+  .connect {
+    height: 1005px; } }
+@media only screen and (max-width: 1680px) {
+  .connect {
+    height: 900px; } }
+@media only screen and (max-width: 1600px) {
+  .connect {
+    height: 860px; } }
+@media only screen and (max-width: 1537px) {
+  .connect {
+    height: 823px; } }
+@media only screen and (max-width: 1440px) {
+  .connect {
+    height: 770px; } }
+@media only screen and (max-width: 1024px) {
+  .connect {
+    height: 685px; }
+    .connect .container-connect {
+      width: 80%; } }
+@media only screen and (max-width: 800px) {
+  .connect {
+    height: 1200px; }
+    .connect .container-connect {
+      width: 80%;
+      display: block; }
+      .connect .container-connect .info-conn {
+        width: 100%;
+        margin-bottom: 13%; }
+        .connect .container-connect .info-conn h3 {
+          margin-top: 15px; }
+      .connect .container-connect .img-conn {
+        width: 100%; } }
+@media only screen and (max-width: 600px) {
+  .connect {
+    height: 1000px; }
+    .connect .container-connect .info-conn h3 {
+      font-size: 37px; } }
+@media only screen and (max-width: 415px) {
+  .connect {
+    height: 880px; }
+    .connect .container-connect .info-conn p {
+      font-size: 17px; } }
+@media only screen and (max-width: 384px) {
+  .connect {
+    height: 850px; }
+    .connect .container-connect .info-conn button {
+      font-size: 14px; } }
+@media only screen and (max-width: 360px) {
+  .connect {
+    height: 835px; }
+    .connect .container-connect .info-conn {
+      margin-bottom: 20%; } }
+@media only screen and (max-width: 320px) {
+  .connect {
+    height: 765px; }
+    .connect .container-connect .info-conn h3 {
+      font-size: 33px; }
+    .connect .container-connect .info-conn p {
+      font-size: 16px; }
+    .connect .container-connect .info-conn button {
+      font-size: 13px; } }
+
+/*# sourceMappingURL=connect.css.map */

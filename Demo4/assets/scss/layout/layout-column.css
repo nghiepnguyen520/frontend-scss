@@ -1,0 +1,135 @@
+.layout-column {
+  overflow: hidden; }
+  .layout-column .container-layout {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif; }
+    .layout-column .container-layout .col-1 {
+      width: 50%;
+      background: #37507A; }
+      .layout-column .container-layout .col-1 center {
+        margin: 0 auto;
+        width: 80%;
+        padding: 60px 0px;
+        line-height: 30px; }
+        .layout-column .container-layout .col-1 center h2 {
+          font-size: 35px;
+          font-weight: 300;
+          margin-bottom: 0; }
+        .layout-column .container-layout .col-1 center p {
+          margin-top: 0;
+          font-size: 20px;
+          color: #bac5d0; }
+        .layout-column .container-layout .col-1 center img {
+          cursor: pointer;
+          transition: all 1s ease-out; }
+        .layout-column .container-layout .col-1 center img:hover {
+          transform: scale(1.1); }
+    .layout-column .container-layout .col-2 {
+      width: 50%;
+      background: #415B86; }
+      .layout-column .container-layout .col-2 center {
+        margin: 0 auto;
+        width: 80%;
+        padding: 60px 0px;
+        line-height: 30px; }
+        .layout-column .container-layout .col-2 center h2 {
+          font-size: 35px;
+          font-weight: 300;
+          margin-bottom: 0; }
+        .layout-column .container-layout .col-2 center p {
+          margin-top: 0;
+          font-size: 20px;
+          color: #bac5d0; }
+        .layout-column .container-layout .col-2 center img {
+          cursor: pointer;
+          transition: all 1s ease-out; }
+        .layout-column .container-layout .col-2 center img:hover {
+          transform: scale(1.1); }
+    .layout-column .container-layout .col-3 {
+      width: 50%;
+      background: #4B6590; }
+      .layout-column .container-layout .col-3 center {
+        margin: 0 auto;
+        width: 80%;
+        padding: 60px 0px;
+        line-height: 30px; }
+        .layout-column .container-layout .col-3 center h2 {
+          font-size: 35px;
+          font-weight: 300;
+          margin-bottom: 0; }
+        .layout-column .container-layout .col-3 center p {
+          margin-top: 0;
+          font-size: 20px;
+          color: #bac5d0; }
+        .layout-column .container-layout .col-3 center img {
+          cursor: pointer;
+          transition: all 1s ease-out; }
+        .layout-column .container-layout .col-3 center img:hover {
+          transform: scale(1.1); }
+    .layout-column .container-layout .col-4 {
+      width: 50%;
+      background: #56709C; }
+      .layout-column .container-layout .col-4 center {
+        margin: 0 auto;
+        width: 80%;
+        padding: 60px 0px;
+        line-height: 30px; }
+        .layout-column .container-layout .col-4 center h2 {
+          font-size: 35px;
+          font-weight: 300;
+          margin-bottom: 0; }
+        .layout-column .container-layout .col-4 center p {
+          margin-top: 0;
+          font-size: 20px;
+          color: #bac5d0; }
+        .layout-column .container-layout .col-4 center img {
+          cursor: pointer;
+          transition: all 1s ease-out; }
+        .layout-column .container-layout .col-4 center img:hover {
+          transform: scale(1.1); }
+
+@media only screen and (max-width: 1024px) {
+  .layout-column .container-layout .col-1 center {
+    width: 87%; }
+  .layout-column .container-layout .col-2 center {
+    width: 87%; }
+  .layout-column .container-layout .col-3 center {
+    width: 87%; }
+  .layout-column .container-layout .col-4 center {
+    width: 87%; } }
+@media only screen and (max-width: 800px) {
+  .layout-column .container-layout {
+    display: block; }
+    .layout-column .container-layout .col-1 {
+      width: 100%; }
+    .layout-column .container-layout .col-2 {
+      width: 100%; }
+    .layout-column .container-layout .col-3 {
+      width: 100%; }
+    .layout-column .container-layout .col-4 {
+      width: 100%; } }
+@media only screen and (max-width: 415px) {
+  .layout-column .container-layout .col-1 h2 {
+    margin-top: 0px;
+    line-height: 40px; }
+  .layout-column .container-layout .col-1 img {
+    width: 100%; }
+  .layout-column .container-layout .col-2 h2 {
+    margin-top: 0px;
+    line-height: 40px; }
+  .layout-column .container-layout .col-2 img {
+    width: 100%; }
+  .layout-column .container-layout .col-3 h2 {
+    margin-top: 0px;
+    line-height: 40px; }
+  .layout-column .container-layout .col-3 img {
+    width: 100%; }
+  .layout-column .container-layout .col-4 h2 {
+    margin-top: 0px;
+    line-height: 40px; }
+  .layout-column .container-layout .col-4 img {
+    width: 100%; } }
+
+/*# sourceMappingURL=layout-column.css.map */

@@ -1,0 +1,95 @@
+.welcome {
+  background-color: black;
+  color: white; }
+  .welcome .container-wel {
+    margin: 0 auto;
+    padding: 55px 0px;
+    width: 60%; }
+    .welcome .container-wel h3 {
+      font-size: 35px;
+      font-weight: 400;
+      font-family: "Abril Fatface", Arial, Helvetica, sans-serif;
+      margin-top: 0px;
+      margin-bottom: 15px; }
+    .welcome .container-wel p {
+      font-family: Roboto, Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      line-height: 30px; }
+  .welcome .col-wel {
+    display: flex;
+    position: relative; }
+    .welcome .col-wel .meet {
+      width: 50%; }
+      .welcome .col-wel .meet center {
+        margin: 0 auto;
+        width: 80%;
+        margin-top: 50px; }
+        .welcome .col-wel .meet center h3 {
+          font-size: 35px;
+          font-weight: 400;
+          font-family: "Abril Fatface", Arial, Helvetica, sans-serif;
+          margin-top: 0px;
+          margin-bottom: 15px; }
+        .welcome .col-wel .meet center h5 {
+          font-size: 17px;
+          letter-spacing: 4px;
+          margin-top: 2px; }
+        .welcome .col-wel .meet center p {
+          font-family: "Roboto", Arial, Helvetica, sans-serif;
+          font-size: 15px;
+          line-height: 30px; }
+        .welcome .col-wel .meet center button {
+          margin-top: 20px;
+          background: none;
+          border: 2px solid #dcdcdc;
+          color: #dcdcdc;
+          padding: 13px 30px;
+          cursor: pointer;
+          transition: all 1s ease 0s;
+          font-size: 14px; }
+          .welcome .col-wel .meet center button:hover {
+            color: white;
+            border-color: white; }
+    .welcome .col-wel .img-meet {
+      background-image: url(../../assets/image5/col_image112.jpg);
+      background-size: cover;
+      background-position: center top;
+      width: 50%;
+      height: 400px; }
+
+@media only screen and (max-width: 1920px) {
+  .welcome .col-wel .img-meet {
+    height: 485px; }
+  .welcome .col-wel .meet {
+    margin-top: 50px; } }
+@media only screen and (max-width: 1680px) {
+  .welcome .col-wel .img-meet {
+    height: 420px; }
+  .welcome .col-wel .meet {
+    margin-top: 0px; } }
+@media only screen and (max-width: 1537px) {
+  .welcome .col-wel .img-meet {
+    height: 386px; } }
+@media only screen and (max-width: 1024px) {
+  .welcome .col-wel .meet center {
+    margin-top: 20px; } }
+@media only screen and (max-width: 800px) {
+  .welcome .container-wel {
+    width: 85%; }
+  .welcome .col-wel {
+    display: block; }
+    .welcome .col-wel .meet {
+      width: 100%; }
+      .welcome .col-wel .meet center {
+        margin-top: 20px; }
+    .welcome .col-wel .img-meet {
+      width: 100%; }
+    .welcome .col-wel .meet {
+      padding-bottom: 60px; } }
+@media only screen and (max-width: 415px) {
+  .welcome .container-wel h3 {
+    font-size: 30px; }
+  .welcome .col-wel .meet h3 {
+    font-size: 30px; } }
+
+/*# sourceMappingURL=welcome.css.map */

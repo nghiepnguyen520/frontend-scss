@@ -1,0 +1,103 @@
+.facilities {
+  background-image: url(../../assets/image3/paralax-bg-tour-facilities.jpg);
+  width: 100%;
+  height: 750px;
+  background-size: cover; }
+  .facilities .container-faci {
+    width: 55%;
+    margin: 0 auto;
+    padding: 10% 0;
+    color: white;
+    font-family: 'Mukta', sans-serif; }
+    .facilities .container-faci h2 {
+      width: 49%;
+      position: relative;
+      font-size: 40px;
+      margin-top: 1%; }
+    .facilities .container-faci h2::before {
+      content: ' ';
+      border-bottom: 2px solid #D8D8D8;
+      width: 49%;
+      height: 2px;
+      width: 63%;
+      margin: 0 auto;
+      left: 0;
+      position: absolute;
+      top: 80px;
+      right: 0; }
+    .facilities .container-faci .text-faci {
+      width: 76%;
+      padding-top: 15px;
+      padding-bottom: 25px;
+      font-size: 20px;
+      line-height: 40px; }
+    .facilities .container-faci img {
+      cursor: pointer; }
+
+@media only screen and (max-width: 1920px) {
+  .facilities {
+    height: 901px; }
+    .facilities .container-faci h2 {
+      width: 38%; } }
+@media only screen and (max-width: 1680px) {
+  .facilities {
+    height: 825px; }
+    .facilities .container-faci h2 {
+      width: 45%; } }
+@media only screen and (max-width: 1600px) {
+  .facilities {
+    height: 775px; } }
+@media only screen and (max-width: 1440px) {
+  .facilities {
+    height: 700px; }
+    .facilities .container-faci {
+      width: 60%; } }
+@media only screen and (max-width: 1366px) {
+  .facilities {
+    height: 660px; } }
+@media only screen and (max-width: 1024px) {
+  .facilities {
+    height: 670px; }
+    .facilities .container-faci {
+      width: 90%; } }
+@media only screen and (max-width: 800px) {
+  .facilities {
+    height: 600px; }
+    .facilities .container-faci h2 {
+      width: 56%; } }
+@media only screen and (max-width: 600px) {
+  .facilities .container-faci h2 {
+    width: 74%; }
+  .facilities .container-faci .text-faci {
+    width: 100%; } }
+@media only screen and (max-width: 415px) {
+  .facilities {
+    height: 608px;
+    background-position: center; }
+    .facilities .container-faci h2 {
+      font-size: 30px;
+      width: 82%; }
+    .facilities .container-faci h2::before {
+      top: 65px; }
+    .facilities .container-faci .text-faci {
+      font-size: 17px; } }
+@media only screen and (max-width: 384px) {
+  .facilities .container-faci h2 {
+    width: 89%; } }
+@media only screen and (max-width: 376px) {
+  .facilities .container-faci h2 {
+    font-size: 30px;
+    width: 93%; }
+  .facilities .container-faci .text-faci {
+    font-size: 16px; } }
+@media only screen and (max-width: 360px) {
+  .facilities .container-faci h2 {
+    width: 96%; } }
+@media only screen and (max-width: 320px) {
+  .facilities .container-faci h2 {
+    width: 100%;
+    font-size: 28px; }
+  .facilities .container-faci .text-faci {
+    font-size: 15px; } }
+
+/*# sourceMappingURL=facilities.css.map */

@@ -1,0 +1,71 @@
+
+// @mixin main-font-fam {
+//     font-family: $font-family;
+// }
+// $font-family : 'Amatic SC';
+
+@mixin set-font($name, $link){
+    @font-face{
+        font-family: $name;
+        src: url($link) format("opentype"); 
+    }
+};
+
+@mixin set-f-s-cl($fam, $size, $cl){
+    font-size: $size;
+    color: $cl;
+    font-family: $fam;
+};
+
+@mixin flex($dir){
+    display: flex;
+    flex-direction: $dir;
+    @content
+};
+
+@mixin res($width) {
+    @media screen and(max-width: $width) {
+        @content;
+    }
+}
+
+@mixin res2($max-w, $min-w) {
+    @media only screen and (max-width:$max-w) and (min-width:$min-w){
+        @content;
+    } 
+}
+
+@mixin icon{
+        
+        position: relative;
+        color: #DCDCDC;
+        img{
+            width: 10px;
+            height: 10px;
+        }
+        &::after{
+            content: ' ';
+            border-bottom: 1px solid #DCDCDC;
+            height: 2px;
+            position: absolute;
+            margin: 0 auto;
+            width: 4%;      
+            top: 6.4px;
+            left: 44.5%             
+        }
+        &::before{
+        content: ' ';
+        border-bottom: 1px solid #DCDCDC;
+        height: 2px;
+        position: absolute;
+        margin: 0 auto;
+        width: 4%;      
+        top: 6.4px;
+        left: 51.5%        
+        }    
+}
+
+$main-color : white;
+$font-fam : 'Karla';
+$font-fam1 : 'Lora'
+

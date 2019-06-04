@@ -1,0 +1,163 @@
+
+
+.background1{
+    background-image: url(../../assets/image4/bg_feat_section_one.jpg);
+    background-size: cover;
+    height: 680px;
+    position: relative;
+    overflow: hidden;
+    .text-bg{
+        position: relative;
+        width: 36%;
+        top: 65%;
+        color:white;
+        font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+        left: 17%;
+        line-height: 33px;
+        h3{
+            font-size: 45px;
+            font-weight: 300
+        }
+        p{
+            font-size: 20px;
+            margin-top: -20px;
+        }
+    }
+}
+@media only screen and (max-width: 1920px){
+    .background1{
+        height: 760px;
+        .text-bg{
+            width: 28%;
+            top: 72%
+        }
+    }
+}
+@media only screen and (max-width: 1680px){
+    .background1{
+        height: 730px;
+        .text-bg{
+            width: 30%;
+        }
+    }
+}
+@media only screen and (max-width: 1600px){
+    .background1{
+        height: 700px;
+        .text-bg{
+            width: 31%;
+        }
+    }
+}
+@media only screen and (max-width: 1537px){
+    .background1{
+        height: 680px;
+        .text-bg{
+            width: 33%;
+            top: 68%
+        }
+    }
+}
+@media only screen and (max-width: 1440px){
+    .background1{
+        height: 660px;
+        .text-bg{
+            width: 39%;
+        }
+    }
+}
+@media only screen and (max-width: 1367px){
+    .background1{
+        .text-bg{
+            width: 37%;
+        }
+    }
+}
+@media only screen and (max-width: 1024px){
+    .background1{
+        background-position: center;
+        .text-bg{
+            width: 49%;
+            left: 5%;
+        }
+    }
+}
+@media only screen and (max-width: 800px){
+    .background1{
+        height: 620px;
+        .text-bg{
+            width: 63%;
+        }
+    }
+}
+@media only screen and (max-width: 768px){
+    .background1{
+        .text-bg{
+            width: 71%;
+        }
+    }
+}
+@media only screen and (max-width: 600px){
+    .background1{
+        .text-bg{
+            width: 84%;
+        }
+    }
+}
+@media only screen and (max-width: 415px){
+    .background1{
+        height: 520px;
+        .text-bg{
+            line-height: unset;
+            top: 24%;
+            left: 10%;
+            p{
+                line-height: 33px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 384px){
+    .background1{
+        .text-bg{
+            width: 75%;
+            h3{
+                font-size: 40px;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 376px){
+    .background1{
+        .text-bg{
+            width: 75%;
+            h3{
+                font-size: 38px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 360px){
+    .background1{
+        height: 500px;
+        .text-bg{
+            width: 75%;
+            h3{
+                font-size: 37px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 320px){
+    .background1{
+        .text-bg{
+            width: 79%;
+            h3{
+                font-size: 34px;
+            }
+        }
+    }
+}

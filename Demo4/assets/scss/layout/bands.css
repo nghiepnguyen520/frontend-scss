@@ -1,0 +1,82 @@
+.bands {
+  background-image: url(../../assets/image4/light_gradient_bands_bg.jpg);
+  background-size: cover;
+  height: 465px;
+  overflow: hidden; }
+  .bands .container-bands {
+    margin: 0 auto;
+    width: 65%;
+    display: flex;
+    justify-content: space-between; }
+    .bands .container-bands .img-band {
+      width: 63%; }
+      .bands .container-bands .img-band img {
+        width: 85%; }
+    .bands .container-bands .info-band {
+      width: 37%;
+      font-family: "Source Sans Pro", Arial, Helvetica, sans-serif; }
+      .bands .container-bands .info-band h2 {
+        font-size: 40px;
+        font-weight: 300;
+        padding-top: 5%;
+        margin-bottom: 10px;
+        color: #515b69;
+        padding-top: 23%; }
+      .bands .container-bands .info-band p {
+        font-size: 19px;
+        line-height: 30px;
+        color: #747474; }
+      .bands .container-bands .info-band button {
+        color: white;
+        background: #74849C;
+        border: none;
+        padding: 14px 25px;
+        border-radius: 3px;
+        font-size: 17px;
+        cursor: pointer;
+        transition: all 0.5s ease-out; }
+      .bands .container-bands .info-band button:hover {
+        background-color: #35baf2; }
+
+@media only screen and (max-width: 1920px) {
+  .bands {
+    height: 570px; } }
+@media only screen and (max-width: 1680px) {
+  .bands {
+    height: 506px; } }
+@media only screen and (max-width: 1600px) {
+  .bands {
+    height: 475px; } }
+@media only screen and (max-width: 1536px) {
+  .bands {
+    height: 432px; } }
+@media only screen and (max-width: 1440px) {
+  .bands {
+    height: 424px; } }
+@media only screen and (max-width: 1024px) {
+  .bands .container-bands {
+    width: 80%; }
+    .bands .container-bands .img-band img {
+      width: 100%; } }
+@media only screen and (max-width: 800px) {
+  .bands {
+    height: 840px; }
+    .bands .container-bands {
+      width: 80%;
+      display: block; }
+      .bands .container-bands .img-band {
+        width: 100%; }
+        .bands .container-bands .img-band img {
+          width: 100%; }
+      .bands .container-bands .info-band {
+        width: 100%; }
+        .bands .container-bands .info-band h2 {
+          padding-top: 7%; } }
+@media only screen and (max-width: 600px) {
+  .bands {
+    height: 740px; } }
+@media only screen and (max-width: 415px) {
+  .bands {
+    height: 620px; } }
+
+/*# sourceMappingURL=bands.css.map */

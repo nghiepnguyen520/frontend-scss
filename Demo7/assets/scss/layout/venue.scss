@@ -1,0 +1,59 @@
+
+@import '../helper/mixin.scss';
+.venue{
+    display: flex;
+    .info-venue{
+        width: 60%;
+        background-color: #90a8ad;
+        .container-info{
+            padding: 10% 5%;
+            color: white;
+            h2{
+                @include h2;
+                font-size: 37px;
+                position: relative;
+                margin-bottom: 55px;
+                margin-top: 15px;
+            }
+            h2::before{
+                @include h2-border;
+                width: 13%;
+            }
+            i{
+                line-height: 32px;
+                font-family:  $font-fam; 
+                font-size: 13px;
+            }
+            p{
+                line-height: 34px;
+                font-family:  $font-fam;
+                font-size: 14px;
+            }
+        }
+    }
+    .bg-venue{
+        background-image: url(../../assets/image7/post_06.jpg);
+        background-position: left;
+        background-size: cover;
+        width: 40%;
+    }
+}
+@media only screen and (max-width:800px){
+    .venue{
+        display: block;
+        .info-venue{
+            width: 100%;
+        }
+        .bg-venue{
+            height: 600px;
+            width: 100%;
+        }
+    }
+}
+@media only screen and (max-width:600px){
+    .venue{
+        .bg-venue{
+            height: 400px;
+        }
+    }
+}

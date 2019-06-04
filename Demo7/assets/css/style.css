@@ -1,0 +1,1087 @@
+body {
+  margin: 0; }
+
+.full-demo7 {
+  overflow: hidden; }
+
+header {
+  background-image: url(../../assets/image7/home_slider.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 630px; }
+  header .container-header {
+    margin: 0 auto;
+    width: 60%;
+    padding-top: 13%; }
+    header .container-header h2 {
+      font-size: 50px;
+      font-family: 'Merriweather';
+      font-weight: 300;
+      color: white;
+      margin-bottom: 25px; }
+    header .container-header p {
+      font-family: "Merriweather";
+      color: white;
+      font-size: 20px;
+      margin-bottom: 45px; }
+    header .container-header button {
+      border: none;
+      background: white;
+      border-radius: 20px;
+      padding: 12px 30px;
+      color: #90a8ad;
+      cursor: pointer;
+      transition: all 0.5s ease-out; }
+      header .container-header button:hover {
+        background: none;
+        border: 1px solid white;
+        color: white; }
+
+@media only screen and (max-width: 1920px) {
+  header {
+    height: 745px; } }
+@media only screen and (max-width: 1600px) {
+  header {
+    height: 665px; } }
+@media only screen and (max-width: 1537px) {
+  header {
+    height: 640px; } }
+@media only screen and (max-width: 1400px) {
+  header {
+    height: 580px; } }
+@media only screen and (max-width: 1024px) {
+  header {
+    height: 520px; } }
+@media only screen and (max-width: 800px) {
+  header .container-header {
+    width: 90%; } }
+.sticky {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 5; }
+
+.menu-mobile {
+  display: none;
+  background-color: #90a8ad; }
+  .menu-mobile .container-mobile {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between; }
+    .menu-mobile .container-mobile .container-right {
+      color: white; }
+      .menu-mobile .container-mobile .container-right a i {
+        padding-top: 34px; }
+
+#menu-one {
+  display: none;
+  background: #90a8ad; }
+  #menu-one .menu1 .active1 {
+    background: #96ACB1; }
+  #menu-one .menu1 div {
+    padding: 20px;
+    padding-left: 55px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    cursor: pointer; }
+    #menu-one .menu1 div a {
+      text-decoration: none;
+      color: white;
+      font-family: "Merriweather";
+      font-size: 14px; }
+  #menu-one .menu1 div:hover {
+    background: #96ACB1; }
+
+.menu {
+  background-color: #90a8ad; }
+  .menu .container-menu {
+    width: 65%;
+    margin: 0 auto;
+    padding: 10px 0px; }
+    .menu .container-menu ul {
+      display: flex;
+      list-style: none;
+      justify-content: space-between;
+      padding-left: 0px; }
+      .menu .container-menu ul li {
+        color: #c8d6d9;
+        padding-top: 30px; }
+        .menu .container-menu ul li a {
+          text-decoration: none;
+          font-family: "Montserrat";
+          font-size: 13px;
+          cursor: pointer;
+          transition: all 0.5s ease-out; }
+          .menu .container-menu ul li a:hover {
+            color: white; }
+        .menu .container-menu ul li .active {
+          color: white; }
+      .menu .container-menu ul img {
+        cursor: pointer; }
+
+@media only screen and (max-width: 1367px) {
+  .menu .container-menu {
+    width: 75%; } }
+@media only screen and (max-width: 1024px) {
+  .menu {
+    display: none; }
+
+  .menu-mobile {
+    display: block; } }
+@media only screen and (max-width: 415px) {
+  .menu-mobile .container-mobile .logo img {
+    width: 70%; }
+  .menu-mobile .container-mobile .container-right a i {
+    padding-top: 23px; } }
+@media only screen and (max-width: 376px) {
+  .menu-mobile .container-mobile .container-right a i {
+    padding-top: 17px; } }
+.details .container-details {
+  margin: 0 auto;
+  width: 65%;
+  padding: 5% 0px; }
+  .details .container-details h2 {
+    font-size: 50px;
+    font-family: 'Merriweather';
+    font-weight: 300;
+    font-size: 28px;
+    font-weight: 300;
+    color: #747474;
+    line-height: 50px;
+    margin-bottom: 50px; }
+    .details .container-details h2 span {
+      color: #b9675e; }
+  .details .container-details p {
+    width: 70%;
+    font-size: 17px;
+    line-height: 30px;
+    color: #747474; }
+  .details .container-details div {
+    margin-top: 50px; }
+    .details .container-details div p {
+      cursor: pointer;
+      font-size: 15px;
+      font-family: "Merriweather"; }
+      .details .container-details div p span {
+        color: #b9675e;
+        transition: all 0.5s ease-out; }
+        .details .container-details div p span:hover {
+          color: #90a8ad; }
+
+@media only screen and (max-width: 1367px) {
+  .details .container-details {
+    width: 75%; }
+    .details .container-details p {
+      width: 75%; } }
+@media only screen and (max-width: 1024px) {
+  .details .container-details {
+    width: 90%; }
+    .details .container-details p {
+      width: 100%; } }
+@media only screen and (max-width: 385px) {
+  .details .container-details {
+    padding-bottom: 10%; }
+    .details .container-details h2 {
+      font-size: 22px; } }
+.wedding .bg-wedding {
+  background-image: url(../../assets/image7/Parallax_image_01-1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 460px; }
+.wedding .main-wedding {
+  background-color: white; }
+  .wedding .main-wedding .container-main {
+    margin: 0 auto;
+    width: 65%;
+    padding: 6% 0px; }
+    .wedding .main-wedding .container-main h2 {
+      font-size: 50px;
+      font-family: 'Merriweather';
+      font-weight: 300;
+      font-weight: 300;
+      font-size: 37px;
+      color: #333333;
+      position: relative;
+      margin-bottom: 65px; }
+    .wedding .main-wedding .container-main h2::before {
+      content: ' ';
+      border-bottom: 1px solid;
+      height: 2px;
+      position: absolute;
+      top: 75px;
+      margin: 0 auto;
+      color: #c7d3d6;
+      width: 11%;
+      left: 0;
+      right: 0;
+      margin: 0 auto; }
+    .wedding .main-wedding .container-main .text-main {
+      font-family: "Merriweather";
+      line-height: 30px;
+      width: 60%;
+      font-size: 14px;
+      color: #747474; }
+    .wedding .main-wedding .container-main .timeline-wed {
+      margin: 0 auto;
+      width: 60%;
+      padding-top: 7%; }
+      .wedding .main-wedding .container-main .timeline-wed i {
+        color: #ebeaea; }
+      .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 {
+        position: relative;
+        padding-top: 17px; }
+        .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .line {
+          border-left: 1px solid #ebeaea;
+          border-right: 1px solid #ebeaea;
+          position: absolute;
+          left: 50%;
+          top: 0;
+          height: 100%; }
+        .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 p {
+          cursor: pointer; }
+        .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .text-time {
+          font-family: "Merriweather";
+          background-color: #ebeaea;
+          width: 15%;
+          padding: 6px;
+          font-size: 14px; }
+        .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between; }
+          .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time .info-time-1 {
+            border: 1px solid #ebeaea;
+            border-bottom-width: 3px;
+            width: 40%;
+            margin-bottom: 50px; }
+            .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time .info-time-1 img {
+              width: 100%;
+              transition: all 0.5s ease-out; }
+              .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time .info-time-1 img:hover {
+                transform: scale(1.1); }
+            .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time .info-time-1 .time-wrapper {
+              padding: 10px 21px 8px 21px; }
+              .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time .info-time-1 .time-wrapper p {
+                font-family: "Merriweather";
+                color: #b9675e;
+                font-size: 17px;
+                transition: all 0.5s ease-out; }
+                .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time .info-time-1 .time-wrapper p:hover {
+                  color: #7e8890; }
+              .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time .info-time-1 .time-wrapper .arrow1 {
+                color: #ebeaea;
+                position: absolute;
+                left: 40%;
+                margin-left: 1.5px;
+                bottom: 55.9%; }
+              .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time .info-time-1 .time-wrapper .arrow2 {
+                color: #ebeaea;
+                position: absolute;
+                right: 40%;
+                margin-right: 1.5px;
+                bottom: 55.9%; }
+              .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time .info-time-1 .time-wrapper .arrow3 {
+                color: #ebeaea;
+                position: absolute;
+                left: 40%;
+                margin-left: 1.5px;
+                bottom: 74.7px; }
+              .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time .info-time-1 .time-wrapper .arrow4 {
+                color: #ebeaea;
+                position: absolute;
+                right: 40%;
+                margin-right: 1.5px;
+                bottom: 74.7px; }
+              .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time .info-time-1 .time-wrapper .circle {
+                background-color: #ebeaea;
+                left: 40%;
+                position: absolute;
+                left: 50%;
+                margin: -30px -4px;
+                height: 10px;
+                width: 10px;
+                border-radius: 50%; }
+        .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1::before {
+          content: " ";
+          display: table; }
+    .wedding .main-wedding .container-main .hours {
+      background-image: url(../../assets/image7/countdown_bkgd.jpg);
+      background-position: center;
+      background-size: cover;
+      margin-top: 8%; }
+      .wedding .main-wedding .container-main .hours .container-hours {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px; }
+        .wedding .main-wedding .container-main .hours .container-hours .hour-1 {
+          padding-top: 13px;
+          line-height: 12px; }
+          .wedding .main-wedding .container-main .hours .container-hours .hour-1 .text-hour1 {
+            font-family: "Merriweather";
+            color: white;
+            letter-spacing: 1px;
+            font-size: 13px; }
+          .wedding .main-wedding .container-main .hours .container-hours .hour-1 .text-hour2 {
+            color: #cbe5ea;
+            font-size: 18px;
+            letter-spacing: 2px;
+            font-family: "Merriweather"; }
+        .wedding .main-wedding .container-main .hours .container-hours .hour-2 {
+          display: flex;
+          justify-content: space-between; }
+          .wedding .main-wedding .container-main .hours .container-hours .hour-2 p {
+            padding: 20px;
+            background: white;
+            font-family: "Merriweather";
+            margin-right: 10px;
+            color: #7e8890;
+            font-size: 18px; }
+        .wedding .main-wedding .container-main .hours .container-hours .hour-3 {
+          padding-top: 40px; }
+          .wedding .main-wedding .container-main .hours .container-hours .hour-3 a {
+            cursor: pointer;
+            font-family: "Merriweather";
+            color: white;
+            letter-spacing: 1px;
+            transition: all 0.5s ease-out; }
+            .wedding .main-wedding .container-main .hours .container-hours .hour-3 a:hover {
+              opacity: 0.8; }
+
+@media only screen and (max-width: 1920px) {
+  .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time .info-time-1 .time-wrapper .arrow1 {
+    bottom: 55.1%; }
+  .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time .info-time-1 .time-wrapper .arrow2 {
+    bottom: 55.1%; } }
+@media only screen and (max-width: 1680px) {
+  .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time .info-time-1 .time-wrapper .arrow1 {
+    bottom: 55.6%; }
+  .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time .info-time-1 .time-wrapper .arrow2 {
+    bottom: 55.6%; } }
+@media only screen and (max-width: 1600px) {
+  .wedding .main-wedding .container-main .timeline-wed {
+    width: 61%; } }
+@media only screen and (max-width: 1537px) {
+  .wedding .main-wedding .container-main .timeline-wed {
+    width: 64%; }
+    .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time .info-time-1 .time-wrapper .arrow1 {
+      bottom: 55.8%; }
+    .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time .info-time-1 .time-wrapper .arrow2 {
+      bottom: 55.8%; } }
+@media only screen and (max-width: 1440px) {
+  .wedding .main-wedding .container-main {
+    width: 75%; }
+    .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time .info-time-1 .time-wrapper .arrow1 {
+      bottom: 55.6%; }
+    .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time .info-time-1 .time-wrapper .arrow2 {
+      bottom: 55.6%; } }
+@media only screen and (max-width: 1400px) {
+  .wedding .main-wedding .container-main .timeline-wed {
+    width: 61%; } }
+@media only screen and (max-width: 1367px) {
+  .wedding .main-wedding .container-main .timeline-wed {
+    width: 62%; } }
+@media only screen and (max-width: 1024px) {
+  .wedding .bg-wedding {
+    height: 380px; }
+  .wedding .main-wedding .container-main {
+    width: 95%; }
+    .wedding .main-wedding .container-main .timeline-wed {
+      width: 67%; } }
+@media only screen and (max-width: 800px) {
+  .wedding .main-wedding .container-main .timeline-wed {
+    width: 90%; }
+  .wedding .main-wedding .container-main .hours .container-hours {
+    display: block;
+    text-align: center; }
+    .wedding .main-wedding .container-main .hours .container-hours .hour-2 {
+      margin: 0 auto;
+      width: 65%; } }
+@media only screen and (max-width: 768px) {
+  .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time .info-time-1 .time-wrapper .arrow1 {
+    bottom: 55.5%; }
+  .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time .info-time-1 .time-wrapper .arrow2 {
+    bottom: 55.5%; }
+  .wedding .main-wedding .container-main .hours .container-hours .hour-2 {
+    margin: 0 auto;
+    width: 70%; } }
+@media only screen and (max-width: 600px) {
+  .wedding .main-wedding .container-main .timeline-wed i {
+    display: none; }
+  .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .line {
+    display: none; }
+  .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time {
+    display: block; }
+    .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time .info-time-1 {
+      width: 100%; }
+      .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time .info-time-1 .time-wrapper .circle {
+        display: none; }
+      .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time .info-time-1 .time-wrapper .arrow1 {
+        display: none; }
+      .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time .info-time-1 .time-wrapper .arrow2 {
+        display: none; }
+      .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time .info-time-1 .time-wrapper .arrow3 {
+        display: none; }
+      .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .info-time .info-time-1 .time-wrapper .arrow4 {
+        display: none; }
+  .wedding .main-wedding .container-main .hours .container-hours .hour-2 {
+    width: 90%; } }
+@media only screen and (max-width: 415px) {
+  .wedding .main-wedding .container-main h2::before {
+    width: 25%; }
+  .wedding .main-wedding .container-main .text-main {
+    width: 95%; }
+  .wedding .main-wedding .container-main .timeline-wed .timeline-wed-1 .text-time {
+    width: 25%; }
+  .wedding .main-wedding .container-main .hours .container-hours .hour-2 {
+    display: block;
+    width: 40%;
+    padding-top: 10px; }
+    .wedding .main-wedding .container-main .hours .container-hours .hour-2 p {
+      margin-right: 0px; } }
+@media only screen and (max-width: 320px) {
+  .wedding .main-wedding .container-main h2::before {
+    top: 117px; }
+  .wedding .main-wedding .container-main .hours .container-hours .hour-2 {
+    width: 51%; } }
+.venue {
+  display: flex; }
+  .venue .info-venue {
+    width: 60%;
+    background-color: #90a8ad; }
+    .venue .info-venue .container-info {
+      padding: 10% 5%;
+      color: white; }
+      .venue .info-venue .container-info h2 {
+        font-size: 50px;
+        font-family: 'Merriweather';
+        font-weight: 300;
+        font-size: 37px;
+        position: relative;
+        margin-bottom: 55px;
+        margin-top: 15px; }
+      .venue .info-venue .container-info h2::before {
+        content: ' ';
+        border-bottom: 1px solid;
+        height: 2px;
+        position: absolute;
+        top: 75px;
+        margin: 0 auto;
+        color: #c7d3d6;
+        width: 13%; }
+      .venue .info-venue .container-info i {
+        line-height: 32px;
+        font-family: "Merriweather";
+        font-size: 13px; }
+      .venue .info-venue .container-info p {
+        line-height: 34px;
+        font-family: "Merriweather";
+        font-size: 14px; }
+  .venue .bg-venue {
+    background-image: url(../../assets/image7/post_06.jpg);
+    background-position: left;
+    background-size: cover;
+    width: 40%; }
+
+@media only screen and (max-width: 800px) {
+  .venue {
+    display: block; }
+    .venue .info-venue {
+      width: 100%; }
+    .venue .bg-venue {
+      height: 600px;
+      width: 100%; } }
+@media only screen and (max-width: 600px) {
+  .venue .bg-venue {
+    height: 400px; } }
+.story .container-story {
+  width: 65%;
+  margin: 0 auto;
+  padding-top: 7%;
+  padding-bottom: 3%; }
+  .story .container-story h2 {
+    font-size: 50px;
+    font-family: 'Merriweather';
+    font-weight: 300;
+    font-size: 37px;
+    position: relative;
+    margin-bottom: 60px; }
+  .story .container-story h2::before {
+    content: ' ';
+    border-bottom: 1px solid;
+    height: 2px;
+    position: absolute;
+    top: 75px;
+    margin: 0 auto;
+    color: #c7d3d6;
+    width: 10%;
+    left: 0;
+    right: 0; }
+  .story .container-story .text-story {
+    font-family: "Merriweather";
+    font-size: 14px;
+    width: 70%;
+    line-height: 32px;
+    color: #7e8890; }
+  .story .container-story .info-story {
+    padding-top: 5%;
+    width: 75%;
+    margin: 0 auto; }
+    .story .container-story .info-story .story-1 {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 8%; }
+      .story .container-story .info-story .story-1 .img-story-1 {
+        width: 22%; }
+        .story .container-story .info-story .story-1 .img-story-1 img {
+          width: 100%;
+          border-radius: 50%;
+          transition: all 0.5s ease-out;
+          cursor: pointer; }
+          .story .container-story .info-story .story-1 .img-story-1 img:hover {
+            transform: scale(0.9); }
+      .story .container-story .info-story .story-1 .info-story-1 {
+        width: 73%; }
+        .story .container-story .info-story .story-1 .info-story-1 div {
+          display: flex;
+          justify-content: space-between;
+          position: relative; }
+          .story .container-story .info-story .story-1 .info-story-1 div div {
+            width: 10%; }
+            .story .container-story .info-story .story-1 .info-story-1 div div img {
+              width: 55%;
+              height: 55%;
+              padding-top: 15px; }
+          .story .container-story .info-story .story-1 .info-story-1 div h3 {
+            width: 90%;
+            font-size: 17px;
+            font-family: "Merriweather"; }
+          .story .container-story .info-story .story-1 .info-story-1 div::before {
+            content: ' ';
+            border-bottom: 1px solid;
+            height: 2px;
+            position: absolute;
+            top: 75px;
+            margin: 0 auto;
+            color: #c7d3d6;
+            width: 23%; }
+        .story .container-story .info-story .story-1 .info-story-1 p {
+          font-family: "Merriweather";
+          color: #7e8890;
+          line-height: 32px;
+          font-size: 14px;
+          margin-top: 48px; }
+
+@media only screen and (max-width: 1367px) {
+  .story .container-story {
+    width: 75%; } }
+@media only screen and (max-width: 1024px) {
+  .story .container-story {
+    width: 90%; }
+    .story .container-story .text-story {
+      width: 100%; }
+    .story .container-story .info-story {
+      width: 90%; } }
+@media only screen and (max-width: 800px) {
+  .story .container-story .info-story .story-1 {
+    display: block; }
+    .story .container-story .info-story .story-1 .img-story-1 {
+      width: 50%;
+      margin: 0 auto; }
+    .story .container-story .info-story .story-1 .info-story-1 {
+      margin-top: 40px;
+      width: 100%; }
+      .story .container-story .info-story .story-1 .info-story-1 div div img {
+        width: 50%; } }
+@media only screen and (max-width: 600px) {
+  .story .container-story {
+    width: 93%; }
+    .story .container-story h2::before {
+      width: 20%; }
+    .story .container-story .info-story {
+      width: 100%; }
+      .story .container-story .info-story .story-1 .info-story-1 div div {
+        height: 90%; }
+      .story .container-story .info-story .story-1 .info-story-1 div h3 {
+        line-height: 30px; } }
+@media only screen and (max-width: 415px) {
+  .story .container-story h2::before {
+    top: 120px; }
+  .story .container-story .info-story {
+    width: 88%; }
+    .story .container-story .info-story .story-1 .info-story-1 div div {
+      width: 15%; }
+    .story .container-story .info-story .story-1 .info-story-1 div::before {
+      top: 95px; }
+    .story .container-story .info-story .story-1 .info-story-1 div h3 {
+      margin-top: 10px; } }
+@media only screen and (max-width: 385px) {
+  .story .container-story .info-story {
+    width: 91%; } }
+@media only screen and (max-width: 360px) {
+  .story .container-story .info-story .story-1 .info-story-1 div h3 {
+    font-size: 16px; } }
+@media only screen and (max-width: 320px) {
+  .story .container-story .info-story .story-1 .info-story-1 div h3 {
+    font-size: 14px; } }
+.gallery .bg-gallery {
+  background-image: url(../../assets/image7/parallax_image_03-1.jpg);
+  background-position: left top;
+  background-size: cover;
+  height: 490px; }
+.gallery .photo-gallery .container-photo {
+  margin: 0 auto;
+  width: 65%;
+  padding: 6% 0px; }
+  .gallery .photo-gallery .container-photo h2 {
+    font-size: 50px;
+    font-family: 'Merriweather';
+    font-weight: 300;
+    font-size: 37px;
+    position: relative; }
+  .gallery .photo-gallery .container-photo h2:before {
+    content: ' ';
+    border-bottom: 1px solid;
+    height: 2px;
+    position: absolute;
+    top: 75px;
+    margin: 0 auto;
+    color: #c7d3d6;
+    width: 11%;
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
+  .gallery .photo-gallery .container-photo p {
+    font-family: "Merriweather";
+    padding-top: 35px;
+    color: #7e8890;
+    line-height: 32px;
+    font-size: 14px;
+    width: 68%; }
+  .gallery .photo-gallery .container-photo .photo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 7%; }
+    .gallery .photo-gallery .container-photo .photo .photo-1 {
+      width: 31%;
+      padding-bottom: 30px; }
+      .gallery .photo-gallery .container-photo .photo .photo-1 img {
+        width: 100%;
+        transition: all 0.5s ease-out;
+        cursor: pointer; }
+        .gallery .photo-gallery .container-photo .photo .photo-1 img:hover {
+          transform: scale(1.1); }
+
+@media only screen and (max-width: 1024px) {
+  .gallery .bg-gallery {
+    height: 400px; }
+  .gallery .photo-gallery .container-photo {
+    width: 75%; } }
+@media only screen and (max-width: 800px) {
+  .gallery .photo-gallery .container-photo {
+    width: 80%; }
+    .gallery .photo-gallery .container-photo p {
+      width: 100%; }
+    .gallery .photo-gallery .container-photo .photo {
+      display: block; }
+      .gallery .photo-gallery .container-photo .photo .photo-1 {
+        width: 100%; } }
+@media only screen and (max-width: 415px) {
+  .gallery .photo-gallery .container-photo h2::before {
+    width: 30%; } }
+@media only screen and (max-width: 320px) {
+  .gallery .photo-gallery .container-photo h2::before {
+    top: 120px; } }
+.columns {
+  display: flex; }
+  .columns .col-1 {
+    width: 50%;
+    background-image: url(../../assets/image7/groom_bg.jpg);
+    background-size: cover;
+    background-position: left top; }
+    .columns .col-1 center {
+      padding: 12% 6%; }
+      .columns .col-1 center img {
+        border-radius: 50%; }
+      .columns .col-1 center h3 {
+        font-size: 50px;
+        font-family: 'Merriweather';
+        font-weight: 300;
+        font-size: 18px;
+        margin-top: 20px;
+        font-weight: bold; }
+      .columns .col-1 center p {
+        font-family: "Merriweather";
+        font-size: 14px;
+        line-height: 32px;
+        color: #333333;
+        letter-spacing: 2px; }
+  .columns .col-2 {
+    width: 50%;
+    background-image: url(../../assets/image7/bride_bg.jpg);
+    background-size: cover;
+    background-position: left top; }
+    .columns .col-2 center {
+      padding: 12% 6%; }
+      .columns .col-2 center img {
+        border-radius: 50%; }
+      .columns .col-2 center h3 {
+        font-size: 50px;
+        font-family: 'Merriweather';
+        font-weight: 300;
+        font-size: 18px;
+        margin-top: 20px;
+        font-weight: bold; }
+      .columns .col-2 center p {
+        font-family: "Merriweather";
+        font-size: 14px;
+        line-height: 32px;
+        color: #333333;
+        letter-spacing: 2px; }
+
+@media only screen and (max-width: 800px) {
+  .columns {
+    display: block; }
+    .columns .col-1 {
+      width: 100%; }
+    .columns .col-2 {
+      width: 100%; } }
+.together .container-together {
+  margin: 0 auto;
+  width: 49%;
+  padding: 7% 0px; }
+  .together .container-together h2 {
+    font-size: 50px;
+    font-family: 'Merriweather';
+    font-weight: 300;
+    font-size: 37px;
+    position: relative; }
+  .together .container-together h2::before {
+    content: ' ';
+    border-bottom: 1px solid;
+    height: 2px;
+    position: absolute;
+    top: 75px;
+    margin: 0 auto;
+    color: #c7d3d6;
+    width: 15%;
+    left: 0;
+    right: 0; }
+  .together .container-together p {
+    font-family: "Merriweather";
+    font-size: 14px;
+    line-height: 32px;
+    padding-top: 40px;
+    color: #7e8890; }
+.together .bg-together {
+  background-image: url(../../assets/image7/parallax_image_02-1.jpg);
+  background-size: cover;
+  height: 500px;
+  background-position: center top; }
+
+@media only screen and (max-width: 1024px) {
+  .together .container-together {
+    width: 90%; }
+  .together .bg-together {
+    height: 350px; } }
+@media only screen and (max-width: 415px) {
+  .together .container-together h2::before {
+    width: 25%; } }
+@media only screen and (max-width: 360px) {
+  .together .container-together h2::before {
+    top: 120px; } }
+.map {
+  display: flex; }
+  .map .detail {
+    width: 60%; }
+    .map .detail .container-detail {
+      padding: 10% 7%; }
+      .map .detail .container-detail h2 {
+        font-size: 50px;
+        font-family: 'Merriweather';
+        font-weight: 300;
+        font-size: 37px;
+        position: relative; }
+      .map .detail .container-detail h2::before {
+        content: ' ';
+        border-bottom: 1px solid;
+        height: 2px;
+        position: absolute;
+        top: 75px;
+        margin: 0 auto;
+        color: #c7d3d6;
+        width: 15%; }
+      .map .detail .container-detail .text-map {
+        font-family: "Merriweather";
+        font-size: 14px;
+        line-height: 32px;
+        padding-top: 40px;
+        color: #7e8890; }
+      .map .detail .container-detail .question {
+        padding-top: 35px; }
+        .map .detail .container-detail .question .question1 {
+          padding: 20px;
+          background: #b9675e;
+          margin-bottom: 10px;
+          transition: all 0.5s ease-out;
+          cursor: pointer; }
+          .map .detail .container-detail .question .question1 span {
+            font-family: "Merriweather";
+            font-size: 14px;
+            margin-right: 10px; }
+            .map .detail .container-detail .question .question1 span i {
+              padding: 5px;
+              background-color: #333333;
+              color: white; }
+          .map .detail .container-detail .question .question1:hover {
+            background: #90A8AD; }
+  .map .map-1 {
+    width: 40%; }
+    .map .map-1 iframe {
+      height: 100%; }
+
+@media only screen and (max-width: 800px) {
+  .map {
+    display: block; }
+    .map .detail {
+      width: 100%; }
+    .map .map-1 {
+      width: 100%;
+      height: 500px; } }
+@media only screen and (max-width: 360px) {
+  .map {
+    display: block; }
+    .map .detail .container-detail .question .question1 {
+      padding: 20px 13px; } }
+@media only screen and (max-width: 320px) {
+  .map .detail .container-detail .question .question1 span {
+    font-size: 12px; } }
+.form {
+  background-image: url(../../assets/image7/rsvp_bg.jpg);
+  background-position: left;
+  background-size: cover;
+  margin-top: 40px; }
+  .form .container-form {
+    padding: 6% 0px;
+    margin: 0 auto;
+    width: 48%; }
+    .form .container-form h2 {
+      font-size: 50px;
+      font-family: 'Merriweather';
+      font-weight: 300;
+      font-size: 37px;
+      position: relative;
+      color: white; }
+    .form .container-form h2::before {
+      content: ' ';
+      border-bottom: 1px solid;
+      height: 2px;
+      position: absolute;
+      top: 75px;
+      margin: 0 auto;
+      color: #c7d3d6;
+      width: 15%;
+      left: 0;
+      right: 0;
+      color: white; }
+    .form .container-form p {
+      font-family: "Merriweather";
+      font-size: 14px;
+      line-height: 32px;
+      padding-top: 40px;
+      color: white; }
+    .form .container-form .form-1 {
+      background: white;
+      margin-top: 65px; }
+      .form .container-form .form-1 .container-form-1 {
+        padding: 40px; }
+        .form .container-form .form-1 .container-form-1 input {
+          width: 97%;
+          padding: 20px 0px 20px 15px;
+          margin-bottom: 20px;
+          border: 1px solid #dedede; }
+        .form .container-form .form-1 .container-form-1 div {
+          display: flex;
+          position: relative; }
+          .form .container-form .form-1 .container-form-1 div select {
+            width: 100%;
+            padding: 20px 0px 20px 16px;
+            margin-bottom: 20px;
+            position: relative;
+            -webkit-appearance: button;
+            border: 1px solid #dedede; }
+          .form .container-form .form-1 .container-form-1 div i {
+            right: 0;
+            padding: 20px;
+            border: 1px solid #dedede;
+            position: absolute;
+            color: #dedede; }
+        .form .container-form .form-1 .container-form-1 textarea {
+          width: 97%;
+          padding: 20px 0px 20px 17px;
+          margin-bottom: 20px;
+          border: 1px solid #dedede; }
+        .form .container-form .form-1 .container-form-1 button {
+          width: 100%;
+          padding: 15px;
+          color: white;
+          border: none;
+          background: #b9675e;
+          font-family: "Montserrat";
+          font-size: 16px;
+          transition: all 0.5s ease-out;
+          cursor: pointer; }
+          .form .container-form .form-1 .container-form-1 button:hover {
+            background: #90A8AD; }
+
+@media only screen and (max-width: 1920px) {
+  .form .container-form .form-1 .container-form-1 input {
+    padding: 20px 0px 20px 21px; }
+  .form .container-form .form-1 .container-form-1 textarea {
+    padding: 20px 0px 20px 23px; } }
+@media only screen and (max-width: 1680px) {
+  .form .container-form .form-1 .container-form-1 input {
+    padding: 20px 0px 20px 18px; }
+  .form .container-form .form-1 .container-form-1 textarea {
+    padding: 20px 0px 20px 18px; } }
+@media only screen and (max-width: 1537px) {
+  .form .container-form .form-1 .container-form-1 input {
+    padding: 20px 0px 20px 17px; }
+  .form .container-form .form-1 .container-form-1 textarea {
+    padding: 20px 0px 20px 17px; } }
+@media only screen and (max-width: 1440px) {
+  .form .container-form .form-1 .container-form-1 input {
+    padding: 20px 0px 20px 14px; }
+  .form .container-form .form-1 .container-form-1 textarea {
+    padding: 20px 0px 20px 16px; } }
+@media only screen and (max-width: 1367px) {
+  .form .container-form .form-1 .container-form-1 input {
+    padding: 20px 0px 20px 15px; }
+  .form .container-form .form-1 .container-form-1 textarea {
+    padding: 20px 0px 20px 15px; } }
+@media only screen and (max-width: 1024px) {
+  .form .container-form {
+    width: 65%; }
+    .form .container-form .form-1 .container-form-1 input {
+      padding: 20px 0px 20px 15px; }
+    .form .container-form .form-1 .container-form-1 textarea {
+      padding: 20px 0px 20px 15px; } }
+@media only screen and (max-width: 800px) {
+  .form .container-form {
+    width: 85%; }
+    .form .container-form .form-1 .container-form-1 input {
+      padding: 20px 0px 20px 16px; }
+    .form .container-form .form-1 .container-form-1 textarea {
+      padding: 20px 0px 20px 16px; } }
+@media only screen and (max-width: 768px) {
+  .form .container-form {
+    width: 85%; }
+    .form .container-form .form-1 .container-form-1 input {
+      padding: 20px 0px 20px 15px; }
+    .form .container-form .form-1 .container-form-1 textarea {
+      padding: 20px 0px 20px 15px; } }
+@media only screen and (max-width: 600px) {
+  .form {
+    padding: 20px 0px; }
+    .form .container-form .form-1 .container-form-1 input {
+      padding: 20px 0px 20px 10px; }
+    .form .container-form .form-1 .container-form-1 textarea {
+      padding: 20px 0px 20px 10px; } }
+@media only screen and (max-width: 415px) {
+  .form .container-form .form-1 .container-form-1 {
+    padding: 30px; }
+    .form .container-form .form-1 .container-form-1 input {
+      padding: 20px 0px 20px 6px; }
+    .form .container-form .form-1 .container-form-1 textarea {
+      padding: 20px 0px 20px 6px; } }
+@media only screen and (max-width: 385px) {
+  .form .container-form .form-1 .container-form-1 {
+    padding: 30px; }
+    .form .container-form .form-1 .container-form-1 input {
+      padding: 20px 0px 20px 6px; }
+    .form .container-form .form-1 .container-form-1 textarea {
+      padding: 20px 0px 20px 6px; }
+    .form .container-form .form-1 .container-form-1 div select {
+      padding: 20px 0px 20px 7px; } }
+@media only screen and (max-width: 360px) {
+  .form .container-form .form-1 .container-form-1 {
+    padding: 20px; }
+    .form .container-form .form-1 .container-form-1 input {
+      padding: 20px 0px 20px 6px; }
+    .form .container-form .form-1 .container-form-1 textarea {
+      padding: 20px 0px 20px 6px; } }
+@media only screen and (max-width: 320px) {
+  .form .container-form .form-1 .container-form-1 {
+    padding: 20px; }
+    .form .container-form .form-1 .container-form-1 input {
+      font-size: 11px;
+      padding: 20px 0px 20px 4px; }
+    .form .container-form .form-1 .container-form-1 textarea {
+      padding: 20px 0px 20px 5px;
+      font-size: 11px; }
+    .form .container-form .form-1 .container-form-1 div select {
+      font-size: 11px; }
+    .form .container-form .form-1 .container-form-1 div i {
+      padding: 18px; } }
+footer {
+  background: #90a8ad; }
+  footer .container-footer {
+    padding: 2% 0px; }
+    footer .container-footer center {
+      margin: 0 auto;
+      width: 50%; }
+      footer .container-footer center h3 {
+        font-size: 50px;
+        font-family: 'Merriweather';
+        font-weight: 300;
+        font-size: 35px;
+        position: relative;
+        color: white;
+        margin-top: -15px; }
+      footer .container-footer center h2 {
+        font-size: 50px;
+        font-family: 'Merriweather';
+        font-weight: 300;
+        font-size: 22px;
+        position: relative;
+        color: #cbe5ea; }
+      footer .container-footer center p {
+        font-family: "Merriweather";
+        font-size: 14px;
+        line-height: 32px;
+        color: #cbe5ea;
+        font-size: 13px; }
+        footer .container-footer center p span {
+          color: white;
+          cursor: pointer; }
+
+.scrolltop {
+  display: none;
+  position: fixed;
+  right: 65px;
+  top: 95%;
+  background: black;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  overflow: hidden;
+  border-radius: 7px 7px 0px 0px;
+  padding: 10px 15px;
+  opacity: 0.9; }
+
+.scrolltop:hover {
+  opacity: 0.7; }
+
+@media only screen and (max-width: 1024px) {
+  footer .container-footer center {
+    width: 90%; } }
+@media only screen and (max-width: 385px) {
+  .scrolltop {
+    top: 94%; } }
+@media only screen and (max-width: 321px) {
+  .scrolltop {
+    top: 93%; } }
+
+/*# sourceMappingURL=style.css.map */

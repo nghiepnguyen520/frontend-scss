@@ -1,0 +1,52 @@
+.venue {
+  display: flex; }
+  .venue .info-venue {
+    width: 60%;
+    background-color: #90a8ad; }
+    .venue .info-venue .container-info {
+      padding: 10% 5%;
+      color: white; }
+      .venue .info-venue .container-info h2 {
+        font-size: 50px;
+        font-family: 'Merriweather';
+        font-weight: 300;
+        font-size: 37px;
+        position: relative;
+        margin-bottom: 55px;
+        margin-top: 15px; }
+      .venue .info-venue .container-info h2::before {
+        content: ' ';
+        border-bottom: 1px solid;
+        height: 2px;
+        position: absolute;
+        top: 75px;
+        margin: 0 auto;
+        color: #c7d3d6;
+        width: 13%; }
+      .venue .info-venue .container-info i {
+        line-height: 32px;
+        font-family: "Merriweather";
+        font-size: 13px; }
+      .venue .info-venue .container-info p {
+        line-height: 34px;
+        font-family: "Merriweather";
+        font-size: 14px; }
+  .venue .bg-venue {
+    background-image: url(../../assets/image7/post_06.jpg);
+    background-position: left;
+    background-size: cover;
+    width: 40%; }
+
+@media only screen and (max-width: 800px) {
+  .venue {
+    display: block; }
+    .venue .info-venue {
+      width: 100%; }
+    .venue .bg-venue {
+      height: 600px;
+      width: 100%; } }
+@media only screen and (max-width: 600px) {
+  .venue .bg-venue {
+    height: 400px; } }
+
+/*# sourceMappingURL=venue.css.map */

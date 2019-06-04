@@ -1,0 +1,93 @@
+.communicate {
+  background-color: #EBECF0;
+  overflow: hidden; }
+  .communicate .container-communicate {
+    width: 65%;
+    margin: 0 auto;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif; }
+    .communicate .container-communicate h2 {
+      font-size: 50px;
+      font-weight: 300;
+      color: #515b69;
+      padding-top: 8%; }
+    .communicate .container-communicate p {
+      font-size: 20px;
+      color: #89919f;
+      line-height: 32px; }
+    .communicate .container-communicate .text-com {
+      font-size: 20px;
+      color: #89919f;
+      width: 63%;
+      margin-top: -30px;
+      padding-bottom: 50px; }
+    .communicate .container-communicate .contacts {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 8%; }
+      .communicate .container-communicate .contacts .contact-1 {
+        width: 32%; }
+        .communicate .container-communicate .contacts .contact-1 i {
+          cursor: pointer;
+          transition: all 0.5s ease-out; }
+        .communicate .container-communicate .contacts .contact-1 i:hover {
+          transform: scale(0.9); }
+        .communicate .container-communicate .contacts .contact-1 h3 {
+          font-size: 24px;
+          font-weight: 300;
+          color: #515b69;
+          cursor: pointer; }
+        .communicate .container-communicate .contacts .contact-1 h3:hover {
+          color: white; }
+        .communicate .container-communicate .contacts .contact-1 i {
+          color: #35BAF2;
+          padding: 23px;
+          background: white;
+          border-radius: 50%; }
+
+@media only screen and (max-width: 1440px) {
+  .communicate .container-communicate {
+    width: 67%; } }
+@media only screen and (max-width: 1367px) {
+  .communicate .container-communicate {
+    width: 70%; } }
+@media only screen and (max-width: 1024px) {
+  .communicate .container-communicate {
+    width: 80%; } }
+@media only screen and (max-width: 1024px) {
+  .communicate .container-communicate {
+    width: 85%; } }
+@media only screen and (max-width: 600px) {
+  .communicate .container-communicate h2 {
+    margin-bottom: 50px; }
+  .communicate .container-communicate .text-com {
+    width: 100%; }
+  .communicate .container-communicate .contacts {
+    display: block; }
+    .communicate .container-communicate .contacts .contact-1 {
+      width: 100%;
+      margin-bottom: 50px; } }
+@media only screen and (max-width: 415px) {
+  .communicate .container-communicate h2 {
+    font-size: 41px; } }
+@media only screen and (max-width: 384px) {
+  .communicate .container-communicate h2 {
+    font-size: 38px; }
+  .communicate .container-communicate .text-com {
+    font-size: 18px; } }
+@media only screen and (max-width: 376px) {
+  .communicate .container-communicate h2 {
+    font-size: 37px; } }
+@media only screen and (max-width: 360px) {
+  .communicate .container-communicate h2 {
+    font-size: 35px; }
+  .communicate .container-communicate .contacts .contact-1 p {
+    font-size: 18px; } }
+@media only screen and (max-width: 320px) {
+  .communicate .container-communicate h2 {
+    font-size: 31px; }
+  .communicate .container-communicate .text-com {
+    font-size: 16px; }
+  .communicate .container-communicate .contacts .contact-1 p {
+    font-size: 16px; } }
+
+/*# sourceMappingURL=communicate.css.map */

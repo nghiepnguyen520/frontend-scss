@@ -1,0 +1,281 @@
+body {
+  margin: 0px auto;
+  width: 100%; }
+
+.header {
+  margin: 10px; }
+  .header .banner {
+    background-image: url(../../assets/images/b-g.png);
+    height: 712px;
+    width: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    background-size: cover; }
+    .header .banner .container {
+      margin: 0px auto;
+      width: 65%;
+      padding-top: 20px; }
+      .header .banner .container .top-menu {
+        width: 100%;
+        display: flex;
+        justify-content: space-between; }
+        .header .banner .container .top-menu .follow-link {
+          display: flex; }
+          .header .banner .container .top-menu .follow-link span {
+            padding-right: 20px;
+            color: #9C9C9C; }
+            .header .banner .container .top-menu .follow-link span i {
+              color: white; }
+        .header .banner .container .top-menu .reserve span {
+          padding-left: 10px;
+          color: #9C9C9C; }
+          .header .banner .container .top-menu .reserve span i {
+            color: #9C9C9C; }
+          .header .banner .container .top-menu .reserve span a {
+            text-decoration: none;
+            color: #9C9C9C; }
+          .header .banner .container .top-menu .reserve span a:hover {
+            color: #FFD81B; }
+      .header .banner .container .menu-bar {
+        width: 100%;
+        color: white;
+        display: flex;
+        padding-top: 35px; }
+        .header .banner .container .menu-bar .logo {
+          width: 90px;
+          height: 30px;
+          padding-right: 13px;
+          padding-top: 7px; }
+        .header .banner .container .menu-bar span {
+          padding-right: 12px;
+          padding-top: 15px;
+          color: #9C9C9C; }
+          .header .banner .container .menu-bar span a {
+            text-decoration: none;
+            color: #9C9C9C; }
+          .header .banner .container .menu-bar span a:hover {
+            color: #FFD81B; }
+        .header .banner .container .menu-bar form {
+          margin-top: 6px;
+          padding-left: 30px;
+          position: relative;
+          padding-right: 50px;
+          display: flex; }
+          .header .banner .container .menu-bar form .icon {
+            color: black;
+            background-color: #FFD81B;
+            padding: 10px;
+            position: absolute;
+            border: none;
+            right: 20px; }
+          .header .banner .container .menu-bar form #search1 {
+            padding: 10px;
+            width: 153px;
+            border: none; }
+        .header .banner .container .menu-bar .cart .number {
+          padding: 2px 6px;
+          background: #FFD81B;
+          border-radius: 50%;
+          font-size: 12px;
+          position: relative;
+          right: 21px;
+          top: 4px;
+          color: black; }
+      .header .banner .container #menu-one {
+        padding-top: 10px;
+        display: none; }
+        .header .banner .container #menu-one .menu1 {
+          background: #848484;
+          padding: 10px;
+          display: flex;
+          color: white; }
+          .header .banner .container #menu-one .menu1 .logo-mobile {
+            width: 50%;
+            text-align: center; }
+            .header .banner .container #menu-one .menu1 .logo-mobile img {
+              width: 40%;
+              padding-top: 20px; }
+          .header .banner .container #menu-one .menu1 ul {
+            display: flex;
+            width: 80%;
+            margin: 0 auto; }
+            .header .banner .container #menu-one .menu1 ul div {
+              width: 50%; }
+              .header .banner .container #menu-one .menu1 ul div li {
+                color: white;
+                list-style: none;
+                line-height: 25px; }
+                .header .banner .container #menu-one .menu1 ul div li a {
+                  text-decoration: none;
+                  color: white; }
+                .header .banner .container #menu-one .menu1 ul div li span {
+                  padding-right: 10px; }
+                  .header .banner .container #menu-one .menu1 ul div li span a:hover {
+                    color: #FFD81B; }
+                .header .banner .container #menu-one .menu1 ul div li:hover {
+                  color: #FFD81B; }
+      .header .banner .container .menu-mobile {
+        display: none;
+        color: white;
+        padding-top: 30px; }
+    .header .banner .slideshow {
+      width: 100%;
+      height: 400px;
+      position: relative;
+      padding-top: 70px; }
+      .header .banner .slideshow .slide-item {
+        margin: 0 auto;
+        width: 65%;
+        height: 100%;
+        position: relative; }
+        .header .banner .slideshow .slide-item .fade {
+          -webkit-animation-name: fade;
+          -webkit-animation-duration: 1.5s;
+          animation-name: fade;
+          animation-duration: 1.5s; }
+@-webkit-keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+@keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+        .header .banner .slideshow .slide-item .item {
+          display: none; }
+          .header .banner .slideshow .slide-item .item .slide-content {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            display: flex; }
+            .header .banner .slideshow .slide-item .item .slide-content .slide-content-left {
+              color: #fff;
+              font-weight: bold;
+              width: 50%; }
+              .header .banner .slideshow .slide-item .item .slide-content .slide-content-left h1 {
+                font-size: 43px; }
+              .header .banner .slideshow .slide-item .item .slide-content .slide-content-left img {
+                width: 40%; }
+              .header .banner .slideshow .slide-item .item .slide-content .slide-content-left p {
+                width: 65%;
+                color: #9C9C9C; }
+              .header .banner .slideshow .slide-item .item .slide-content .slide-content-left button {
+                width: 110px;
+                margin-top: 20px;
+                background-color: #FFD81B;
+                color: black;
+                padding: 7px;
+                cursor: pointer;
+                border: none;
+                transition: all 2s ease 0s; }
+                .header .banner .slideshow .slide-item .item .slide-content .slide-content-left button:hover {
+                  color: #FFD81B;
+                  background: black; }
+            .header .banner .slideshow .slide-item .item .slide-content div .slide-content-right {
+              color: #fff;
+              width: 100%; }
+      .header .banner .slideshow .left {
+        position: absolute;
+        bottom: 42%;
+        font-size: 45px;
+        cursor: pointer;
+        left: 10px; }
+        .header .banner .slideshow .left a {
+          color: rgba(255, 255, 255, 0.5);
+          transition: all 1s; }
+          .header .banner .slideshow .left a:hover {
+            color: #fff; }
+      .header .banner .slideshow .right {
+        position: absolute;
+        bottom: 42%;
+        font-size: 45px;
+        right: 10px;
+        cursor: pointer; }
+        .header .banner .slideshow .right a {
+          color: rgba(255, 255, 255, 0.5);
+          transition: all 1s; }
+          .header .banner .slideshow .right a:hover {
+            color: #fff; }
+  .header .art-gallery {
+    background-image: url(../../assets/images/home-1-background-1.jpg);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 415px; }
+    .header .art-gallery .gallery1 {
+      background: white;
+      margin: 0 auto;
+      width: 70%;
+      position: relative;
+      bottom: 14%;
+      box-shadow: 1px 1px 3px 1px white; }
+      .header .art-gallery .gallery1 .info-gallery1 {
+        display: flex;
+        padding: 45px;
+        justify-content: space-between; }
+        .header .art-gallery .gallery1 .info-gallery1 .info-img1 {
+          width: 32%; }
+          .header .art-gallery .gallery1 .info-gallery1 .info-img1 img {
+            width: 100%; }
+          .header .art-gallery .gallery1 .info-gallery1 .info-img1 p {
+            line-height: 23px;
+            color: #9C9C9C; }
+        .header .art-gallery .gallery1 .info-gallery1 .info-img2 {
+          width: 32%; }
+          .header .art-gallery .gallery1 .info-gallery1 .info-img2 img {
+            width: 100%; }
+          .header .art-gallery .gallery1 .info-gallery1 .info-img2 p {
+            line-height: 23px;
+            color: #9C9C9C; }
+        .header .art-gallery .gallery1 .info-gallery1 .info-img3 {
+          width: 32%; }
+          .header .art-gallery .gallery1 .info-gallery1 .info-img3 img {
+            width: 100%; }
+          .header .art-gallery .gallery1 .info-gallery1 .info-img3 p {
+            line-height: 23px;
+            color: #9C9C9C; }
+  .header .gallery2 {
+    width: 100%;
+    background: #111111;
+    position: relative;
+    margin-top: -2%; }
+    .header .gallery2 .menu-gallery {
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      width: 65%; }
+      .header .gallery2 .menu-gallery div {
+        display: flex; }
+        .header .gallery2 .menu-gallery div h2 {
+          padding-right: 25px;
+          font-family: 'Shadows Into Light', cursive; }
+        .header .gallery2 .menu-gallery div div {
+          padding-top: 17px;
+          margin-right: 20px; }
+          .header .gallery2 .menu-gallery div div span {
+            padding-right: 13px; }
+            .header .gallery2 .menu-gallery div div span a {
+              text-decoration: none;
+              color: white; }
+            .header .gallery2 .menu-gallery div div span a:hover {
+              color: #FFD81B; }
+      .header .gallery2 .menu-gallery .btn-gallery {
+        padding: 20px; }
+        .header .gallery2 .menu-gallery .btn-gallery button {
+          cursor: pointer;
+          background: white;
+          border: none;
+          padding-right: 12px;
+          transition: all 2s ease; }
+          .header .gallery2 .menu-gallery .btn-gallery button i {
+            padding: 6px; }
+          .header .gallery2 .menu-gallery .btn-gallery button:hover {
+            background: #FFD81B; }
+    .header .gallery2 .list-gallery {
+      padding: 20px;
+      padding-bottom: 30px; }
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,87 @@
+
+
+.items{
+    overflow: hidden;
+    .container-items{
+        margin: 0 auto;
+        width: 65%;
+        font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+        h2{
+            padding-top: 8%;
+            font-size: 40px;
+            font-weight: 300;
+            color: #515b69;
+            margin-bottom: 2px;
+            margin-top: 0px
+        }
+        .text-item{
+            font-size: 18px;
+            color: #7f8795;
+            line-height: 30px;
+            width: 60%;
+        }
+
+        .info-item{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 6%;
+            padding-bottom: 10%;
+            .item1{
+                width: 32%;
+                h3{
+                    font-size: 22px;
+                    font-weight: 300;
+                    color: #515b69;
+                    margin-bottom: 0px;
+                }
+                img{
+                    width: 80%;
+                }
+                p{
+                    font-size: 18px;
+                    color: #7f8795;
+                    margin-bottom: 23px;
+                    span{
+                        color: #35baf2;
+                    }
+                }
+                button{
+                    color: white;
+                    background: #74849C;
+                    border: none;
+                    padding: 10px 21px;
+                    border-radius: 4px;
+                    font-size: 11px;
+                    cursor: pointer;
+                    transition: all 0.5s ease-out;
+                }
+                button:hover{
+                    background-color: #35baf2
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 800px){
+    .items{
+        .container-items{
+            width: 80%;
+        }
+    }
+}
+@media only screen and (max-width: 600px){
+    .items{
+        .container-items{
+            .text-item{
+                width: 100%;
+            }
+            .info-item{
+                display: block;
+                .item1{
+                    width: 100%;
+                    margin-bottom: 10%
+                }
+            }
+        }
+    }
+}

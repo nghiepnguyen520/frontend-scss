@@ -1,0 +1,104 @@
+
+
+
+.quality{
+    display: flex;
+    .quality-1{
+        width: 50%;
+        background-image: url(../../assets/image5/girl_covered1.jpg);
+        background-size: cover;
+        height: 500px;
+        background-position: center;
+    }
+    .quality-2{
+        width: 50%;
+        background-color: rgb(76, 169, 180);
+        color: white;
+        .container-quality{
+            margin: 0 auto;
+            width: 80%;
+            margin-top: 50px;
+            padding-top: 35px;
+            h2{
+                font-size: 35px;
+                font-weight: 400;
+                font-family: "Abril Fatface", Arial, Helvetica, sans-serif;
+                margin-top: 0px;
+                margin-bottom: 20px;
+            }
+            h4{
+                font-size: 16px;
+                letter-spacing: 4px;
+                margin-top: 3px;
+                font-family: "Roboto", Arial, Helvetica, sans-serif;
+            }
+            p{
+                font-family: "Roboto", Arial, Helvetica, sans-serif;
+                font-size: 15px;
+                line-height: 30px;
+            }
+            button{
+                font-family: "Roboto", Arial, Helvetica, sans-serif;
+                margin-top: 20px;
+                background: none;
+                border: 2px solid #dcdcdc;
+                color: #dcdcdc;
+                padding: 13px 30px;
+                cursor: pointer;
+                transition: all 1s ease-out;
+                font-size: 14px;
+                &:hover{
+                    color: white;
+                    border-color: white;
+                }
+            }
+            
+        }
+    }
+}
+@media only screen and (max-width: 1024px){
+    .quality{
+        .quality-2{
+            .container-quality{
+                padding-top: 0px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 800px){
+    .quality{
+        display: block;
+        .quality-1{
+            width: 100%;
+            height: 450px;;
+        }
+        .quality-2{
+            width: 100%;
+            .container-quality{
+                margin-top: 0px;
+                padding: 50px 0px;
+            }
+
+        }
+    }
+}
+@media only screen and (max-width: 600px){
+    .quality{
+        display: block;
+        .quality-1{
+            width: 100%;
+            height: 335px;;
+        }
+    }
+}
+@media only screen and (max-width: 384px){
+    .quality{
+        .quality-2{
+            .container-quality{
+                h4{
+                    line-height: 30px
+                }
+            }
+        }
+    }
+}

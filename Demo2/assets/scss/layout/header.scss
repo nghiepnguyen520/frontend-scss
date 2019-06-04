@@ -1,0 +1,375 @@
+body{
+	margin: 0px auto;
+	width: 100%;
+}
+.header{
+	margin: 10px;
+		.banner{
+			background-image: url(../../assets/images/b-g.png);
+			height: 712px;
+			width: 100%;
+			background-repeat: no-repeat;
+			opacity: 0.9;
+			background-size: cover;
+			.container{
+				margin: 0px auto;
+				width: 65%;
+				padding-top: 20px;
+				.top-menu{
+					width: 100%;
+					display: flex;
+					justify-content: space-between;
+					.follow-link{
+						display: flex;
+						span{
+							padding-right: 20px;
+							color:#9C9C9C;
+							i{
+								color: white;
+							}
+						}
+					}
+					
+					.reserve span{
+						padding-left: 10px;
+						color:#9C9C9C;
+						i{
+							color:#9C9C9C;
+						}
+						a{	
+							text-decoration: none;
+							color:#9C9C9C;
+						}
+						a:hover{
+							color:#FFD81B;
+						}
+					}
+				}
+				.menu-bar{
+					width: 100%;
+					color: white;
+					display: flex;
+					padding-top: 35px;
+					.logo{
+						width:90px;
+						height:30px;
+						padding-right: 13px;
+						padding-top: 7px;
+					}
+					span{
+						padding-right: 12px;
+						padding-top: 15px;
+						color:#9C9C9C;
+						a{
+							text-decoration: none;
+							color:#9C9C9C;
+						}
+						a:hover{
+							color:#FFD81B;
+						}
+					}
+					form{
+						margin-top: 6px;
+						padding-left: 30px;
+						position: relative;
+						padding-right: 50px;
+						display: flex;
+						.icon{
+							color: black;
+							background-color: #FFD81B;
+							padding: 10px;
+							position:absolute;
+							border: none;
+							right: 20px;
+						}
+						#search1{
+							padding: 10px;
+							width: 153px;
+							border: none;
+
+						}
+				
+				}
+					.cart{
+						.number{
+							padding: 2px 6px;
+							background:#FFD81B;
+							border-radius: 50%;
+							font-size: 12px;
+							position: relative;
+							right: 21px;
+							top: 4px;
+							color: black;
+						}
+					}
+				}
+				#menu-one{
+					padding-top: 10px;
+					display: none;
+					.menu1{
+						background: #848484;
+						padding: 10px;
+						display: flex;
+						color: white;
+						.logo-mobile{
+							width: 50%;
+							text-align: center;
+							img{
+								width: 40%;
+								padding-top: 20px;
+							}
+						}
+						ul{
+							display: flex;
+							width: 80%;
+							margin: 0 auto;
+							div{
+								width: 50%;
+								li{
+									color: white;
+									list-style: none;
+									line-height: 25px;
+									a{
+										text-decoration: none;
+										color:white
+									}
+									span{
+										padding-right: 10px;
+										a:hover{
+											color: #FFD81B;
+										}
+									}
+									&:hover{
+										color: #FFD81B;
+									}
+								}
+							}			
+						}
+						
+					}
+				}
+				.menu-mobile{
+					display: none;
+					color: white;
+					padding-top: 30px
+				}
+			}
+			.slideshow{
+				width: 100%;
+				height: 400px;
+				position: relative;
+				padding-top: 70px;
+				.slide-item{
+					margin: 0 auto;
+					width: 65%;
+					height: 100%;
+					position: relative;
+					
+					.fade {
+						-webkit-animation-name: fade;
+						-webkit-animation-duration: 1.5s;
+						animation-name: fade;
+						animation-duration: 1.5s;
+					}
+					@-webkit-keyframes fade {
+						from {opacity: .4} 
+						to {opacity: 1}
+					  }
+					  
+					@keyframes fade {
+						from {opacity: .4} 
+						to {opacity: 1}
+					}
+					.item{
+						display: none;
+						.slide-content{
+							width: 100%;
+							height: 100%;
+							position: absolute;
+							display: flex;
+							.slide-content-left{
+								color: #fff;
+								font-weight: bold;
+								width: 50%;
+								h1{
+									font-size: 43px
+								}
+								img{
+									width: 40%;
+								}
+								p{
+									width: 65%;
+									color:#9C9C9C;
+								}
+								button{
+									width: 110px;
+									margin-top: 20px;
+									background-color: #FFD81B;
+									color: black;
+									padding: 7px;
+									cursor: pointer;
+									border: none;
+									transition: all 2s ease 0s;
+									&:hover{
+										color: #FFD81B;
+										background: black;
+									}
+								}
+							} 
+							div .slide-content-right{
+								color: #fff;
+								width: 100%;
+							}
+						}
+					}
+				}
+				.left{
+					position: absolute;
+					bottom: 42%;
+					font-size: 45px;
+					cursor: pointer;
+					left: 10px;
+					a{
+						color: rgba(255,255,255,0.5);
+						transition: all 1s;
+						&:hover{
+							color: #fff;
+						}
+					}
+				}
+				.right{
+					position: absolute;
+					bottom: 42%;
+					font-size: 45px;
+					right: 10px;
+					cursor: pointer;
+					a{
+						color: rgba(255,255,255,0.5);
+						transition: all 1s;
+						&:hover{
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+		.art-gallery{
+			background-image: url(../../assets/images/home-1-background-1.jpg);
+			background-size: cover;
+			width: 100%;
+			background-repeat: no-repeat;
+			height: 415px;
+
+			.gallery1{
+				background: white;
+				margin: 0 auto;
+				width: 70%;
+				position: relative;
+				bottom: 14%;
+				box-shadow: 1px 1px 3px 1px white; 
+				.info-gallery1{
+					display: flex;
+					padding: 45px;
+					justify-content: space-between;
+					.info-img1{
+						width: 32%;
+						img{
+							width: 100%;
+						}
+						p{
+							line-height: 23px;
+							color:#9C9C9C;
+						}
+					}
+					.info-img2{
+						width: 32%;
+						img{
+							width: 100%;
+						}
+						p{
+							line-height: 23px;
+							color:#9C9C9C;
+						}
+					}
+					.info-img3{
+						width: 32%;
+						img{
+							width: 100%;
+						}
+						p{
+							line-height: 23px;
+							color:#9C9C9C;
+						}
+					}
+				}
+			
+			}
+		}
+			.gallery2{
+				width: 100%;
+				background: #111111;
+				position: relative;
+				margin-top: -2%;
+				.menu-gallery{
+					color:white;
+					display: flex;
+					justify-content: space-between;
+					margin: 0 auto;
+					width: 65%;
+					div{
+						display: flex;
+						h2{
+							padding-right: 25px;
+							font-family: 'Shadows Into Light', cursive;
+						}
+						div{
+							padding-top: 17px;
+							margin-right: 20px;
+							span{
+								padding-right: 13px;
+								
+								a{
+									text-decoration: none;
+									color: white;
+								}
+								a:hover{
+									color:#FFD81B;
+								}
+							}
+						}
+					}
+					.btn-gallery{
+							padding:20px;
+							button{
+								cursor: pointer;
+								background: white;
+								border:none;
+								padding-right: 12px;
+								transition: all 2s ease;
+								i{
+									padding: 6px;
+								}
+								&:hover{
+									background: #FFD81B;
+								}
+							}
+							
+					}
+				}
+				.list-gallery{
+					padding: 20px;
+					padding-bottom: 30px;
+
+				}
+			}
+		
+}
+
+
+  
+
+
+  
+
+  
+  

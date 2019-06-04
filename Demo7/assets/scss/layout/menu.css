@@ -1,0 +1,85 @@
+.sticky {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 5; }
+
+.menu-mobile {
+  display: none;
+  background-color: #90a8ad; }
+  .menu-mobile .container-mobile {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between; }
+    .menu-mobile .container-mobile .container-right {
+      color: white; }
+      .menu-mobile .container-mobile .container-right a i {
+        padding-top: 34px; }
+
+#menu-one {
+  display: none;
+  background: #90a8ad; }
+  #menu-one .menu1 .active1 {
+    background: #96ACB1; }
+  #menu-one .menu1 div {
+    padding: 20px;
+    padding-left: 55px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    cursor: pointer; }
+    #menu-one .menu1 div a {
+      text-decoration: none;
+      color: white;
+      font-family: "Merriweather";
+      font-size: 14px; }
+  #menu-one .menu1 div:hover {
+    background: #96ACB1; }
+
+.menu {
+  background-color: #90a8ad; }
+  .menu .container-menu {
+    width: 65%;
+    margin: 0 auto;
+    padding: 10px 0px; }
+    .menu .container-menu ul {
+      display: flex;
+      list-style: none;
+      justify-content: space-between;
+      padding-left: 0px; }
+      .menu .container-menu ul li {
+        color: #c8d6d9;
+        padding-top: 30px; }
+        .menu .container-menu ul li a {
+          text-decoration: none;
+          font-family: "Montserrat";
+          font-size: 13px;
+          cursor: pointer;
+          transition: all 0.5s ease-out; }
+          .menu .container-menu ul li a:hover {
+            color: white; }
+        .menu .container-menu ul li .active {
+          color: white; }
+      .menu .container-menu ul img {
+        cursor: pointer; }
+
+@media only screen and (max-width: 1367px) {
+  .menu .container-menu {
+    width: 75%; } }
+@media only screen and (max-width: 1024px) {
+  .menu {
+    display: none; }
+
+  .menu-mobile {
+    display: block; } }
+@media only screen and (max-width: 415px) {
+  .menu-mobile .container-mobile .logo img {
+    width: 70%; }
+  .menu-mobile .container-mobile .container-right a i {
+    padding-top: 23px; } }
+@media only screen and (max-width: 376px) {
+  .menu-mobile .container-mobile .container-right a i {
+    padding-top: 17px; } }
+
+/*# sourceMappingURL=menu.css.map */

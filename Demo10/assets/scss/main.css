@@ -1,0 +1,9 @@
+.menu .menu-1 {
+  background-color: #FED700; }
+  .menu .menu-1 .container-menu-1 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 80%; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,71 @@
+.gallery .bg-gallery {
+  background-image: url(../../assets/image7/parallax_image_03-1.jpg);
+  background-position: left top;
+  background-size: cover;
+  height: 490px; }
+.gallery .photo-gallery .container-photo {
+  margin: 0 auto;
+  width: 65%;
+  padding: 6% 0px; }
+  .gallery .photo-gallery .container-photo h2 {
+    font-size: 50px;
+    font-family: 'Merriweather';
+    font-weight: 300;
+    font-size: 37px;
+    position: relative; }
+  .gallery .photo-gallery .container-photo h2:before {
+    content: ' ';
+    border-bottom: 1px solid;
+    height: 2px;
+    position: absolute;
+    top: 75px;
+    margin: 0 auto;
+    color: #c7d3d6;
+    width: 11%;
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
+  .gallery .photo-gallery .container-photo p {
+    font-family: "Merriweather";
+    padding-top: 35px;
+    color: #7e8890;
+    line-height: 32px;
+    font-size: 14px;
+    width: 68%; }
+  .gallery .photo-gallery .container-photo .photo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 7%; }
+    .gallery .photo-gallery .container-photo .photo .photo-1 {
+      width: 31%;
+      padding-bottom: 30px; }
+      .gallery .photo-gallery .container-photo .photo .photo-1 img {
+        width: 100%;
+        transition: all 0.5s ease-out;
+        cursor: pointer; }
+        .gallery .photo-gallery .container-photo .photo .photo-1 img:hover {
+          transform: scale(1.1); }
+
+@media only screen and (max-width: 1024px) {
+  .gallery .bg-gallery {
+    height: 400px; }
+  .gallery .photo-gallery .container-photo {
+    width: 75%; } }
+@media only screen and (max-width: 800px) {
+  .gallery .photo-gallery .container-photo {
+    width: 80%; }
+    .gallery .photo-gallery .container-photo p {
+      width: 100%; }
+    .gallery .photo-gallery .container-photo .photo {
+      display: block; }
+      .gallery .photo-gallery .container-photo .photo .photo-1 {
+        width: 100%; } }
+@media only screen and (max-width: 415px) {
+  .gallery .photo-gallery .container-photo h2::before {
+    width: 30%; } }
+@media only screen and (max-width: 320px) {
+  .gallery .photo-gallery .container-photo h2::before {
+    top: 120px; } }
+
+/*# sourceMappingURL=gallery.css.map */

@@ -1,0 +1,411 @@
+.body{
+    margin: 0px 10px ;
+    .welcome{
+        margin: 0 auto;
+        width: 65%;
+        display: flex;
+        padding-top: 50px;
+        padding-bottom: 10%;
+        .info-wel{
+            width: 50%;
+            line-height: 28px;
+            p{
+                color:#9C9C9C;
+            }
+            button{
+                width: 25%;
+                margin-top: 20px;
+                background-color: #FFD81B;
+                color: black;
+                padding: 11px;
+                cursor: pointer;
+                border: none;
+                transition: all 2s ease 0s;
+                &:hover{
+                    background: black;
+                    color: #FFD81B
+                }
+            }
+        }
+        .img-wel{
+            width: 50%;
+            img{
+                width: 90%;
+            }
+        }
+    }
+    .slide-product{
+        background-image: url(../../assets/images/new-parallax-1.jpg);
+        height: 485px;
+        width: 100%;
+        .pre-slide{
+            position: absolute;
+            color: red;
+            left: -33px;
+        }
+        .next-slide{
+            right: -33px;
+        }
+        .list-product{
+            margin: 0 auto;
+            width: 65%;
+            padding-top: 20px;
+            #slider-product{
+                .info-img2{
+                    width: 95%;
+                    padding-top: 20px;
+                    .text{
+                        background: white;
+                        position: relative;
+                        bottom: 25px;
+                        text-align: center;
+                        padding: 7px 15px;
+                        height: 170px;
+                        span{
+                            padding: 10px;
+						    background-color: #FFD81B;
+                            border-radius: 50%;
+                            position: relative;
+                            bottom: 18px;
+                        }
+                        p{
+                            color: #9C9C9C;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .modi{
+        margin: 0 auto;
+        width: 65%;
+        line-height: 26px;
+        h1{
+            padding-top: 45px;
+        }
+        p{
+            color:#9C9C9C;
+        }
+        .info-modi{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding-top: 30px;
+            padding-bottom: 22%;
+           
+            .info-modi-1{
+                width: 32%;
+                position: relative;
+                height: 332px;
+                img{                   
+                    width: 95%;
+                    position: absolute;
+                }
+                .text-color{
+                    position: relative;
+                    top: 69%;
+                    h3{
+                        color: #FFD81B;
+                        width: 50%;
+                        padding: 20px
+                    }
+                }
+                .none{
+                    position: absolute;
+                    top : 78%;
+                    h3{
+                        color: white;
+                        width: 82%;
+                        padding-top: 16px;
+                        padding: 20px
+                    }
+                }
+                .none1{
+                    position: absolute;
+                    top: 69%;
+                    h3{
+                        color: white;
+                        width: 58%;
+                        padding: 20px
+                    }
+                }
+                
+            }
+
+        }
+    }
+    .slide-review{
+        background-image: url(../../assets/images/b-g-2.jpg);
+        height: 310px;
+        width: 100%;  
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        opacity: 0.8;
+       .slide-review1{
+			margin: 0 auto;
+			width: 65%;
+			height: 100%;
+			position: relative;					
+			.fade {
+				-webkit-animation-name: fade;
+				-webkit-animation-duration: 1.5s;
+				animation-name: fade;
+				animation-duration: 1.5s;
+				}
+				@-webkit-keyframes fade {
+					from {opacity: .4} 
+					to {opacity: 1}
+				}					  
+				@keyframes fade {
+					from {opacity: .4} 
+					to {opacity: 1}
+				}
+			.item2{
+				display: none;
+				.slide-content2{
+					width: 100%;
+					height: 100%;
+                    position: absolute;
+                 
+					.slide-content-left2{
+                        color: white;
+                        margin: 0 auto;
+                        width: 86%;
+                        padding-top: 25px;
+                        line-height: 25px;
+                        p{
+                            padding-bottom: 20px;
+                            color: #9C9C9C;
+                        }
+                        i{
+                            color: #FFD81B;
+                        }
+					} 							
+				}
+			}
+		}
+		.left2{
+			position: absolute;
+			bottom: 72%;
+			font-size: 32px;
+			cursor: pointer;
+            left: 18%;
+			a{
+				color: white;
+				transition: all 1s;
+		    }
+		}
+		.right2{
+			position: absolute;
+			bottom: 72%;
+			font-size: 32px;
+            right: 18%;
+            color: white;
+			cursor: pointer;
+				a{
+					color: white;
+					transition: all 1s;
+				}
+            }
+        }
+    .news{
+        margin: 0 auto;
+        width: 80%;
+        padding-top: 20px;
+        .news1{
+            width: 79%;
+            color:#9C9C9C;
+        }
+        .info-news{
+            padding-top: 40px;
+            display: flex;
+            justify-content: space-between;
+            padding-bottom : 11%;
+            .info-news1{
+                border : 2px solid;
+                width: 32%;
+                img{
+                    width: 100%;
+                }
+                div{
+                    padding: 20px;
+                }
+                p{
+                    color:#9C9C9C;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .banner{
+        background-image: url(../../assets/images/parallax-3.jpg);
+        height: 310px;
+        width: 100%;  
+        background-position: center;
+        background-size: cover;
+        img{
+            padding-top: 25px;
+        }
+    }
+    .information{
+        margin: 0px auto;
+        width: 65%;
+        display: flex;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        justify-content: space-between;
+        .award{
+            line-height: 25px;
+            width: 50%;
+            p{
+                color:#9C9C9C;
+            }
+            .contact{
+                display: flex;
+                flex-wrap: wrap;
+                .contact-1{
+                    width: 50%;
+                    padding-bottom: 24px;
+                    i{
+                        padding-right: 13px;
+                    }
+                }
+                .contact-2{
+                    width: 50%;
+                    padding-bottom: 24px;
+                    i{
+                        padding-right: 13px;
+                    }
+                }
+                .contact-3{
+                    width: 50%;
+                    padding-bottom: 24px;
+                    i{
+                        padding-right: 13px;
+                    }
+                }
+                .contact-4{
+                    width: 50%;
+                    padding-bottom: 24px;
+                    i{
+                        padding-right: 13px;
+                    }
+                }
+            }
+        }
+        .open-hour{
+            width: 40%;
+            // background-image: url(../../assets/images/b-g-open.png);
+            background: #1C1C1C;
+            background-position: center;
+            opacity: 0.9;
+            .open-container{
+                color: white;  
+                padding: 25px;
+                .border-container{
+                    border: 1px solid #4E4E4E;
+                    .hour{
+                        padding: 15px;
+                        ul.leaders {
+                            line-height: 35px;
+                            max-width: 40em;
+                            padding: 0;
+                            overflow-x: hidden;
+                            list-style: none;		
+                        }
+                        ul.leaders li:before {
+                            float: left;
+                            width: 0;
+                            white-space: nowrap;
+                            content:
+                            ". . . . . . . . . . . . . . . . . . . . "
+                            ". . . . . . . . . . . . . . . . . . . . "
+                            ". . . . . . . . . . . . . . . . . . . . "
+                            ". . . . . . . . . . . . . . . . . . . . ";  
+                            background : #1C1C1C                         
+                        }
+                        ul.leaders span{
+                            padding-right: 0.33em;
+                            background: #1C1C1C 
+                        }
+                        ul.leaders i {
+                            padding-right: 0.33em;
+                            background : #1C1C1C 
+                        }
+                        ul.leaders span + span
+                        {
+                            float: right;
+                            padding-left: 0.33em;
+                            background : #1C1C1C;
+                        }
+                    }
+                }                
+            }
+        }
+    }
+    .form{
+        background: #F5F5F5;
+        .info-form{
+            margin: 0 auto;
+            width: 65%;
+            display: flex;
+            padding: 50px 0px;
+            justify-content: space-between;
+            .container-1{
+                width: 20%;
+                position: relative;
+                #search{
+                    width: 81%;
+                    border: 2px solid;
+                    padding: 10px;
+                    -webkit-appearance: none;
+                }
+                .btn2{
+                    border: 2px solid;
+                    background: white;
+                    position: absolute;
+                    line-height: 35px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    left: 82%;
+                }
+                .btn1{
+                    position: absolute;
+                    border: 2px solid;
+                    background: white;
+                    padding: 10px;
+                    left: 77%;
+
+                }
+                #picker{
+                    width: 76%;
+                    border: 2px solid;
+                    -webkit-appearance: none;
+                    line-height: 35px;
+                    padding-left: 10px;
+                }
+
+            }
+            .span1{
+                padding-top: 5px;
+                font-size: 25px;
+            }
+            .btn3{
+                width: 15%;
+                border: none;
+                background: #FFD81B;
+                transition: all 2s ease;
+                i{
+                    padding-right: 15px;
+                }
+                &:hover{
+                    background: black;
+                    color: #FFD81B;
+                }
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,207 @@
+
+
+
+.post{
+    background-image: url(../../assets/image9/640.jpg);
+    background-position: 50% 0;
+    background-size: cover;
+    background-attachment: fixed;
+    .bg-post{
+        background-color: rgba(246, 246, 246, 0.6);
+        svg{
+            width: 600%;
+            min-width: 600%;
+            height: 24px;
+            overflow: hidden;
+            transform: rotateY(180deg) translateX(50%);
+            position: relative;
+            left: 50%;
+            path{
+                fill: rgba(255, 255, 255, 0.39);
+            }
+        }
+        .container-post{
+            margin: 0 auto;
+            width: 75%;
+            padding: 4% 0;
+            center{
+                h2{
+                    font-family: $font-fam1;
+                    font-weight: 300;
+                    font-size: 35px;
+                    position: relative;
+                    margin-bottom: 8%;
+                    span{
+                        color: #f14833;
+                    }
+                    &::before{
+                        content: '';
+                        position: absolute;
+                        border-bottom: 2px solid #f14833;
+                        width: 15%;
+                        top: 73px;
+                        left: 0;
+                        right: 0;
+                        margin: 0 auto;
+                    } 
+                }
+            }
+         
+            .info-post{
+                display: flex;
+                justify-content: space-between;
+                .post-1{
+                    background: white;
+                    width: 24%;
+                    height: 100%;
+                    img{
+                        width: 100%;
+                    }
+                    .con-post-1{
+                        padding: 15px;
+                        h3{
+                            margin-top: 0px;
+                            font-family: $font-fam1;
+                            color : #555;
+                            cursor: pointer;
+                            line-height: 30px;
+                            transition: all 0.5s ease-in-out;
+                            &:hover{
+                                color: $color;
+                            }
+                        }
+                        .text-post{
+                            font-family: $font-fam1;
+                            font-size: 15px;
+                            line-height: 26px;
+                        }
+                        p{  
+                            margin-top: 30px;
+                            transition: all 0.5s ease-in-out;        
+                            i{
+                                color: #c4c4c4;
+                                margin-right: 9px;
+                            }
+                            span{
+                                background: rgba(45,45,45,0.45);
+                                font-family: $font-fam;
+                                font-size: 10px;
+                                padding: 2px 6px 3px 6px;
+                                color: white;
+                                border-radius: 2px;
+                                letter-spacing: 0.5px;
+                                font-weight: bolder;
+                                margin-right: 6px;
+                                cursor: pointer;
+                                                   
+                            }
+                            &:hover{
+                                span{
+                                    background-color: $color;
+                                }
+                                i{
+                                    color: #a8a7a7;
+                                }
+                                
+                            }
+                        }
+                    }
+                }
+            }
+            button{
+                margin-top: 40px;
+                cursor: pointer;
+                color: #F5F5F5;
+                background-color: rgba(51,51,51,0.72);
+                font-size: 14px;
+                font-family: $font-fam1;
+                padding: 13px 30px;
+                border-radius: 5px;
+                border: 1px solid #333;
+                margin-right: 5px;
+                transition: all 0.5s ease-in-out; 
+                &:hover{
+                    background-color: rgba(51,51,51,0.87);
+                }
+    
+            }
+        }  
+    }
+    
+}
+@media only screen and (max-width : 1024px){
+    .post{
+        .bg-post{
+            .container-post{
+                width: 90%;
+            }
+        }
+        
+    }
+}
+@media only screen and (max-width : 800px){
+    .post{
+        .bg-post{
+            .container-post{
+                width: 90%;
+                .info-post{
+                    flex-wrap: wrap;
+                    .post-1{
+                        width: 31%
+                    }
+                }
+            }
+        }
+       
+    }
+}
+@media only screen and (max-width : 768px){
+    .post{
+        .bg-post{
+            .container-post{
+                padding-bottom: 8%;
+                width: 90%;
+                .info-post{
+                    display: block;
+                    padding-top: 30px;
+                    .post-1{
+                        width: 100%;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+        }
+     
+    }
+}
+@media only screen and (max-width : 600px){
+    .post{
+        .bg-post{
+            .container-post{
+                center{
+                    h2::before{
+                        top: 108px;
+                    }
+                }
+               
+            }
+        }
+
+    }
+}
+@media only screen and (max-width : 320px){
+    .post{
+        .bg-post{
+            .container-post{
+                center{
+                    h2::before{
+                        top: 0px;
+                        bottom: -17px;;
+                    }
+                }
+               
+            }
+        }
+       
+    }
+}

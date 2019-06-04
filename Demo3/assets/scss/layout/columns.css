@@ -1,0 +1,73 @@
+.columns {
+  display: flex;
+  color: white;
+  font-family: 'Mukta', sans-serif; }
+  .columns .column-1 {
+    background-color: #3BAEC0; }
+    .columns .column-1 .container-col {
+      padding: 34px; }
+      .columns .column-1 .container-col h4 {
+        font-size: 20px; }
+      .columns .column-1 .container-col p {
+        padding-bottom: 15px; }
+      .columns .column-1 .container-col button {
+        padding: 6px 28px;
+        background: none;
+        color: white;
+        cursor: pointer;
+        border: 1px solid white;
+        font-family: 'Mukta', sans-serif;
+        margin-bottom: 15px;
+        transition: all 0.5s ease-out;
+        letter-spacing: 2px; }
+      .columns .column-1 .container-col button:hover {
+        background: white;
+        color: #3BAEC0; }
+  .columns .column-2 {
+    background-color: #3697C2; }
+    .columns .column-2 .container-col {
+      padding: 34px; }
+      .columns .column-2 .container-col h4 {
+        font-size: 20px; }
+      .columns .column-2 .container-col p {
+        padding-bottom: 15px; }
+      .columns .column-2 .container-col button {
+        padding: 6px 28px;
+        background: none;
+        color: white;
+        cursor: pointer;
+        border: 1px solid white;
+        font-family: 'Mukta', sans-serif;
+        margin-bottom: 15px;
+        transition: all 0.5s ease-out;
+        letter-spacing: 2px; }
+      .columns .column-2 .container-col button:hover {
+        background: white;
+        color: #3BAEC0; }
+  .columns .column-3 {
+    background-color: #327FC7; }
+    .columns .column-3 .container-col {
+      padding: 34px; }
+      .columns .column-3 .container-col h4 {
+        font-size: 20px; }
+      .columns .column-3 .container-col p {
+        padding-bottom: 15px; }
+      .columns .column-3 .container-col button {
+        padding: 6px 28px;
+        background: none;
+        color: white;
+        cursor: pointer;
+        border: 1px solid white;
+        font-family: 'Mukta', sans-serif;
+        margin-bottom: 15px;
+        transition: all 0.5s ease-out;
+        letter-spacing: 2px; }
+      .columns .column-3 .container-col button:hover {
+        background: white;
+        color: #3BAEC0; }
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    display: block; } }
+
+/*# sourceMappingURL=columns.css.map */

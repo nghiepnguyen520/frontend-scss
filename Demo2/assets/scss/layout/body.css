@@ -1,0 +1,318 @@
+.body {
+  margin: 0px 10px; }
+  .body .welcome {
+    margin: 0 auto;
+    width: 65%;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 10%; }
+    .body .welcome .info-wel {
+      width: 50%;
+      line-height: 28px; }
+      .body .welcome .info-wel p {
+        color: #9C9C9C; }
+      .body .welcome .info-wel button {
+        width: 25%;
+        margin-top: 20px;
+        background-color: #FFD81B;
+        color: black;
+        padding: 11px;
+        cursor: pointer;
+        border: none;
+        transition: all 2s ease 0s; }
+        .body .welcome .info-wel button:hover {
+          background: black;
+          color: #FFD81B; }
+    .body .welcome .img-wel {
+      width: 50%; }
+      .body .welcome .img-wel img {
+        width: 90%; }
+  .body .slide-product {
+    background-image: url(../../assets/images/new-parallax-1.jpg);
+    height: 485px;
+    width: 100%; }
+    .body .slide-product .pre-slide {
+      position: absolute;
+      color: red;
+      left: -33px; }
+    .body .slide-product .next-slide {
+      right: -33px; }
+    .body .slide-product .list-product {
+      margin: 0 auto;
+      width: 65%;
+      padding-top: 20px; }
+      .body .slide-product .list-product #slider-product .info-img2 {
+        width: 95%;
+        padding-top: 20px; }
+        .body .slide-product .list-product #slider-product .info-img2 .text {
+          background: white;
+          position: relative;
+          bottom: 25px;
+          text-align: center;
+          padding: 7px 15px;
+          height: 170px; }
+          .body .slide-product .list-product #slider-product .info-img2 .text span {
+            padding: 10px;
+            background-color: #FFD81B;
+            border-radius: 50%;
+            position: relative;
+            bottom: 18px; }
+          .body .slide-product .list-product #slider-product .info-img2 .text p {
+            color: #9C9C9C; }
+  .body .modi {
+    margin: 0 auto;
+    width: 65%;
+    line-height: 26px; }
+    .body .modi h1 {
+      padding-top: 45px; }
+    .body .modi p {
+      color: #9C9C9C; }
+    .body .modi .info-modi {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      padding-top: 30px;
+      padding-bottom: 22%; }
+      .body .modi .info-modi .info-modi-1 {
+        width: 32%;
+        position: relative;
+        height: 332px; }
+        .body .modi .info-modi .info-modi-1 img {
+          width: 95%;
+          position: absolute; }
+        .body .modi .info-modi .info-modi-1 .text-color {
+          position: relative;
+          top: 69%; }
+          .body .modi .info-modi .info-modi-1 .text-color h3 {
+            color: #FFD81B;
+            width: 50%;
+            padding: 20px; }
+        .body .modi .info-modi .info-modi-1 .none {
+          position: absolute;
+          top: 78%; }
+          .body .modi .info-modi .info-modi-1 .none h3 {
+            color: white;
+            width: 82%;
+            padding-top: 16px;
+            padding: 20px; }
+        .body .modi .info-modi .info-modi-1 .none1 {
+          position: absolute;
+          top: 69%; }
+          .body .modi .info-modi .info-modi-1 .none1 h3 {
+            color: white;
+            width: 58%;
+            padding: 20px; }
+  .body .slide-review {
+    background-image: url(../../assets/images/b-g-2.jpg);
+    height: 310px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    opacity: 0.8; }
+    .body .slide-review .slide-review1 {
+      margin: 0 auto;
+      width: 65%;
+      height: 100%;
+      position: relative; }
+      .body .slide-review .slide-review1 .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s; }
+@-webkit-keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+@keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+      .body .slide-review .slide-review1 .item2 {
+        display: none; }
+        .body .slide-review .slide-review1 .item2 .slide-content2 {
+          width: 100%;
+          height: 100%;
+          position: absolute; }
+          .body .slide-review .slide-review1 .item2 .slide-content2 .slide-content-left2 {
+            color: white;
+            margin: 0 auto;
+            width: 86%;
+            padding-top: 25px;
+            line-height: 25px; }
+            .body .slide-review .slide-review1 .item2 .slide-content2 .slide-content-left2 p {
+              padding-bottom: 20px;
+              color: #9C9C9C; }
+            .body .slide-review .slide-review1 .item2 .slide-content2 .slide-content-left2 i {
+              color: #FFD81B; }
+    .body .slide-review .left2 {
+      position: absolute;
+      bottom: 72%;
+      font-size: 32px;
+      cursor: pointer;
+      left: 18%; }
+      .body .slide-review .left2 a {
+        color: white;
+        transition: all 1s; }
+    .body .slide-review .right2 {
+      position: absolute;
+      bottom: 72%;
+      font-size: 32px;
+      right: 18%;
+      color: white;
+      cursor: pointer; }
+      .body .slide-review .right2 a {
+        color: white;
+        transition: all 1s; }
+  .body .news {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 20px; }
+    .body .news .news1 {
+      width: 79%;
+      color: #9C9C9C; }
+    .body .news .info-news {
+      padding-top: 40px;
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 11%; }
+      .body .news .info-news .info-news1 {
+        border: 2px solid;
+        width: 32%; }
+        .body .news .info-news .info-news1 img {
+          width: 100%; }
+        .body .news .info-news .info-news1 div {
+          padding: 20px; }
+        .body .news .info-news .info-news1 p {
+          color: #9C9C9C;
+          width: 100%; }
+  .body .banner {
+    background-image: url(../../assets/images/parallax-3.jpg);
+    height: 310px;
+    width: 100%;
+    background-position: center;
+    background-size: cover; }
+    .body .banner img {
+      padding-top: 25px; }
+  .body .information {
+    margin: 0px auto;
+    width: 65%;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-between; }
+    .body .information .award {
+      line-height: 25px;
+      width: 50%; }
+      .body .information .award p {
+        color: #9C9C9C; }
+      .body .information .award .contact {
+        display: flex;
+        flex-wrap: wrap; }
+        .body .information .award .contact .contact-1 {
+          width: 50%;
+          padding-bottom: 24px; }
+          .body .information .award .contact .contact-1 i {
+            padding-right: 13px; }
+        .body .information .award .contact .contact-2 {
+          width: 50%;
+          padding-bottom: 24px; }
+          .body .information .award .contact .contact-2 i {
+            padding-right: 13px; }
+        .body .information .award .contact .contact-3 {
+          width: 50%;
+          padding-bottom: 24px; }
+          .body .information .award .contact .contact-3 i {
+            padding-right: 13px; }
+        .body .information .award .contact .contact-4 {
+          width: 50%;
+          padding-bottom: 24px; }
+          .body .information .award .contact .contact-4 i {
+            padding-right: 13px; }
+    .body .information .open-hour {
+      width: 40%;
+      background: #1C1C1C;
+      background-position: center;
+      opacity: 0.9; }
+      .body .information .open-hour .open-container {
+        color: white;
+        padding: 25px; }
+        .body .information .open-hour .open-container .border-container {
+          border: 1px solid #4E4E4E; }
+          .body .information .open-hour .open-container .border-container .hour {
+            padding: 15px; }
+            .body .information .open-hour .open-container .border-container .hour ul.leaders {
+              line-height: 35px;
+              max-width: 40em;
+              padding: 0;
+              overflow-x: hidden;
+              list-style: none; }
+            .body .information .open-hour .open-container .border-container .hour ul.leaders li:before {
+              float: left;
+              width: 0;
+              white-space: nowrap;
+              content: ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . ";
+              background: #1C1C1C; }
+            .body .information .open-hour .open-container .border-container .hour ul.leaders span {
+              padding-right: 0.33em;
+              background: #1C1C1C; }
+            .body .information .open-hour .open-container .border-container .hour ul.leaders i {
+              padding-right: 0.33em;
+              background: #1C1C1C; }
+            .body .information .open-hour .open-container .border-container .hour ul.leaders span + span {
+              float: right;
+              padding-left: 0.33em;
+              background: #1C1C1C; }
+  .body .form {
+    background: #F5F5F5; }
+    .body .form .info-form {
+      margin: 0 auto;
+      width: 65%;
+      display: flex;
+      padding: 50px 0px;
+      justify-content: space-between; }
+      .body .form .info-form .container-1 {
+        width: 20%;
+        position: relative; }
+        .body .form .info-form .container-1 #search {
+          width: 81%;
+          border: 2px solid;
+          padding: 10px;
+          -webkit-appearance: none; }
+        .body .form .info-form .container-1 .btn2 {
+          border: 2px solid;
+          background: white;
+          position: absolute;
+          line-height: 35px;
+          padding-left: 10px;
+          padding-right: 10px;
+          left: 82%; }
+        .body .form .info-form .container-1 .btn1 {
+          position: absolute;
+          border: 2px solid;
+          background: white;
+          padding: 10px;
+          left: 77%; }
+        .body .form .info-form .container-1 #picker {
+          width: 76%;
+          border: 2px solid;
+          -webkit-appearance: none;
+          line-height: 35px;
+          padding-left: 10px; }
+      .body .form .info-form .span1 {
+        padding-top: 5px;
+        font-size: 25px; }
+      .body .form .info-form .btn3 {
+        width: 15%;
+        border: none;
+        background: #FFD81B;
+        transition: all 2s ease; }
+        .body .form .info-form .btn3 i {
+          padding-right: 15px; }
+        .body .form .info-form .btn3:hover {
+          background: black;
+          color: #FFD81B; }
+
+/*# sourceMappingURL=body.css.map */

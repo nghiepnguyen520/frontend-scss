@@ -1,0 +1,57 @@
+
+
+
+.content{
+    .container-content{
+        margin: 0 auto;
+        width: 72%;
+        justify-content: space-between;
+        display: flex;
+        padding: 4% 0px;
+        .content-1{
+            width: 30%;            
+            h3{
+                font-size: 30px; 
+                font-weight: 300;
+                font-family: $font-fam1;
+                margin-bottom: 40px;
+                span{
+                    @include span;
+                }
+
+            }
+
+            p{
+                font-family: $font-fam;
+                font-size: 15px;
+                line-height: 24px;
+            }
+        }
+    }
+}
+@media only screen and (max-width : 1024px){
+    .content{
+        .container-content{
+            width: 90%;
+        }
+    }
+}
+@media only screen and (max-width : 800px){
+    .content{
+        .container-content{
+            display: block;
+            .content-1{
+                width: 100%;
+                margin-bottom: 30px;
+                h3{
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width : 320px){
+    .content .container-content .content-1 h3 span::after {
+        width: 100%;
+    }
+}

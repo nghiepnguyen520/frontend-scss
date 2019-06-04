@@ -1,0 +1,172 @@
+
+
+.welcome{
+    .container-wel{
+        margin: 0 auto;
+        width: 55%;
+        font-family: 'Mukta', sans-serif;
+        color: #747474;
+        h2{
+            padding-top: 8%;
+            font-size: 40px;
+        }
+        .text1{
+            width: 76%;
+            font-size: 20px;
+            line-height: 40px;
+        }
+        .info-wel{
+            padding-top: 35px;
+            padding-bottom: 15%;
+            display: flex;
+            justify-content: space-between;
+            .info-wel-1{
+                width: 24%;
+                p{
+                    font-size: 13px;
+                    line-height: 25px;
+                   
+                }
+                h4{
+                    transition: all 0.5s ease-out
+                }
+                h4:hover{
+                    color: #3BAEC0;
+                    cursor: pointer;
+                }
+                img{
+                    cursor: pointer;
+                }
+            }
+        }
+
+    }
+}
+@media only screen and (max-width: 1921px){
+    .welcome{
+        .container-wel{
+            .info-wel{
+                .info-wel-1{
+                    width: 22%;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1600px){
+    .welcome{
+        .container-wel{
+            .info-wel{
+                .info-wel-1{
+                    width: 23%;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1536px){
+    .welcome .container-wel .info-wel .info-wel-1 {
+        width: 24%;
+    }
+}
+@media only screen and (max-width: 1440px){
+    .welcome{
+        .container-wel{
+            width: 60%;
+            .info-wel{
+                .info-wel-1{
+                    width: 24%;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1400px){
+    .welcome{
+        .container-wel{
+            width: 62%;
+            .info-wel{
+                .info-wel-1{
+                    width: 24%;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1366px){
+    .welcome{
+        .container-wel{
+            width: 62%;
+        }
+    }
+}
+@media only screen and (max-width: 1024px){
+    .welcome{
+        .container-wel{
+            width: 91%;
+            .info-wel{
+                h4{
+                    height: 30px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1024px){
+    .welcome{
+        .container-wel{
+            .info-wel{
+                h4{
+                    height: 55px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 600px){
+    .welcome{
+        .container-wel{
+            .info-wel{
+                display: block;
+                .info-wel-1{
+                    padding-bottom: 30px;
+                    width: 100%;
+                    h4{
+                        height: 20px;
+                        margin-top: 0px;
+                    }
+                }               
+            }
+        }
+    }
+}
+@media only screen and (max-width: 415px){
+    .welcome{
+        .container-wel{
+            .text1{
+                width: 100%;
+                font-size: 17px;
+            }
+            h2{
+                font-size: 30px;
+            }
+        }
+        
+    }
+}
+@media only screen and (max-width: 376px){
+    .welcome{
+        .container-wel{
+            .text1{
+                font-size: 16px
+            }
+        }
+    }
+}
+@media only screen and (max-width: 360px){
+    .welcome{
+        .container-wel{
+            width: 90%;
+        }
+    }
+}

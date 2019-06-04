@@ -1,0 +1,118 @@
+
+
+.bands{
+    background-image: url(../../assets/image4/light_gradient_bands_bg.jpg);
+    background-size: cover;
+    height: 465px;
+    overflow: hidden;
+    .container-bands{
+        margin: 0 auto;
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
+        .img-band{
+            width: 63%;
+            img{
+                width: 85%;
+            }
+        }
+        .info-band{
+            width: 37%;
+            font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+            h2{
+                font-size: 40px;
+                font-weight: 300;
+                padding-top: 5%;
+                margin-bottom: 10px;
+                color: #515b69;
+                padding-top: 23%;
+            }
+            p{
+                font-size: 19px;
+                line-height: 30px;
+                color: #747474;
+            }
+            button{
+                color: white;
+                background: #74849C;
+                border: none;
+                padding: 14px 25px;
+                border-radius: 3px;
+                font-size: 17px;
+                cursor: pointer;
+                transition: all 0.5s ease-out;
+            }
+            button:hover{
+                background-color: #35baf2
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1920px){
+    .bands{
+        height: 570px;
+    }
+}
+@media only screen and (max-width: 1680px){
+    .bands{
+        height: 506px;
+    }
+}
+@media only screen and (max-width: 1600px){
+    .bands{
+        height: 475px;
+    }
+}
+@media only screen and (max-width: 1536px){
+    .bands{
+        height: 432px;
+    }
+}
+@media only screen and (max-width: 1440px){
+    .bands{
+        height: 424px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .bands{
+        .container-bands{
+            width: 80%;
+            .img-band{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 800px){
+    .bands{
+        height: 840px;
+        .container-bands{
+            width: 80%;
+            display: block;
+            .img-band{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+            .info-band{
+                width: 100%;
+                h2{
+                    padding-top: 7%
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 600px){
+    .bands{
+        height: 740px;
+    }
+}
+@media only screen and (max-width: 415px){
+    .bands{
+        height: 620px;
+    }
+}

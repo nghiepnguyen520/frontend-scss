@@ -1,0 +1,849 @@
+
+
+header{
+    .slideshow{
+        width: 100%;
+        position: relative;
+        .slide-item{
+            position: relative;           
+            .fade {
+                -webkit-animation-name: fade;
+                -webkit-animation-duration: 1.5s;
+                animation-name: fade;
+                animation-duration: 1.5s;
+            }
+            @-webkit-keyframes fade {
+                from {opacity: .4} 
+                to {opacity: 1}
+              }
+              
+            @keyframes fade {
+                from {opacity: .4} 
+                to {opacity: 1}
+            }
+            .item2{
+                display: none;
+                background-image: url(../../assets/image8/main-big-baner-2.jpg);
+                background-size: cover;
+                height: 465px;
+                background-position: center;
+                .slide-content{
+                    width: 100%;
+                    position: absolute;
+                    
+                    .slide-content-main{
+                        color: #fff;
+                        margin: 0 auto;
+                        width: 62%;
+                        display: flex;
+                        justify-content: space-between;
+                        .slide-left{
+                            width: 100%;
+                            position: relative;
+                            text-align: center;
+                            z-index: 1;
+                            h1{
+                                position: absolute;
+                                z-index: 1;
+                                color: rgba(255, 255, 255, 0.2);
+                                font-size: 196px;
+                                font-family: Lora ,'MS Sans Serif',sans-serif;
+                                font-weight: 500;
+                                margin-top: 65px;
+                                width: 100%;
+                            }
+                            div{
+                                position: absolute;
+                                z-index: 2;
+                                margin-top: 90px;
+                                line-height: 17px;
+                                width: 100%;
+                                h2{
+                                    font-size: 110px;
+                                    font-family: $font-fam;
+                                    margin-bottom: 0px;
+                                }
+                                h3{
+                                    font-family: 'Caveat';
+                                    font-size: 67px;
+                                    margin-bottom: 50px;
+                                }
+                            }
+                        }   
+                    } 
+                }
+            }
+            .item{
+                display: none;
+                background-image: url(../../assets/image8/main-big-baner-12.jpg);
+                background-size: cover;
+                height: 470px;
+                .slide-content{
+                    width: 100%;
+                    position: absolute;
+                   
+                    .slide-content-main{
+                        color: #fff;
+                        margin: 0 auto;
+                        width: 62%;
+                        display: flex;
+                        justify-content: space-between;
+                        .slide-left{
+                            width: 65%;
+                            position: relative;
+                            z-index: 1;
+                            h1{
+                                position: absolute;
+                                z-index: 1;
+                                opacity: 0.2;
+                                font-size: 196px;
+                                font-family: Lora ,'MS Sans Serif',sans-serif;
+                                font-weight: 500;
+                                margin-top: 65px;
+                            }
+                            div{
+                                position: absolute;
+                                z-index: 2;
+                                margin-top: 90px;
+                                line-height: 17px;
+                                h2{
+                                    font-size: 110px;
+                                    font-family: $font-fam;
+                                    margin-bottom: 0px;
+                                }
+                                h3{
+                                    font-family: 'Caveat';
+                                    font-size: 67px;
+                                    margin-bottom: 50px;
+                                }
+                                .btns{
+                                    margin-top: 0px;
+                                    .btn1{
+                                        padding: 12px 25px;
+                                        background: none;
+                                        color: white;
+                                        border: 2px solid;
+                                        font-size: 14px;
+                                        font-family: $font-fam;
+                                        margin-right: 20px;
+                                        transition: all 0.5s ease-in-out;
+                                        cursor: pointer;
+                                        &:hover{
+                                            background: white;
+                                            color: black;
+                                            border: 2px solid white;
+                                        }
+                                    }
+                                    .btn2{
+                                        padding: 12px 25px;
+                                        background-color: rgb(29, 170, 163);
+                                        color: white;
+                                        font-size: 14px;
+                                        font-family: $font-fam;
+                                        border: 2px solid rgb(29, 170, 163);
+                                        transition: all 0.5s ease-in-out;
+                                        cursor: pointer;
+                                        &:hover{
+                                            background: rgb(26, 146, 140);
+                                            border: 2px solid rgb(26, 146, 140);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .slide-right{
+                            width: 42%;
+                            img{
+                                width: 100%;
+                                position: relative;
+                                z-index: 1;
+                                bottom: 15%;
+                                transform: matrix3d(0.990268, 0.139173, 0, 0, -0.139173, 0.990268, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+                            }
+                        }
+                    } 
+                }
+            }
+            .item1{
+                display: none;
+                background: rgb(238, 238, 238);
+                height: 465px;
+                background-position: center;
+                .slide-content{
+                    width: 100%;
+                    position: absolute;
+                    .slide-content-main{
+                        color: black;
+                        display: flex;
+                        justify-content: space-between;
+                        .slide-left{
+                            width: 30%;
+                            position: relative;
+                            z-index: 1;
+                            left: 19%;
+                            h1{
+                                position: absolute;
+                                z-index: 1;
+                                font-size: 196px;
+                                font-family: Lora ,'MS Sans Serif',sans-serif;
+                                margin-top: 65px;
+                                color: rgba(160, 160, 160, 0.2);
+                                font-weight: 500;
+                                
+                            }
+                            div{
+                                position: absolute;
+                                z-index: 2;
+                                margin-top: 90px;
+                                h2{
+                                    font-size: 60px;
+                                    font-family: $font-fam;
+                                    margin-bottom: 0px;
+                                    font-family: Lora,'MS Sans Serif',Geneva,sans-serif;
+                                    width: 66%;
+                                    margin-top: 25px;
+                                    margin-left: 13px;
+                                }
+                                p{
+                                    color: rgb(117, 117, 117);
+                                    font-size: 16px;
+                                    font-family: $font-fam
+                                }
+                                .btns{
+                                    margin-top: 0px;
+                                    .btn1{
+                                        padding: 12px 25px;
+                                        background: black;
+                                        color: white;
+                                        border: 2px solid black;
+                                        font-size: 14px;
+                                        font-family: $font-fam;
+                                        margin-right: 20px;
+                                        transition: all 0.5s ease-in-out;
+                                        cursor: pointer;
+                                        &:hover{
+                                            opacity: 0.7;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .slide-right{
+                            width: 50%;
+                            background-image: url(../../assets/image8/slider-child.png);
+                            background-size: cover;
+                            height: 466px;
+                        }
+                    } 
+                }
+            }
+        }
+        .left{
+            position: absolute;
+            bottom: 42%;
+            font-size: 45px;
+            cursor: pointer;
+            left: 10px;
+            a{
+                color: rgba(255,255,255,0.5);
+                transition: all 1s;
+                &:hover{
+                    color: #fff;
+                }
+            }
+        }
+        .right{
+            position: absolute;
+            bottom: 42%;
+            font-size: 45px;
+            right: 10px;
+            cursor: pointer;
+            a{
+                color: rgba(255,255,255,0.5);
+                transition: all 1s;
+                &:hover{
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:1920px){
+    header{
+        .slideshow{
+            .slide-item{
+                .item{
+                    height: 590px;
+                }
+                .item1{
+                    height: 590px;
+                    .slide-content{
+                        .slide-content-main{
+                            .slide-right{
+                                height: 590px;
+                            }
+                        }
+                    }
+                }
+                .item2{
+                    height: 590px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:1680px){
+    header{
+        .slideshow{
+            .slide-item{
+                .item{
+                    height: 520px;
+                }
+                .item1{
+                    height: 520px;
+                    .slide-content{
+                        .slide-content-main{
+                            .slide-right{
+                                height: 520px;
+                            }
+                        }
+                    }
+                }
+                .item2{
+                    height: 520px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:1537px){
+    header{
+        .slideshow{
+            .slide-item{
+                .item{
+                    height: 470px;
+                }
+                .item1{
+                    height: 470px;
+                    .slide-content{
+                        .slide-content-main{
+                            .slide-right{
+                                height: 470px;
+                            }
+                        }
+                    }
+                }
+                .item2{
+                    height: 470px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:1440px){
+    header{
+        .slideshow{
+            .slide-item{
+                .item{
+                    height: 500px;
+                    .slide-content{
+                        .slide-content-main{
+                            width: 70%;
+                        }
+                    }
+                }
+                .item1{
+                    height: 500px;
+                    .slide-content{
+                        .slide-content-main{
+                            .slide-left{
+                                left: 15%;
+                            }
+                            .slide-right{
+                                height: 500px;
+                            }
+                        }
+                    }
+                }
+                .item2{
+                    height: 500px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:1024px){
+    header{
+        .slideshow{
+            .slide-item{
+                .item{
+                    height: 440px;
+                    .slide-content{
+                        .slide-content-main{
+                            width: 87%;
+                            .slide-left{
+                                h1{
+                                    margin-top: 16px;
+                                }
+                                div{
+                                    margin-top: 45px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .item1{
+                    height: 440px;
+                    .slide-content{
+                        .slide-content-main{
+                            .slide-left{
+                                left: 8%;
+                                h1{
+                                    margin-top: 20px;
+                                }
+                                div{
+                                    margin-top: 45px;
+                                    p{
+                                        line-height: 26px;
+                                    }
+                                }
+                            }
+                            .slide-right{
+                                height: 440px;
+                            }
+                        }
+                    }
+                }
+                .item2{
+                    height: 440px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:800px){
+    header{
+        .slideshow{
+            .slide-item{
+                .item{
+                    height: 415px;
+                    .slide-content{
+                        .slide-content-main{
+                            .slide-left{
+                                div{
+                                    h2{
+                                        font-size: 82px;
+                                    }
+                                    h3{
+                                        font-size: 51px;
+                                    }
+                                }
+                            }
+                            .slide-right{
+                                img{
+                                    bottom: 3%
+                                }
+                            }
+                        }
+                    }
+                }
+                .item1{
+                    height: 415px;
+                    .slide-content{
+                        .slide-content-main{
+                            .slide-left{
+                                left: 7%;
+                                h1{
+                                    z-index: 1;
+                                }
+                            }
+                            .slide-right{
+                                height: 415px;
+                                position: relative; 
+                                z-index: 2
+                            }
+                        }
+                    }
+                }
+                .item2{
+                    height: 415px;
+                    .slide-content{
+                        .slide-content-main{
+                            width: 90%;
+                            .slide-left{
+                                h1{
+                                    margin-top: 50px
+                                }
+                                div{
+                                    margin-top: 70px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .left{
+                z-index: 5;
+            }
+            .right{
+                z-index: 5;
+            }
+        }
+    }
+}
+@media only screen and (max-width:600px){
+    header{
+        .slideshow{
+            .slide-item{
+                .item{
+                    height: 415px;
+                    .slide-content{
+                        .slide-content-main{
+                            width: 90%;
+                            display: block;
+                            .slide-left{
+                                width: 100%;
+                                z-index: 2;
+                                text-align: center;
+                                h1{
+                                    width: 100%;
+                                }
+                                div{
+                                    width: 100%;
+                                    .btns{
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                            .slide-right{
+                                width: 50%;
+                                margin: 0 auto;
+                            }
+                        }
+                    }
+                }
+                .item1{
+                    height: 415px;
+                    .slide-content{
+                        .slide-content-main{
+                            .slide-left{
+                                z-index: 3;
+                            }
+                            .slide-right{
+                                width: 34%;
+                                height: 415px;;
+                            }
+                        }
+                    }
+                }
+                .item2{
+                    height: 415px;
+                    .slide-content{
+                        .slide-content-main{
+                            .slide-left{                              
+                                div{
+                                    
+                                    margin-top: 70px;
+                                    h2{
+                                        font-size: 77px;
+                                    }
+                                    h3{
+                                        font-size: 53px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:415px){
+    header{
+        .slideshow{
+            .slide-item{
+                .item{
+                    height: 370px;
+                    .slide-content{
+                        .slide-content-main{
+                            .slide-left{
+                                h1{
+                                    font-size: 135px;
+                                }
+                                div{
+                                    h2{
+                                        font-size: 60px
+                                    }
+                                    h3{
+                                        font-size: 39px;
+                                    }
+                                }
+                            }
+                            .slide-right{
+                                width: 62%;
+                            }
+                        }
+                    }
+                }
+                .item1{
+                    height: 370px;
+                    .slide-content{
+                        .slide-content-main{
+                            .slide-left{
+                                left: 11%;
+                                h1{
+                                    font-size: 135px;
+                                    margin-top: 3px;
+                                }
+                                div{
+                                    margin-top: 0px;
+                                    h2{
+                                        font-size: 50px
+                                    }
+                                    h3{
+                                        font-size: 39px;
+                                    }
+                                }
+                            }
+                            .slide-right{
+                                width: 34%;
+                                height: 370px;;
+                            }
+                        }
+                    }
+                }
+                .item2{
+                    height: 370px;
+                    .slide-content{
+                        .slide-content-main{
+                            width: 80%;
+                            .slide-left{                              
+                                h1{
+                                    font-size: 135px;
+                                }
+                                div{
+                                    h2{
+                                        font-size: 60px
+                                    }
+                                    h3{
+                                        font-size: 39px;
+                                        line-height: 40px
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:385px){
+    header .slideshow .slide-item .item2 .slide-content .slide-content-main .slide-left div h2 {
+        font-size: 57px;
+    }
+}
+@media only screen and (max-width:376px){
+    header .slideshow .slide-item .item2 .slide-content .slide-content-main .slide-left div h2 {
+        font-size: 53px;
+    }
+}
+@media only screen and (max-width:360px){
+    header{
+        .slideshow{
+            .slide-item{
+                .item{
+                    .slide-content{
+                        .slide-content-main{
+                            display: block;
+                            .slide-left{
+                                h1{
+                                    font-size: 120px;
+                                }
+                                div{
+                                    h2{
+                                        font-size: 53px
+                                    }
+                                    h3{
+                                        font-size: 35px;
+                                    }
+                                    .btns{
+                                        .btn1{
+                                            padding: 10px 20px;
+                                            margin-right: 10px
+                                        }
+                                        .btn2{
+                                            padding: 10px 20px
+                                        }
+                                    }
+                                }
+                            }
+                            .slide-right{
+                                width: 75%;
+                            }
+                        }
+                    }
+                }
+                .item1{
+                    height: 370px;
+                    .slide-content{
+                        .slide-content-main{
+                            .slide-left{
+                                left: 11%;
+                                h1{
+                                    font-size: 110px;
+                                    margin-top: 3px;
+                                }
+                                div{
+                                    h2{
+                                        font-size: 40px
+                                    }
+                                    p{
+                                        font-size: 14px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .item2{
+                    height: 370px;
+                    .slide-content{
+                        .slide-content-main{
+                            width: 80%;
+                            .slide-left{                              
+                                h1{
+                                    font-size: 110px;
+                                }
+                                div{
+                                    h2{
+                                        font-size: 45px
+                                    }
+                                    h3{
+                                        font-size: 35px;
+                                        line-height: 40px
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .left{
+                a{
+                    font-size: 30px;
+                }
+                
+            }
+            .right{
+                a{
+                    font-size: 30px;
+                }
+                
+            }
+        }
+    }
+}
+@media only screen and (max-width:320px){
+    header{
+        .slideshow{
+            .slide-item{
+                .item{
+                    height: 350px;
+                    .slide-content{
+                        .slide-content-main{
+                            display: block;
+                            .slide-left{
+                                h1{
+                                    font-size: 120px;
+                                }
+                                div{
+                                    h2{
+                                        font-size: 53px
+                                    }
+                                    h3{
+                                        font-size: 35px;
+                                    }
+                                    .btns{
+                                        .btn1{
+                                            padding: 10px 14px;
+                                            margin-right: 10px
+                                        }
+                                        .btn2{
+                                            padding: 10px 14px
+                                        }
+                                    }
+                                }
+                            }
+                            .slide-right{
+                                width: 75%;
+                            }
+                        }
+                    }
+                }
+                .item1{
+                    height: 350px;
+                    .slide-content{
+                        .slide-content-main{
+                            .slide-left{
+                                left: 11%;
+                                h1{
+                                    font-size: 110px;
+                                    margin-top: 3px;
+                                }
+                                div{
+                                    h2{
+                                        font-size: 40px
+                                    }
+                                    p{
+                                        font-size: 14px;
+                                    }
+                                }
+                            }
+                            .slide-right{
+                                height: 370px;
+                            }
+                        }
+                    }
+                }
+                .item2{
+                    height: 350px;
+                    .slide-content{
+                        .slide-content-main{
+                            width: 80%;
+                            .slide-left{                              
+                                h1{
+                                    font-size: 110px;
+                                }
+                                div{
+                                    h2{
+                                        font-size: 45px
+                                    }
+                                    h3{
+                                        font-size: 35px;
+                                        line-height: 40px
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .left{
+                a{
+                    font-size: 30px;
+                }
+                
+            }
+            .right{
+                a{
+                    font-size: 30px;
+                }
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,259 @@
+
+@import  '../helper/mixin.scss';
+@import  '../helper/font.scss';
+
+
+body{
+    margin: 0px;
+}
+
+
+// .menu-mobile{
+//     display: none;
+//     background: black;
+//     .container-mobile{
+//         display: flex;
+//         justify-content: space-between;
+//         margin: 0 auto;
+//         width: 90%;
+//         padding: 25px 0px;
+//         .container-right{
+//             color : #4ca9b4;
+//             a i{
+//                 padding-top: 7px;
+//             }
+//         }
+//     }
+// }
+// #menu-one{
+//     display: none;
+//     background: black;
+//     .menu1{
+// 		.active1{
+// 			background: #4ca9b4;
+// 		}
+// 		div{
+// 			padding: 20px;
+// 			border-bottom: 1px solid #1d1d1e;
+// 			a{
+// 				text-decoration: none;
+// 				color: white;
+// 			}
+// 		}
+// 		div:hover{
+// 			background: #3BAFBF;
+// 		}
+// 	}
+// 	.menu2{
+// 		display: flex;
+// 	}
+// }
+
+
+
+.full-bg{
+    .container-full-bg{
+        .menu-mobile{
+            display: none;
+            background: rgb(54,97,176);
+            .container-mobile{
+                display: flex;
+                justify-content: space-between;
+                margin: 0 auto;
+                width: 90%;
+                padding: 20px 0px;
+                .container-right{
+                    color: white;
+                    padding-top: 20px;
+                    a{
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        #menu-one{
+            display: none;
+            background: #4568b9;
+            .menu1{
+                .active1{
+                    background: #4f72c2;
+                }
+                div{
+                    padding: 20px;
+                    border-bottom: 1px solid #5282c4;
+                    a{
+                        padding-left: 25px;
+                        text-decoration: none;
+                        color: white;
+                        @include p;
+                    }
+                }
+                div:hover{
+                    background: #4f72c2;
+                }
+            }
+        }
+        .content{
+            header{
+                .header-bg{
+                    background-image: url(../../assets/image6/kids_conner_4.jpg);
+                    background-size: cover;
+                    height: 351px;
+                    background-position: center;
+                }
+                .info-header{
+                    background: $main-color;
+                    .container-header{
+                        margin: 0 auto;
+                        width: 90%;
+                        display: flex;
+                        justify-content: space-between;
+                        padding-top: 40px;
+                        padding-bottom: 50px;
+                        .img-header{
+                            width: 40%;
+                            img{
+                                width: 100%;
+                                padding-top: 33px;
+                            }
+                        }
+                        .info-header-1{
+                            width: 55%;
+                            h2{
+                               @include h2;
+                               position: relative;
+                               margin-bottom: 50px;
+                            }
+                            h2::before{
+                                @include h2-border;
+                                border-color: #fb6667;
+                                width: 54%;
+                                top: 70px;
+                            }
+                            p{
+                                @include p;
+                                color : #8f8f8f;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1920px){
+    .full-bg{
+        .container-full-bg{
+            .content{
+                header{
+                    .header-bg{
+                        height: 413px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1680px){
+    .full-bg{
+        .container-full-bg{
+            .content{
+                header{
+                    .header-bg{
+                        height: 374px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1600px){
+    .full-bg{
+        .container-full-bg{
+            .content{
+                header{
+                    .header-bg{
+                        height: 361px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1537px){
+    .full-bg{
+        .container-full-bg{
+            .content{
+                header{
+                    .header-bg{
+                        height: 351px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1440px){
+    .full-bg{
+        .container-full-bg{
+            .content{
+                header{
+                    .header-bg{
+                        height: 335px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1400px){
+    .full-bg{
+        .container-full-bg{
+            .content{
+                header{
+                    .header-bg{
+                        height: 330px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1024px){
+    .full-bg{
+        .container-full-bg{
+            .content{
+                header{
+                    .header-bg{
+                        height: 322px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 600px){
+    .full-bg{
+        .container-full-bg{
+            .content{
+                header{
+                    .header-bg{
+                        height: 322px;
+                    }
+                    .info-header{
+                        .container-header{
+                            display: block;
+                            .img-header{
+                                width: 100%;
+                            }
+                            .info-header-1{
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,100 @@
+
+@import '../helper/mixin.scss';
+.map{
+    display: flex;
+    .detail{
+        width: 60%;
+        .container-detail{
+            padding: 10% 7%;
+            h2{
+                @include h2;
+                font-size: 37px;
+                position: relative;
+            }
+            h2::before{
+                @include h2-border;
+                width: 15%;
+            }
+            .text-map{
+                font-family: $font-fam;
+                font-size: 14px;
+                line-height: 32px;
+                padding-top: 40px;
+                color: #7e8890;
+            }
+            .question{
+                padding-top: 35px;
+                .question1{
+                    padding: 20px;
+                    background: #b9675e;
+                    margin-bottom: 10px;
+                    span{
+                        i{
+                            padding: 5px;
+                            background-color: #333333;
+                            color: white;
+                        }
+                        font-family: $font-fam;
+                        font-size: 14px;
+                        margin-right: 10px;
+                    }
+                    transition: all 0.5s ease-out;
+                    cursor: pointer;
+                    &:hover{
+                        background: #90A8AD
+                    }
+                }
+            }
+        }
+    }
+    .map-1{
+        width: 40%;
+        iframe{
+            height: 100%;
+        }
+    }
+}
+@media only screen and (max-width: 800px){
+    .map{
+        display: block;
+        .detail{
+            width: 100%;
+        }
+        .map-1{
+            width: 100%;
+            height: 500px;
+        }
+    }
+
+} 
+@media only screen and (max-width: 360px){
+    .map{
+        display: block;
+        .detail{
+            .container-detail{
+                .question{
+                    .question1{
+                        padding: 20px 13px;
+                    }
+                }
+            }
+        }
+
+    }
+} 
+@media only screen and (max-width: 320px){
+    .map{
+        .detail{
+            .container-detail{
+                .question{
+                    .question1{
+                        span{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+} 

@@ -1,0 +1,192 @@
+
+
+.about{
+    background-image: url(../../assets/image8/main-big-baner-7.jpg);
+    background-size: cover;
+    background-position: center;
+    .container-about{   
+        margin: 0 auto;
+        width: 65%;
+        padding: 5% 0px;
+        .wrap{           
+            background: white;
+            display: flex;
+            border: 5px solid rgba(107,107,107,.11);
+            .purchase{
+                width: 50%;
+                position: relative;
+                center{
+                    padding: 60px;
+                    padding-right: 0px;
+                    div{
+                        border-right: 1px solid rgba(107,107,107,.11);
+                        padding-right: 60px;
+                        img{
+                            width: 75%;
+                        }
+                        h4{
+                            font-family: $font-fam;
+                            font-weight: 300;
+                            letter-spacing: 1px;
+                            font-size: 14px;
+                        }
+                        p{
+                            font-family: $font-fam; 
+                            font-size: 14px;
+                            line-height: 27px
+                        }
+                        button{
+                            border: none;
+                            padding: 12px;
+                            color: white;
+                            background: black;
+                            font-size: 11px;
+                            font-family: $font-fam; 
+                            letter-spacing: 1px;
+                            margin-top: 10px;
+                            cursor: pointer;
+                            &:hover{
+                                opacity: 0.8;
+                            }
+                        }
+                    }
+                   
+                }
+            }
+            .purchase::before{
+                content: ' ';
+                border-right: 1px solid #DCDCDC;
+                height: 2px;
+                position: absolute;
+                margin: 0 auto;
+                width: 4%;      
+                top: 6.4px;
+                left: 51.5%  
+            }
+            .about-shop{
+                width: 50%;
+                center{
+                    padding: 60px;
+                    h3{
+                        margin-top: 10px;
+                        font-family: $font-fam;
+                        font-size: 24px;
+                        font-style: italic;
+                    }
+                    p{
+                        font-family: $font-fam; 
+                        font-size: 14px;
+                        line-height: 27px
+                    }
+                    button{
+                        border: 1px solid black;
+                        padding: 12px;
+                        color: black;
+                        background: none;
+                        font-size: 11px;
+                        font-family: $font-fam; 
+                        letter-spacing: 1px;
+                        margin-top: 18px;
+                        cursor: pointer;
+                        transition: all 0.5s ease-in-out;
+                        &:hover{
+                            background: black;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+       
+    }
+}
+
+@media only screen and (max-width:1440px){
+    .about{
+        .container-about{
+            width: 68%;
+        }
+    }
+}
+@media only screen and (max-width:1367px){
+    .about{
+        .container-about{
+            width: 75%;
+        }
+    }
+}
+@media only screen and (max-width:1024px){
+    .about{
+        .container-about{
+            width: 85%;
+            .wrap{
+                .purchase{
+                    center div h4{
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:600px){
+    .about{
+        .container-about{
+            .wrap{
+                display: block;
+                .purchase{
+                    width: 100%;
+                    border-bottom: 1px solid #DCDCDC;
+                    center{
+                        padding-right: unset;
+                        padding: 60px;
+                        div{
+                            padding-right: 0px;
+                            border: none;
+                        }
+                    }
+                }
+                .about-shop{
+                    width: 100%;
+                }
+            }
+            
+        }
+    }
+}
+@media only screen and (max-width:415px){
+    .about{
+        .container-about{
+            .wrap{
+                .purchase{
+                    center{
+                        padding: 35px;
+                    }
+                }
+                .about-shop{
+                    center{
+                        padding: 35px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:320px){
+    .about{
+        .container-about{
+            .wrap{
+                .purchase{
+                    center{
+                        padding: 15px;
+                    }
+                }
+                .about-shop{
+                    center{
+                        padding: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

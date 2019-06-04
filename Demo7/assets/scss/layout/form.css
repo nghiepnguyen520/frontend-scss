@@ -1,0 +1,169 @@
+.form {
+  background-image: url(../../assets/image7/rsvp_bg.jpg);
+  background-position: left;
+  background-size: cover;
+  margin-top: 40px; }
+  .form .container-form {
+    padding: 6% 0px;
+    margin: 0 auto;
+    width: 48%; }
+    .form .container-form h2 {
+      font-size: 50px;
+      font-family: 'Merriweather';
+      font-weight: 300;
+      font-size: 37px;
+      position: relative;
+      color: white; }
+    .form .container-form h2::before {
+      content: ' ';
+      border-bottom: 1px solid;
+      height: 2px;
+      position: absolute;
+      top: 75px;
+      margin: 0 auto;
+      color: #c7d3d6;
+      width: 15%;
+      left: 0;
+      right: 0;
+      color: white; }
+    .form .container-form p {
+      font-family: "Merriweather";
+      font-size: 14px;
+      line-height: 32px;
+      padding-top: 40px;
+      color: white; }
+    .form .container-form .form-1 {
+      background: white;
+      margin-top: 65px; }
+      .form .container-form .form-1 .container-form-1 {
+        padding: 40px; }
+        .form .container-form .form-1 .container-form-1 input {
+          width: 97%;
+          padding: 20px 0px 20px 15px;
+          margin-bottom: 20px;
+          border: 1px solid #dedede; }
+        .form .container-form .form-1 .container-form-1 div {
+          display: flex;
+          position: relative; }
+          .form .container-form .form-1 .container-form-1 div select {
+            width: 100%;
+            padding: 20px 0px 20px 16px;
+            margin-bottom: 20px;
+            position: relative;
+            -webkit-appearance: button;
+            border: 1px solid #dedede; }
+          .form .container-form .form-1 .container-form-1 div i {
+            right: 0;
+            padding: 20px;
+            border: 1px solid #dedede;
+            position: absolute;
+            color: #dedede; }
+        .form .container-form .form-1 .container-form-1 textarea {
+          width: 97%;
+          padding: 20px 0px 20px 17px;
+          margin-bottom: 20px;
+          border: 1px solid #dedede; }
+        .form .container-form .form-1 .container-form-1 button {
+          width: 100%;
+          padding: 15px;
+          color: white;
+          border: none;
+          background: #b9675e;
+          font-family: "Montserrat";
+          font-size: 16px;
+          transition: all 0.5s ease-out;
+          cursor: pointer; }
+          .form .container-form .form-1 .container-form-1 button:hover {
+            background: #90A8AD; }
+
+@media only screen and (max-width: 1920px) {
+  .form .container-form .form-1 .container-form-1 input {
+    padding: 20px 0px 20px 21px; }
+  .form .container-form .form-1 .container-form-1 textarea {
+    padding: 20px 0px 20px 23px; } }
+@media only screen and (max-width: 1680px) {
+  .form .container-form .form-1 .container-form-1 input {
+    padding: 20px 0px 20px 18px; }
+  .form .container-form .form-1 .container-form-1 textarea {
+    padding: 20px 0px 20px 18px; } }
+@media only screen and (max-width: 1537px) {
+  .form .container-form .form-1 .container-form-1 input {
+    padding: 20px 0px 20px 17px; }
+  .form .container-form .form-1 .container-form-1 textarea {
+    padding: 20px 0px 20px 17px; } }
+@media only screen and (max-width: 1440px) {
+  .form .container-form .form-1 .container-form-1 input {
+    padding: 20px 0px 20px 14px; }
+  .form .container-form .form-1 .container-form-1 textarea {
+    padding: 20px 0px 20px 16px; } }
+@media only screen and (max-width: 1367px) {
+  .form .container-form .form-1 .container-form-1 input {
+    padding: 20px 0px 20px 15px; }
+  .form .container-form .form-1 .container-form-1 textarea {
+    padding: 20px 0px 20px 15px; } }
+@media only screen and (max-width: 1024px) {
+  .form .container-form {
+    width: 65%; }
+    .form .container-form .form-1 .container-form-1 input {
+      padding: 20px 0px 20px 15px; }
+    .form .container-form .form-1 .container-form-1 textarea {
+      padding: 20px 0px 20px 15px; } }
+@media only screen and (max-width: 800px) {
+  .form .container-form {
+    width: 85%; }
+    .form .container-form .form-1 .container-form-1 input {
+      padding: 20px 0px 20px 16px; }
+    .form .container-form .form-1 .container-form-1 textarea {
+      padding: 20px 0px 20px 16px; } }
+@media only screen and (max-width: 768px) {
+  .form .container-form {
+    width: 85%; }
+    .form .container-form .form-1 .container-form-1 input {
+      padding: 20px 0px 20px 15px; }
+    .form .container-form .form-1 .container-form-1 textarea {
+      padding: 20px 0px 20px 15px; } }
+@media only screen and (max-width: 600px) {
+  .form {
+    padding: 20px 0px; }
+    .form .container-form .form-1 .container-form-1 input {
+      padding: 20px 0px 20px 10px; }
+    .form .container-form .form-1 .container-form-1 textarea {
+      padding: 20px 0px 20px 10px; } }
+@media only screen and (max-width: 415px) {
+  .form .container-form .form-1 .container-form-1 {
+    padding: 30px; }
+    .form .container-form .form-1 .container-form-1 input {
+      padding: 20px 0px 20px 6px; }
+    .form .container-form .form-1 .container-form-1 textarea {
+      padding: 20px 0px 20px 6px; } }
+@media only screen and (max-width: 385px) {
+  .form .container-form .form-1 .container-form-1 {
+    padding: 30px; }
+    .form .container-form .form-1 .container-form-1 input {
+      padding: 20px 0px 20px 6px; }
+    .form .container-form .form-1 .container-form-1 textarea {
+      padding: 20px 0px 20px 6px; }
+    .form .container-form .form-1 .container-form-1 div select {
+      padding: 20px 0px 20px 7px; } }
+@media only screen and (max-width: 360px) {
+  .form .container-form .form-1 .container-form-1 {
+    padding: 20px; }
+    .form .container-form .form-1 .container-form-1 input {
+      padding: 20px 0px 20px 6px; }
+    .form .container-form .form-1 .container-form-1 textarea {
+      padding: 20px 0px 20px 6px; } }
+@media only screen and (max-width: 320px) {
+  .form .container-form .form-1 .container-form-1 {
+    padding: 20px; }
+    .form .container-form .form-1 .container-form-1 input {
+      font-size: 11px;
+      padding: 20px 0px 20px 4px; }
+    .form .container-form .form-1 .container-form-1 textarea {
+      padding: 20px 0px 20px 5px;
+      font-size: 11px; }
+    .form .container-form .form-1 .container-form-1 div select {
+      font-size: 11px; }
+    .form .container-form .form-1 .container-form-1 div i {
+      padding: 18px; } }
+
+/*# sourceMappingURL=form.css.map */

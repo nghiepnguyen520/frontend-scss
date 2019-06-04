@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "amaticSC";
+  src: url("../fonts/AmaticSC-Bold.ttf") format("opentype"); }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 18.7%; }
+
+.full-bg .container-full-bg .menu-right {
+  background-color: #3661B0;
+  position: relative; }
+  .full-bg .container-full-bg .menu-right .logo {
+    background-color: #7494da; }
+    .full-bg .container-full-bg .menu-right .logo img {
+      width: 65%;
+      padding: 50px 0px; }
+  .full-bg .container-full-bg .menu-right .menu {
+    background-color: #3661B0; }
+    .full-bg .container-full-bg .menu-right .menu ul {
+      margin-top: 0px;
+      padding-left: 0px; }
+      .full-bg .container-full-bg .menu-right .menu ul li {
+        list-style: none;
+        padding: 20px 45px; }
+        .full-bg .container-full-bg .menu-right .menu ul li a {
+          text-decoration: none;
+          font-family: amaticSC;
+          color: white;
+          font-size: 30px; }
+        .full-bg .container-full-bg .menu-right .menu ul li:hover {
+          background-color: #466bb6; }
+          .full-bg .container-full-bg .menu-right .menu ul li:hover a:hover {
+            color: red; }
+      .full-bg .container-full-bg .menu-right .menu ul .active {
+        background-color: #466bb6; }
+    .full-bg .container-full-bg .menu-right .menu .contact {
+      padding-left: 45px; }
+      .full-bg .container-full-bg .menu-right .menu .contact i {
+        color: white;
+        border-radius: 4px;
+        margin-right: 7px;
+        cursor: pointer; }
+        .full-bg .container-full-bg .menu-right .menu .contact i:hover {
+          opacity: 0.8; }
+      .full-bg .container-full-bg .menu-right .menu .contact .fa-twitter {
+        padding: 12px;
+        background: #55acee; }
+      .full-bg .container-full-bg .menu-right .menu .contact .fa-rss {
+        padding: 12px;
+        background: #f26522; }
+      .full-bg .container-full-bg .menu-right .menu .contact .fa-youtube {
+        padding: 12px 10px;
+        background: #cd201f; }
+      .full-bg .container-full-bg .menu-right .menu .contact .fa-tree {
+        padding: 12px 13px;
+        background: #5b9a68; }
+
+@media only screen and (max-width: 1024px) {
+  .sticky {
+    width: 25%; } }
+@media only screen and (max-width: 800px) {
+  .full-bg .container-full-bg .menu-right {
+    display: none; } }
+
+/*# sourceMappingURL=menu-right.css.map */

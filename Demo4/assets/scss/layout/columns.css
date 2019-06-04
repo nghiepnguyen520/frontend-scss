@@ -1,0 +1,122 @@
+.columns {
+  display: flex;
+  overflow: hidden; }
+  .columns .guide-tours {
+    width: 33.3333%;
+    background-image: url(../../assets/image4/guide_tours_bg.jpg);
+    height: 550px;
+    background-size: cover;
+    background-position: center; }
+    .columns .guide-tours div {
+      color: white;
+      position: relative;
+      top: 44%;
+      padding: 0px 45px;
+      font-family: "Source Sans Pro", Arial, Helvetica, sans-serif; }
+      .columns .guide-tours div h2 {
+        font-size: 38px;
+        font-weight: 300;
+        margin-bottom: 2px; }
+      .columns .guide-tours div p {
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 28px;
+        margin-top: 9px; }
+      .columns .guide-tours div button {
+        color: white;
+        background: #74849C;
+        border: none;
+        padding: 14px 32px;
+        border-radius: 3px;
+        font-size: 14px;
+        transition: all 0.5s ease-out;
+        cursor: pointer; }
+      .columns .guide-tours div button:hover {
+        background-color: #35baf2; }
+  .columns .commercials {
+    width: 33.3333%;
+    background-image: url(../../assets/image4/commercials_ads_bg.jpg);
+    height: 550px;
+    background-size: cover;
+    background-position: center; }
+    .columns .commercials div {
+      color: white;
+      position: relative;
+      top: 44%;
+      padding: 0px 45px;
+      font-family: "Source Sans Pro", Arial, Helvetica, sans-serif; }
+      .columns .commercials div h2 {
+        font-size: 38px;
+        font-weight: 300;
+        margin-bottom: 2px; }
+      .columns .commercials div p {
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 28px;
+        margin-top: 9px; }
+      .columns .commercials div button {
+        color: white;
+        background: #74849C;
+        border: none;
+        padding: 14px 32px;
+        border-radius: 3px;
+        font-size: 14px;
+        transition: all 0.5s ease-out;
+        cursor: pointer; }
+      .columns .commercials div button:hover {
+        background-color: #35baf2; }
+  .columns .tutorials {
+    width: 33.3333%;
+    background-image: url(../../assets/image4/tutorials_bg.jpg);
+    height: 550px;
+    background-size: cover;
+    background-position: center; }
+    .columns .tutorials div {
+      color: white;
+      position: relative;
+      top: 44%;
+      padding: 0px 45px;
+      font-family: "Source Sans Pro", Arial, Helvetica, sans-serif; }
+      .columns .tutorials div h2 {
+        font-size: 38px;
+        font-weight: 300;
+        margin-bottom: 2px; }
+      .columns .tutorials div p {
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 28px;
+        margin-top: 9px; }
+      .columns .tutorials div button {
+        color: white;
+        background: #74849C;
+        border: none;
+        padding: 14px 32px;
+        border-radius: 3px;
+        font-size: 14px;
+        transition: all 0.5s ease-out;
+        cursor: pointer; }
+      .columns .tutorials div button:hover {
+        background-color: #35baf2; }
+
+@media only screen and (max-width: 800px) {
+  .columns {
+    display: block; }
+    .columns .guide-tours {
+      width: 100%; }
+    .columns .commercials {
+      width: 100%;
+      margin-top: -32px; }
+    .columns .tutorials {
+      width: 100%;
+      margin-top: -32px; } }
+@media only screen and (max-width: 385px) {
+  .columns {
+    display: block; }
+    .columns .guide-tours {
+      height: 460px; }
+    .columns .commercials {
+      height: 460px; }
+    .columns .tutorials {
+      height: 460px; } }
+
+/*# sourceMappingURL=columns.css.map */

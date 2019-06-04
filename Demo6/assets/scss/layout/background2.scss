@@ -1,0 +1,132 @@
+
+
+
+@import  '../helper/mixin.scss';
+@import  '../helper/font.scss';
+
+.full-bg{
+    .container-full-bg{
+        .content{
+            .background2{
+                background-image: url(../../assets/image6/family-bbq-bkgd.jpg);
+                background-position: center;
+                background-size: cover;
+                .container-bg2{
+                    margin: 0 auto;
+                    width: 80%;
+                    padding-top: 10%;
+                    padding-bottom: 20%;
+                    h2{
+                        @include h2;
+                        color : white;
+                        
+                    }
+                    h2:before{
+                        @include h2-border;
+                        border-color: #ffd263;
+                        width: 59%;
+                        margin: 0 auto;
+                        left: 0;
+                        right: 0;
+                    }
+                    p{
+                        @include p;
+                        color : white;
+                        margin-top: 12%;
+                    }
+                    .time{
+                        display: flex;
+                        color : $main-color;
+                        justify-content: center;
+                        p{
+                            background: #333333;
+                            margin-right: 8px;
+                            padding: 15px 30px;
+                            b{
+                                @include p;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 600px){
+    .full-bg{
+        .container-full-bg{
+            .content{
+                .background2{
+                    .container-bg2{
+                        .time{
+                            display: block;
+                            p{
+                                width: 20%;
+                                margin-bottom: -27px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 415px){
+    .full-bg{
+        .container-full-bg{
+            .content{
+                .background2{
+                    .container-bg2{
+                        h2{
+                            padding-bottom: 25px;
+                        }
+                        h2::before{
+                            top: 125px;
+                        }
+                        .time{
+                            display: block;
+                            p{
+                                width: 20%;
+                                margin-bottom: -15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 360px){
+    .full-bg{
+        .container-full-bg{
+            .content{
+                .background2{
+                    .container-bg2{
+                        .time{
+                            p{
+                                width: 23%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 320px){
+    .full-bg{
+        .container-full-bg{
+            .content{
+                .background2{
+                    .container-bg2{
+                        .time{
+                            p{
+                                width: 25%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

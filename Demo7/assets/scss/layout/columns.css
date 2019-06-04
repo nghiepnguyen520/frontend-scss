@@ -1,0 +1,56 @@
+.columns {
+  display: flex; }
+  .columns .col-1 {
+    width: 50%;
+    background-image: url(../../assets/image7/groom_bg.jpg);
+    background-size: cover;
+    background-position: left top; }
+    .columns .col-1 center {
+      padding: 12% 6%; }
+      .columns .col-1 center img {
+        border-radius: 50%; }
+      .columns .col-1 center h3 {
+        font-size: 50px;
+        font-family: 'Merriweather';
+        font-weight: 300;
+        font-size: 18px;
+        margin-top: 20px;
+        font-weight: bold; }
+      .columns .col-1 center p {
+        font-family: "Merriweather";
+        font-size: 14px;
+        line-height: 32px;
+        color: #333333;
+        letter-spacing: 2px; }
+  .columns .col-2 {
+    width: 50%;
+    background-image: url(../../assets/image7/bride_bg.jpg);
+    background-size: cover;
+    background-position: left top; }
+    .columns .col-2 center {
+      padding: 12% 6%; }
+      .columns .col-2 center img {
+        border-radius: 50%; }
+      .columns .col-2 center h3 {
+        font-size: 50px;
+        font-family: 'Merriweather';
+        font-weight: 300;
+        font-size: 18px;
+        margin-top: 20px;
+        font-weight: bold; }
+      .columns .col-2 center p {
+        font-family: "Merriweather";
+        font-size: 14px;
+        line-height: 32px;
+        color: #333333;
+        letter-spacing: 2px; }
+
+@media only screen and (max-width: 800px) {
+  .columns {
+    display: block; }
+    .columns .col-1 {
+      width: 100%; }
+    .columns .col-2 {
+      width: 100%; } }
+
+/*# sourceMappingURL=columns.css.map */

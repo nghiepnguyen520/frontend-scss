@@ -1,0 +1,278 @@
+
+
+.appointment{
+    background-image: url(../../assets/image3/make-an-appointment.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 890px;
+    position: relative;
+    bottom: 20px;
+    font-family: 'Mukta', sans-serif;
+    .container-appoint{
+        width: 39%;
+        margin: 0 auto;
+        color: white;
+        h2{
+            width: 40%;
+            position: relative;
+            padding-top: 20%;
+            font-size: 40px;
+            margin-top: 1%;
+        }
+        h2::before{
+            content:' ';
+            border-bottom: 2px solid #D8D8D8;
+            width: 40%;
+            height: 2px;
+            width: 63%;
+            margin: 0 auto;
+            left: 0;
+            position: absolute;
+            right: 0;
+            bottom: -13%
+        }
+        p{
+            padding: 25px 0;
+            font-size: 20px;
+            line-height: 40px
+        }
+        .form{
+            .form1{
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 20px;
+                color: white;
+                input{
+                    width: 46%;
+                    padding: 10px 0px;
+                    padding-left: 10px;
+                    background: none;
+                    border: 1px solid white;
+                    font-family: 'Mukta', sans-serif;
+                }
+            }
+            textarea{
+                width: 98%;
+                background: none;
+                border: 1px solid white;
+                font-family: 'Mukta', sans-serif;
+                margin-bottom: 10px;
+                height: 150px;
+                padding-left: 8px;
+                padding-top: 10px
+            }
+            button{
+                width: 100%;
+                padding: 10px;
+                color: white;
+                font-family: 'Mukta', sans-serif;
+                background: #3BAEC0;
+                border:none;
+                cursor: pointer;
+                letter-spacing: 2px;
+                transition: all 1s ease-out
+            }
+            button:hover{
+                background: rgb(2, 133, 153)
+            }   
+        }
+    }
+}
+@media only screen and (max-width: 1920px){
+    .appointment{
+        .container-appoint{
+            .form{
+                textarea{
+                   padding-left: 11px;
+                }   
+            }
+            h2{
+                width: 53%;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1680px){
+    .appointment{
+        .container-appoint{
+            .form{
+                textarea{
+                    padding-left: 9px;
+                }
+            }
+            h2{
+                width: 60%;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1536px){
+    .appointment{
+        .container-appoint{
+            .form{
+                textarea{
+                    padding-left: 8px;
+                }
+            }
+            h2{
+                width: 63%;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1440px){
+    .appointment{
+        .container-appoint{
+            .form{
+                textarea{
+                    padding-left: 8px;
+                }
+            }
+            h2{
+                width: 70%;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1367px){
+    .appointment{
+        .container-appoint{
+            .form{
+                textarea{
+                    padding-left: 7px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1024px){
+    .appointment{
+        .container-appoint{
+            width: 60%;
+            h2{
+                width: 63%;
+            }
+            .form{
+                textarea{
+                    padding-left: 8px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 800px){
+    .appointment{
+        .container-appoint{
+            h2{
+                width: 83%;
+            }
+            .form{
+                textarea{
+                    padding-left: 5px;
+                }
+            }
+        }
+    } 
+}
+@media only screen and (max-width: 768px){
+    .appointment{
+        .container-appoint{
+            .form{
+                textarea{
+                    padding-left: 5px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 600px){
+    .appointment{
+        height: 1035px;
+        .container-appoint{
+            width: 70%;
+            h2{
+                width: 95%;
+            }
+            .form{
+                .form1{
+                    padding-bottom: 0px;
+                    display: block;
+                    input{
+                        margin-bottom: 20px;
+                        width: 97%;
+                    }
+                }
+                textarea{
+                    padding-left: 8px;
+                    width: 97%;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 415px){
+    .appointment{
+        .container-appoint{
+            h2{
+                font-size: 30px;
+                width: 100%;
+            }
+            p{
+                font-size: 16px;
+            }
+            .form{
+                textarea{
+                    padding-left: 8px;
+                }
+                button{
+                    width: 101%;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 384px){
+    .appointment{
+        .container-appoint{
+            h2{
+                width: 100%;
+                font-size: 27px;
+            }
+            .form{
+                button{
+                    width: 102%;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 360px){
+    .appointment{
+        .container-appoint{
+            h2{
+                
+                font-size: 25px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 320px){
+    .appointment{
+        height: 995px;
+        .container-appoint{
+            width: 74%;
+            h2{
+                font-size: 24px;
+                width: 100%;
+            }
+            h2::before{
+                bottom: -27%
+            }
+            .form{
+                button{
+                    width: 103%;
+                }
+            }
+        }
+    }
+}

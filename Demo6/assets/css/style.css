@@ -1,0 +1,704 @@
+@font-face {
+  font-family: "amaticSC";
+  src: url("../fonts/AmaticSC-Bold.ttf") format("opentype"); }
+body {
+  margin: 0px; }
+
+.full-bg .container-full-bg .menu-mobile {
+  display: none;
+  background: #3661b0; }
+  .full-bg .container-full-bg .menu-mobile .container-mobile {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+    padding: 20px 0px; }
+    .full-bg .container-full-bg .menu-mobile .container-mobile .container-right {
+      color: white;
+      padding-top: 20px; }
+      .full-bg .container-full-bg .menu-mobile .container-mobile .container-right a {
+        cursor: pointer; }
+.full-bg .container-full-bg #menu-one {
+  display: none;
+  background: #4568b9; }
+  .full-bg .container-full-bg #menu-one .menu1 .active1 {
+    background: #4f72c2; }
+  .full-bg .container-full-bg #menu-one .menu1 div {
+    padding: 20px;
+    border-bottom: 1px solid #5282c4; }
+    .full-bg .container-full-bg #menu-one .menu1 div a {
+      padding-left: 25px;
+      text-decoration: none;
+      color: white;
+      line-height: 30px;
+      font-family: 'Lato';
+      font-size: 16px; }
+  .full-bg .container-full-bg #menu-one .menu1 div:hover {
+    background: #4f72c2; }
+.full-bg .container-full-bg .content header .header-bg {
+  background-image: url(../../assets/image6/kids_conner_4.jpg);
+  background-size: cover;
+  height: 351px;
+  background-position: center; }
+.full-bg .container-full-bg .content header .info-header {
+  background: white; }
+  .full-bg .container-full-bg .content header .info-header .container-header {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 50px; }
+    .full-bg .container-full-bg .content header .info-header .container-header .img-header {
+      width: 40%; }
+      .full-bg .container-full-bg .content header .info-header .container-header .img-header img {
+        width: 100%;
+        padding-top: 33px; }
+    .full-bg .container-full-bg .content header .info-header .container-header .info-header-1 {
+      width: 55%; }
+      .full-bg .container-full-bg .content header .info-header .container-header .info-header-1 h2 {
+        font-size: 40px;
+        font-family: amaticSC;
+        position: relative;
+        position: relative;
+        margin-bottom: 50px; }
+      .full-bg .container-full-bg .content header .info-header .container-header .info-header-1 h2::before {
+        content: ' ';
+        border-bottom: 2px dashed;
+        height: 2px;
+        position: absolute;
+        top: 80px;
+        border-color: #fb6667;
+        width: 54%;
+        top: 70px; }
+      .full-bg .container-full-bg .content header .info-header .container-header .info-header-1 p {
+        line-height: 30px;
+        font-family: 'Lato';
+        font-size: 16px;
+        color: #8f8f8f; }
+
+@media only screen and (max-width: 1920px) {
+  .full-bg .container-full-bg .content header .header-bg {
+    height: 413px; } }
+@media only screen and (max-width: 1680px) {
+  .full-bg .container-full-bg .content header .header-bg {
+    height: 374px; } }
+@media only screen and (max-width: 1600px) {
+  .full-bg .container-full-bg .content header .header-bg {
+    height: 361px; } }
+@media only screen and (max-width: 1537px) {
+  .full-bg .container-full-bg .content header .header-bg {
+    height: 351px; } }
+@media only screen and (max-width: 1440px) {
+  .full-bg .container-full-bg .content header .header-bg {
+    height: 335px; } }
+@media only screen and (max-width: 1400px) {
+  .full-bg .container-full-bg .content header .header-bg {
+    height: 330px; } }
+@media only screen and (max-width: 1024px) {
+  .full-bg .container-full-bg .content header .header-bg {
+    height: 322px; } }
+@media only screen and (max-width: 600px) {
+  .full-bg .container-full-bg .content header .header-bg {
+    height: 322px; }
+  .full-bg .container-full-bg .content header .info-header .container-header {
+    display: block; }
+    .full-bg .container-full-bg .content header .info-header .container-header .img-header {
+      width: 100%; }
+    .full-bg .container-full-bg .content header .info-header .container-header .info-header-1 {
+      width: 100%; } }
+.full-bg {
+  background-image: url(../../assets/image6/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  overflow: hidden; }
+  .full-bg .container-full-bg {
+    margin: 0 auto;
+    width: 75%;
+    display: flex;
+    box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.22); }
+    .full-bg .container-full-bg .menu-right {
+      width: 25%; }
+    .full-bg .container-full-bg .content {
+      width: 75%; }
+
+@media only screen and (max-width: 1024px) {
+  .full-bg .container-full-bg {
+    width: 100%; } }
+@media only screen and (max-width: 800px) {
+  .full-bg .container-full-bg {
+    display: block; }
+    .full-bg .container-full-bg .menu-mobile {
+      display: block; }
+    .full-bg .container-full-bg .menu-right {
+      display: none; }
+    .full-bg .container-full-bg .content {
+      width: 100%; } }
+@font-face {
+  font-family: "amaticSC";
+  src: url("../fonts/AmaticSC-Bold.ttf") format("opentype"); }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 18.7%; }
+
+.full-bg .container-full-bg .menu-right {
+  background-color: #3661B0;
+  position: relative; }
+  .full-bg .container-full-bg .menu-right .logo {
+    background-color: #7494da; }
+    .full-bg .container-full-bg .menu-right .logo img {
+      width: 65%;
+      padding: 50px 0px; }
+  .full-bg .container-full-bg .menu-right .menu {
+    background-color: #3661B0; }
+    .full-bg .container-full-bg .menu-right .menu ul {
+      margin-top: 0px;
+      padding-left: 0px; }
+      .full-bg .container-full-bg .menu-right .menu ul li {
+        list-style: none;
+        padding: 20px 45px; }
+        .full-bg .container-full-bg .menu-right .menu ul li a {
+          text-decoration: none;
+          font-family: amaticSC;
+          color: white;
+          font-size: 30px; }
+        .full-bg .container-full-bg .menu-right .menu ul li:hover {
+          background-color: #466bb6; }
+          .full-bg .container-full-bg .menu-right .menu ul li:hover a:hover {
+            color: red; }
+      .full-bg .container-full-bg .menu-right .menu ul .active {
+        background-color: #466bb6; }
+    .full-bg .container-full-bg .menu-right .menu .contact {
+      padding-left: 45px; }
+      .full-bg .container-full-bg .menu-right .menu .contact i {
+        color: white;
+        border-radius: 4px;
+        margin-right: 7px;
+        cursor: pointer; }
+        .full-bg .container-full-bg .menu-right .menu .contact i:hover {
+          opacity: 0.8; }
+      .full-bg .container-full-bg .menu-right .menu .contact .fa-twitter {
+        padding: 12px;
+        background: #55acee; }
+      .full-bg .container-full-bg .menu-right .menu .contact .fa-rss {
+        padding: 12px;
+        background: #f26522; }
+      .full-bg .container-full-bg .menu-right .menu .contact .fa-youtube {
+        padding: 12px 10px;
+        background: #cd201f; }
+      .full-bg .container-full-bg .menu-right .menu .contact .fa-tree {
+        padding: 12px 13px;
+        background: #5b9a68; }
+
+@media only screen and (max-width: 1024px) {
+  .sticky {
+    width: 25%; } }
+@media only screen and (max-width: 800px) {
+  .full-bg .container-full-bg .menu-right {
+    display: none; } }
+@font-face {
+  font-family: "amaticSC";
+  src: url("../fonts/AmaticSC-Bold.ttf") format("opentype"); }
+.full-bg .container-full-bg .content .activities {
+  background-image: url(../../assets/image6/bg_section_1.jpg);
+  background-position: center;
+  background-size: cover; }
+  .full-bg .container-full-bg .content .activities .container-acti {
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 70px;
+    padding-bottom: 10%; }
+    .full-bg .container-full-bg .content .activities .container-acti h2 {
+      font-size: 40px;
+      font-family: amaticSC;
+      position: relative;
+      margin-top: 0px;
+      color: white; }
+    .full-bg .container-full-bg .content .activities .container-acti h2:before {
+      content: ' ';
+      border-bottom: 2px dashed;
+      height: 2px;
+      position: absolute;
+      top: 80px;
+      border-color: #ffd263;
+      width: 53%;
+      margin: 0 auto;
+      left: 0;
+      right: 0; }
+    .full-bg .container-full-bg .content .activities .container-acti .info-acti {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding-top: 55px; }
+      .full-bg .container-full-bg .content .activities .container-acti .info-acti .info-acti-1 {
+        width: 47%;
+        display: flex;
+        justify-content: space-between; }
+        .full-bg .container-full-bg .content .activities .container-acti .info-acti .info-acti-1 .img-acti {
+          width: 30%; }
+          .full-bg .container-full-bg .content .activities .container-acti .info-acti .info-acti-1 .img-acti img {
+            width: 100%;
+            padding-top: 24px; }
+        .full-bg .container-full-bg .content .activities .container-acti .info-acti .info-acti-1 .acti-1 {
+          width: 60%; }
+          .full-bg .container-full-bg .content .activities .container-acti .info-acti .info-acti-1 .acti-1 h3 {
+            line-height: 30px;
+            font-family: 'Lato';
+            font-size: 16px;
+            color: white;
+            letter-spacing: 1px;
+            position: relative;
+            margin-bottom: 30px; }
+          .full-bg .container-full-bg .content .activities .container-acti .info-acti .info-acti-1 .acti-1 h3:before {
+            content: ' ';
+            border-bottom: 2px solid #ffd263;
+            height: 2px;
+            width: 10%;
+            position: absolute;
+            top: 43px; }
+          .full-bg .container-full-bg .content .activities .container-acti .info-acti .info-acti-1 .acti-1 p {
+            line-height: 30px;
+            font-family: 'Lato';
+            font-size: 16px;
+            color: white; }
+
+@media only screen and (max-width: 600px) {
+  .full-bg .container-full-bg .content .activities .container-acti .info-acti {
+    display: block; }
+    .full-bg .container-full-bg .content .activities .container-acti .info-acti .info-acti-1 {
+      width: 100%;
+      padding-bottom: 30px; } }
+@media only screen and (max-width: 415px) {
+  .full-bg .container-full-bg .content .activities .container-acti .info-acti .info-acti-1 .acti-1 {
+    width: 65%; } }
+@media only screen and (max-width: 385px) {
+  .full-bg .container-full-bg .content .activities .container-acti h2:before {
+    top: 125px; } }
+@media only screen and (max-width: 320px) {
+  .full-bg .container-full-bg .content .activities .container-acti .info-acti {
+    padding-top: 10px; }
+    .full-bg .container-full-bg .content .activities .container-acti .info-acti .info-acti-1 {
+      display: block; }
+      .full-bg .container-full-bg .content .activities .container-acti .info-acti .info-acti-1 .img-acti {
+        width: 100%; }
+      .full-bg .container-full-bg .content .activities .container-acti .info-acti .info-acti-1 .acti-1 {
+        width: 100%; } }
+@font-face {
+  font-family: "amaticSC";
+  src: url("../fonts/AmaticSC-Bold.ttf") format("opentype"); }
+.full-bg .container-full-bg .content .teachers {
+  background-color: white; }
+  .full-bg .container-full-bg .content .teachers .tea-bg {
+    background-image: url(../../assets/image6/3rd_section_img.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px; }
+  .full-bg .container-full-bg .content .teachers .container-tea {
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 6%;
+    padding-bottom: 10%; }
+    .full-bg .container-full-bg .content .teachers .container-tea h2 {
+      font-size: 40px;
+      font-family: amaticSC;
+      position: relative; }
+    .full-bg .container-full-bg .content .teachers .container-tea h2:before {
+      content: ' ';
+      border-bottom: 2px dashed;
+      height: 2px;
+      position: absolute;
+      top: 80px;
+      border-color: #ffd263;
+      width: 53%;
+      margin: 0 auto;
+      left: 0;
+      right: 0; }
+    .full-bg .container-full-bg .content .teachers .container-tea .info-tea {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 10%; }
+      .full-bg .container-full-bg .content .teachers .container-tea .info-tea .info-tea-1 {
+        width: 31%; }
+        .full-bg .container-full-bg .content .teachers .container-tea .info-tea .info-tea-1 img {
+          width: 100%;
+          border-radius: 4px;
+          cursor: pointer;
+          transition: all 1s ease-out; }
+          .full-bg .container-full-bg .content .teachers .container-tea .info-tea .info-tea-1 img:hover {
+            transform: scale(1.1); }
+        .full-bg .container-full-bg .content .teachers .container-tea .info-tea .info-tea-1 h3 {
+          line-height: 30px;
+          font-family: 'Lato';
+          font-size: 16px;
+          margin-bottom: 0px; }
+        .full-bg .container-full-bg .content .teachers .container-tea .info-tea .info-tea-1 h4 {
+          line-height: 30px;
+          font-family: 'Lato';
+          font-size: 16px;
+          letter-spacing: 1px;
+          margin-top: 0px; }
+        .full-bg .container-full-bg .content .teachers .container-tea .info-tea .info-tea-1 p {
+          line-height: 30px;
+          font-family: 'Lato';
+          font-size: 16px;
+          color: #8f8f8f; }
+        .full-bg .container-full-bg .content .teachers .container-tea .info-tea .info-tea-1 i {
+          color: white;
+          border-radius: 4px;
+          margin-right: 4px;
+          cursor: pointer; }
+          .full-bg .container-full-bg .content .teachers .container-tea .info-tea .info-tea-1 i:hover {
+            opacity: 0.8; }
+        .full-bg .container-full-bg .content .teachers .container-tea .info-tea .info-tea-1 .fa-twitter {
+          padding: 10px;
+          background-color: #55acee; }
+        .full-bg .container-full-bg .content .teachers .container-tea .info-tea .info-tea-1 .fa-facebook-f {
+          padding: 10px 14px;
+          background-color: #3b5998; }
+        .full-bg .container-full-bg .content .teachers .container-tea .info-tea .info-tea-1 .fa-google-plus-g {
+          padding: 10px 8px;
+          background-color: #dc4e41; }
+
+@media only screen and (max-width: 600px) {
+  .full-bg .container-full-bg .content .teachers .container-tea .info-tea {
+    display: block; }
+    .full-bg .container-full-bg .content .teachers .container-tea .info-tea .info-tea-1 {
+      width: 100%;
+      padding-bottom: 15%; } }
+@font-face {
+  font-family: "amaticSC";
+  src: url("../fonts/AmaticSC-Bold.ttf") format("opentype"); }
+.full-bg .container-full-bg .content .background1 {
+  background-image: url(../../assets/image6/pencil_bkgd.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative; }
+  .full-bg .container-full-bg .content .background1 .container-bg1 {
+    margin: 0 auto;
+    padding-top: 10%;
+    width: 90%; }
+    .full-bg .container-full-bg .content .background1 .container-bg1 center {
+      display: flex; }
+      .full-bg .container-full-bg .content .background1 .container-bg1 center div {
+        width: 25%;
+        color: white; }
+        .full-bg .container-full-bg .content .background1 .container-bg1 center div h2 {
+          line-height: 30px;
+          font-family: 'Lato';
+          font-size: 16px;
+          font-size: 40px;
+          margin-bottom: 12px; }
+        .full-bg .container-full-bg .content .background1 .container-bg1 center div p {
+          line-height: 30px;
+          font-family: 'Lato';
+          font-size: 16px;
+          margin-top: 0px; }
+  .full-bg .container-full-bg .content .background1 .cloud {
+    position: relative;
+    bottom: -4px; }
+
+@media only screen and (max-width: 415px) {
+  .full-bg .container-full-bg .content .background1 .container-bg1 center {
+    display: block; }
+    .full-bg .container-full-bg .content .background1 .container-bg1 center div {
+      width: 100%;
+      padding-bottom: 20px; } }
+@font-face {
+  font-family: "amaticSC";
+  src: url("../fonts/AmaticSC-Bold.ttf") format("opentype"); }
+.full-bg .container-full-bg .content .upcoming {
+  background-color: white; }
+  .full-bg .container-full-bg .content .upcoming .container-upcoming {
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 10%;
+    padding-bottom: 10%; }
+    .full-bg .container-full-bg .content .upcoming .container-upcoming h2 {
+      font-size: 40px;
+      font-family: amaticSC;
+      position: relative;
+      margin-top: 0px; }
+    .full-bg .container-full-bg .content .upcoming .container-upcoming h2:before {
+      content: ' ';
+      border-bottom: 2px dashed;
+      height: 2px;
+      position: absolute;
+      top: 80px;
+      color: #fb6667;
+      width: 46%;
+      margin: 0 auto;
+      left: 0;
+      right: 0; }
+    .full-bg .container-full-bg .content .upcoming .container-upcoming .classes {
+      padding-top: 3%; }
+      .full-bg .container-full-bg .content .upcoming .container-upcoming .classes .class1 {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 5%;
+        padding-top: 8%;
+        border-bottom: 1px solid #ffd263; }
+        .full-bg .container-full-bg .content .upcoming .container-upcoming .classes .class1 .img-class1 {
+          width: 24%;
+          padding-top: 5px; }
+          .full-bg .container-full-bg .content .upcoming .container-upcoming .classes .class1 .img-class1 img {
+            width: 100%; }
+        .full-bg .container-full-bg .content .upcoming .container-upcoming .classes .class1 .info-class1 {
+          width: 55%; }
+          .full-bg .container-full-bg .content .upcoming .container-upcoming .classes .class1 .info-class1 h3 {
+            line-height: 30px;
+            font-family: 'Lato';
+            font-size: 16px;
+            margin-top: 0px; }
+          .full-bg .container-full-bg .content .upcoming .container-upcoming .classes .class1 .info-class1 p {
+            line-height: 30px;
+            font-family: 'Lato';
+            font-size: 16px;
+            color: #8f8f8f;
+            width: 83%;
+            font-size: 13px; }
+          .full-bg .container-full-bg .content .upcoming .container-upcoming .classes .class1 .info-class1 div {
+            margin-bottom: 17px; }
+            .full-bg .container-full-bg .content .upcoming .container-upcoming .classes .class1 .info-class1 div i {
+              color: #ff6364; }
+            .full-bg .container-full-bg .content .upcoming .container-upcoming .classes .class1 .info-class1 div span {
+              color: #8f8f8f;
+              padding-right: 12px; }
+        .full-bg .container-full-bg .content .upcoming .container-upcoming .classes .class1 div button {
+          color: white;
+          background: #ff6364;
+          border: none;
+          padding: 10px 20px;
+          border-radius: 24px;
+          margin-top: 45px;
+          cursor: pointer;
+          font-size: 14px;
+          transition: all 0.5s ease-out; }
+          .full-bg .container-full-bg .content .upcoming .container-upcoming .classes .class1 div button:hover {
+            background: #fbcc67; }
+      .full-bg .container-full-bg .content .upcoming .container-upcoming .classes #class1 {
+        border-bottom: none; }
+  .full-bg .container-full-bg .content .upcoming button {
+    background: #26c281;
+    width: 100%;
+    border: none;
+    padding: 16px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Lato';
+    cursor: pointer;
+    transition: all 0.5s ease-out; }
+    .full-bg .container-full-bg .content .upcoming button:hover {
+      background: #ff6364; }
+
+@media only screen and (max-width: 600px) {
+  .full-bg .container-full-bg .content .upcoming .container-upcoming .classes .class1 {
+    display: block; }
+    .full-bg .container-full-bg .content .upcoming .container-upcoming .classes .class1 .img-class1 {
+      width: 100%; }
+    .full-bg .container-full-bg .content .upcoming .container-upcoming .classes .class1 .info-class1 {
+      width: 100%;
+      padding-top: 20px; } }
+@font-face {
+  font-family: "amaticSC";
+  src: url("../fonts/AmaticSC-Bold.ttf") format("opentype"); }
+.full-bg .container-full-bg .content .background2 {
+  background-image: url(../../assets/image6/family-bbq-bkgd.jpg);
+  background-position: center;
+  background-size: cover; }
+  .full-bg .container-full-bg .content .background2 .container-bg2 {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 10%;
+    padding-bottom: 20%; }
+    .full-bg .container-full-bg .content .background2 .container-bg2 h2 {
+      font-size: 40px;
+      font-family: amaticSC;
+      position: relative;
+      color: white; }
+    .full-bg .container-full-bg .content .background2 .container-bg2 h2:before {
+      content: ' ';
+      border-bottom: 2px dashed;
+      height: 2px;
+      position: absolute;
+      top: 80px;
+      border-color: #ffd263;
+      width: 59%;
+      margin: 0 auto;
+      left: 0;
+      right: 0; }
+    .full-bg .container-full-bg .content .background2 .container-bg2 p {
+      line-height: 30px;
+      font-family: 'Lato';
+      font-size: 16px;
+      color: white;
+      margin-top: 12%; }
+    .full-bg .container-full-bg .content .background2 .container-bg2 .time {
+      display: flex;
+      color: white;
+      justify-content: center; }
+      .full-bg .container-full-bg .content .background2 .container-bg2 .time p {
+        background: #333333;
+        margin-right: 8px;
+        padding: 15px 30px; }
+        .full-bg .container-full-bg .content .background2 .container-bg2 .time p b {
+          line-height: 30px;
+          font-family: 'Lato';
+          font-size: 16px; }
+
+@media only screen and (max-width: 600px) {
+  .full-bg .container-full-bg .content .background2 .container-bg2 .time {
+    display: block; }
+    .full-bg .container-full-bg .content .background2 .container-bg2 .time p {
+      width: 20%;
+      margin-bottom: -27px; } }
+@media only screen and (max-width: 415px) {
+  .full-bg .container-full-bg .content .background2 .container-bg2 h2 {
+    padding-bottom: 25px; }
+  .full-bg .container-full-bg .content .background2 .container-bg2 h2::before {
+    top: 125px; }
+  .full-bg .container-full-bg .content .background2 .container-bg2 .time {
+    display: block; }
+    .full-bg .container-full-bg .content .background2 .container-bg2 .time p {
+      width: 20%;
+      margin-bottom: -15px; } }
+@media only screen and (max-width: 360px) {
+  .full-bg .container-full-bg .content .background2 .container-bg2 .time p {
+    width: 23%; } }
+@media only screen and (max-width: 320px) {
+  .full-bg .container-full-bg .content .background2 .container-bg2 .time p {
+    width: 25%; } }
+@font-face {
+  font-family: "amaticSC";
+  src: url("../fonts/AmaticSC-Bold.ttf") format("opentype"); }
+.full-bg .container-full-bg .content .kiddies {
+  background-color: white; }
+  .full-bg .container-full-bg .content .kiddies .container-kid {
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 10%;
+    padding-bottom: 10%; }
+    .full-bg .container-full-bg .content .kiddies .container-kid h2 {
+      font-size: 40px;
+      font-family: amaticSC;
+      position: relative;
+      margin-top: 0px; }
+    .full-bg .container-full-bg .content .kiddies .container-kid h2:before {
+      content: ' ';
+      border-bottom: 2px dashed;
+      height: 2px;
+      position: absolute;
+      top: 80px;
+      border-color: #ffd263;
+      width: 52%;
+      margin: 0 auto;
+      left: 0;
+      right: 0; }
+    .full-bg .container-full-bg .content .kiddies .container-kid .img-kid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding-top: 7%; }
+      .full-bg .container-full-bg .content .kiddies .container-kid .img-kid div {
+        width: 31%;
+        margin-bottom: 22px; }
+        .full-bg .container-full-bg .content .kiddies .container-kid .img-kid div img {
+          width: 100%;
+          transition: all 0.5s ease-in-out;
+          cursor: pointer; }
+          .full-bg .container-full-bg .content .kiddies .container-kid .img-kid div img:hover {
+            transform: scale(1.1); }
+
+@media only screen and (max-width: 600px) {
+  .full-bg .container-full-bg .content .kiddies .container-kid .img-kid {
+    display: block; }
+    .full-bg .container-full-bg .content .kiddies .container-kid .img-kid div {
+      width: 100%; } }
+@font-face {
+  font-family: "amaticSC";
+  src: url("../fonts/AmaticSC-Bold.ttf") format("opentype"); }
+.full-bg .container-full-bg .content footer .footer-1 {
+  background-color: #26c281;
+  position: relative; }
+  .full-bg .container-full-bg .content footer .footer-1 .container-footer-1 {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    padding-top: 5%;
+    justify-content: space-between; }
+    .full-bg .container-full-bg .content footer .footer-1 .container-footer-1 h2 {
+      font-size: 40px;
+      font-family: amaticSC;
+      position: relative;
+      color: white; }
+    .full-bg .container-full-bg .content footer .footer-1 .container-footer-1 div button {
+      color: white;
+      background: #ff6364;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 24px;
+      margin-top: 42px;
+      margin-right: 40px;
+      cursor: pointer;
+      transition: all 0.5s ease-out; }
+      .full-bg .container-full-bg .content footer .footer-1 .container-footer-1 div button:hover {
+        background: #fbcc67; }
+  .full-bg .container-full-bg .content footer .footer-1 .cloud1 {
+    position: relative;
+    bottom: -4px; }
+.full-bg .container-full-bg .content footer .footer-2 {
+  background-color: #3b539b; }
+  .full-bg .container-full-bg .content footer .footer-2 .container-footer-2 {
+    padding-top: 6%;
+    padding-bottom: 10%;
+    margin: 0 auto;
+    width: 75%; }
+    .full-bg .container-full-bg .content footer .footer-2 .container-footer-2 .menu-footer {
+      text-align: center; }
+      .full-bg .container-full-bg .content footer .footer-2 .container-footer-2 .menu-footer ul {
+        list-style: none;
+        display: flex;
+        color: white; }
+        .full-bg .container-full-bg .content footer .footer-2 .container-footer-2 .menu-footer ul li {
+          margin-right: 27px;
+          line-height: 30px;
+          font-family: 'Lato';
+          font-size: 16px;
+          cursor: pointer; }
+          .full-bg .container-full-bg .content footer .footer-2 .container-footer-2 .menu-footer ul li:hover {
+            color: #7291de; }
+    .full-bg .container-full-bg .content footer .footer-2 .container-footer-2 p {
+      line-height: 30px;
+      font-family: 'Lato';
+      font-size: 16px;
+      font-size: 11px;
+      color: #7291de; }
+      .full-bg .container-full-bg .content footer .footer-2 .container-footer-2 p span {
+        cursor: pointer; }
+        .full-bg .container-full-bg .content footer .footer-2 .container-footer-2 p span:hover {
+          color: white; }
+
+@media only screen and (max-width: 1367px) {
+  .full-bg .container-full-bg .content footer .footer-2 .container-footer-2 {
+    width: 85%; } }
+@media only screen and (max-width: 600px) {
+  .full-bg .container-full-bg .content footer .footer-1 .container-footer-1 {
+    display: block; }
+    .full-bg .container-full-bg .content footer .footer-1 .container-footer-1 h2 {
+      text-align: center; }
+    .full-bg .container-full-bg .content footer .footer-1 .container-footer-1 div {
+      text-align: center; }
+      .full-bg .container-full-bg .content footer .footer-1 .container-footer-1 div button {
+        margin-top: 0px;
+        margin-right: 0px; }
+  .full-bg .container-full-bg .content footer .footer-2 .container-footer-2 .menu-footer ul {
+    flex-wrap: wrap;
+    justify-content: center; } }
+@media only screen and (max-width: 375px) {
+  .full-bg .container-full-bg .content footer .footer-2 .container-footer-2 .menu-footer ul {
+    display: block; } }
+
+/*# sourceMappingURL=style.css.map */

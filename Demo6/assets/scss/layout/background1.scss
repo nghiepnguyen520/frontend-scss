@@ -1,0 +1,62 @@
+
+
+@import  '../helper/mixin.scss';
+@import  '../helper/font.scss';
+
+.full-bg{
+    .container-full-bg{
+        .content{
+            .background1{
+                background-image: url(../../assets/image6/pencil_bkgd.jpg);
+                background-position: center;
+                background-size: cover;   
+                position: relative;   
+                .container-bg1{
+                    margin: 0 auto;
+                    padding-top: 10%;
+                    
+                    width: 90%;
+                    center{
+                        display: flex;
+                        div{
+                            width: 25%;
+                            color: white;
+                            h2{
+                                @include p;
+                                font-size: 40px;
+                                margin-bottom: 12px;
+                            }
+                            p{
+                                @include p;
+                                margin-top: 0px
+                            }
+                        }
+                    }
+                }
+                .cloud{
+                    position: relative;
+                    bottom: -4px;;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 415px){
+    .full-bg{
+        .container-full-bg{
+            .content{
+                .background1{
+                    .container-bg1{
+                        center{
+                            display: block;
+                            div{
+                                width: 100%;
+                                padding-bottom: 20px
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

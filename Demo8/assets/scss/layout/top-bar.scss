@@ -1,0 +1,110 @@
+
+@import '../helper/mixin.scss';
+body{
+    margin: 0;
+}
+.full-demo8{
+    overflow: hidden;
+}
+.top-bar{
+    position: relative;
+    z-index: 2;
+    .contact{
+        background-color: #1daaa3;
+        .container-contact{
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            font-family: $font-fam;
+            margin: 0 auto;
+            width: 93.6%;
+            position: relative;
+            .con-1{
+                padding-top: 14px;
+                font-size: 13px;
+                span{
+                    margin-right: 2px;
+                    i{
+                        color:  #1daaa3;;
+                        background-color: white;
+                        padding: 3px;
+                        border-radius: 5px;
+                        
+                    }
+                }
+                .number{
+                    border-bottom: 1px solid white;
+                    margin-left: 15px;
+                }
+            }
+            .con-2{
+                position: relative;
+                ul{
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 10px 0;
+                    li{
+                        font-size: 13px;
+                        a{
+                            cursor: pointer;
+                        }
+                        a:hover{
+                            opacity: 0.8
+                        }
+                    }
+                    .li-1::before{
+                        content: " ";
+                        display: inline-block;
+                        height: 25px;
+                        width: 1px;
+                        background-color: rgba(255,255,255,.1);
+                        margin-left: 10px;
+                        margin-right: 10px;
+                        vertical-align: middle;
+                        
+                    }
+                    .li-2{
+                        line-height: 22px;
+                        i{
+                            margin-right: 6px;
+                        }
+                        a{
+                            cursor: pointer;
+                        }
+                        a:after {
+                            display:block;
+                            content: '';
+                            border-bottom: solid 1px white;  
+                            transform: scaleX(0);  
+                            transition: transform 250ms ease-in-out;
+                          }
+                        a:hover:after{ 
+                            transform: scaleX(1); 
+                        }
+                        a.from-left:after{  
+                            transform-origin:  0% 50%; 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:600px){
+    .top-bar{
+        .contact{
+            .container-contact{
+                width: 90%;
+                text-align: center;
+                display: block;
+                .con-2{
+                    display: none;
+                }
+                .con-1{
+                    padding-bottom: 14px;
+                }
+            }
+        }
+    }
+}

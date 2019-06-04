@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAOI,UAGC;EAFG,WAAW,ECLD,UAAU;EDMpB,GAAG,EAAE,oDAA6B",
+"sources": ["mixin.scss","font.scss"],
+"names": [],
+"file": "font.css"
+}

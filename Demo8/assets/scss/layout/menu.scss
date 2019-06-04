@@ -1,0 +1,804 @@
+
+.sticky{
+    position: fixed !important;
+    top : 0;
+}
+.menu-mobile{
+    display: none;
+    border-bottom: 2px solid #f5f5f5;
+    background: white;
+    z-index: 2;
+    right: 0;
+    left: 0;
+    position: relative;
+    .container-mobile{
+        display: flex;
+        margin: 0 auto;
+        width: 90%;
+        justify-content: space-between;
+        .menu-right{
+            width: 65%;
+            display: flex;
+            justify-content: flex-end;
+            .login{
+                border-right: 2px solid #f5f5f5;
+                a{
+                    line-height: 90px;
+                    padding-right: 35px;
+                    font-family: $font-fam;
+                    font-size: 13px;
+                    cursor: pointer;
+                    font-style: italic;
+                    &:hover{
+                        color: #1daaa3;
+                    }
+                }    
+    
+    
+            }
+            div ul{
+                display: flex;
+                list-style: none;
+                li{
+                    margin-right: 20px;
+                    padding-top: 21px;
+                    cursor: pointer;
+                    .fa-heart{
+                        position: relative;
+                        span{
+                            font-size: 11px;
+                            padding: 0px 5px;
+                            background: #1daaa3;
+                            border-radius: 50%;
+                            position: absolute;
+                            bottom: 10px;
+                            left: 14px;
+                            color: white
+                        }
+                    }
+                }
+            }
+        }
+        .logo{
+            padding-top: 23px;
+            width: 23%;
+            cursor: pointer;
+            img{
+                width: 100%;
+            }
+        }
+        .icon-nav{
+            line-height: 90px;
+            cursor: pointer
+        }
+    }
+    
+}
+#menu-one{
+    display: none;
+    position: relative;
+    z-index: 3;
+    background:black;
+    .container{     
+		.active1{
+            padding: 20px;
+            padding-left: 55px;
+            border-bottom: 1px solid rgba(73, 72, 72, 0.76);
+            cursor: pointer;  
+			a {
+                color: #179a94;
+                text-decoration: none;
+            }
+		}
+		.menu-1{
+            padding: 20px;
+            padding-left: 55px;
+            border-bottom: 1px solid rgba(73, 72, 72, 0.76);
+            cursor: pointer;  
+			a{
+				text-decoration: none;
+                font-family: $font-fam;
+                font-size: 14px;
+                color: rgba(255,255,255,.8);
+                font-family: $font-fam1;
+            }
+            i{
+                color: white
+            }
+            .menue-1-1{
+                display: flex;
+                justify-content: space-between
+            }
+            .menu-2{
+                display: block;
+                background: white
+            }
+		}
+		.menu-1:hover{
+			a{
+                color : white;
+            }
+        }
+       
+	}
+}
+.menu{
+    border-bottom: 2px solid #f5f5f5;
+    background: white;
+    z-index: 2;
+    right: 0;
+    left: 0;
+    position: relative;
+    .container-menu{
+        display: flex;
+        margin: 0 auto;
+        width: 96%;
+        .menu-left{
+            width: 43%;       
+            .main-menu{
+                list-style: none;
+                display: flex;
+                padding-left: 17px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                line-height: 86px;
+                li{
+                    margin-right: 14px;
+                    font-family: $font-fam;
+                    cursor: pointer;
+                    a{
+                        
+                        cursor: pointer;
+                        span{
+                            margin-left: 5px;
+                            color: #bbb;
+                            cursor: pointer;
+                           
+                        }
+                    } 
+
+                    
+                    a{
+                        position: relative;
+                        font-size: 12px;
+                        .sale{
+                            position: absolute;
+                            font-size: 9px;
+                            background: #D41212;
+                            line-height: 12px;
+                            padding: 0 4px;
+                            bottom: 20px;
+                            left: 14px;
+                            color: white
+                        }   
+                        .fa-caret-right{
+                            position: absolute;
+                            color: #D41212;
+                            bottom: 14px;
+                            left: 21px;
+                            z-index: 1;
+                        }
+                        &:hover{
+                            color:#1daaa3;
+                        }     
+                    }
+                    .active{
+                        color:#1daaa3;
+                    }
+                    .sub-menu-home{
+                        position: absolute;    
+                        z-index: 5;            
+                        background: white;  
+                        box-shadow: 0 0 2px rgba(0,0,0,.1);
+                        left: 2%;
+                        top: 75px;
+                        transition: all 2s ease-in-out;
+                        width: 75%;
+                        display: none;
+                        .container-sub{
+                            display: flex;
+                            justify-content: space-between;
+                            padding: 15px 30px;
+                            line-height: normal;
+                            flex-wrap: wrap;
+                            .home{
+                                width: 18%;
+                                img{
+                                    width: 100%;
+                                }
+                                a{
+                                    font-size: 15px;
+                                    font-weight: bolder;
+                                    cursor: pointer;
+                                    span{
+                                        color: #1aada3;
+                                    }
+                                    &:hover{
+                                        color:#1daaa3;
+                                    }   
+                                }
+                            }
+                        }
+                    }
+                    .sub-menu-shop{
+                        position: absolute;  
+                        z-index: 10;                   
+                        background: white;  
+                        box-shadow: 0 0 2px rgba(0,0,0,.1);
+                        left: 0;
+                        right: 0;
+                        top: 85px;
+                        display: none;
+                        transition: all 2s ease-in-out;
+                        .container-sub{
+                            display: flex;
+                            padding: 30px 25px 30px 0px;
+                            margin: 0 auto;
+                            width: 79%;
+                            justify-content: space-between;
+                            .shop-left{
+                                width: 73%;
+                                border-right: 1px solid rgba(107, 107, 107, 0.11);
+                                .shop-left-1{
+                                    display: flex;
+                                    .sub-menu-1{
+                                        list-style: none;
+                                        padding-left: 16px;
+                                        line-height: 38px;
+                                        margin-right: 70px;
+                                        li{
+                                            font-size: 13px;
+                                            &:hover{
+                                                color:#1daaa3;
+                                            }   
+                                            i{
+                                                margin-right: 10px;
+                                            }
+                                           
+                                            .hot{
+                                                position: absolute;
+                                                font-size: 9px;
+                                                background: #EF7C0A;
+                                                line-height: 12px;
+                                                padding: 0 4px;
+                                                bottom: 32px;
+                                                right: 0;
+                                                color: white
+                                            }   
+                                            .new{
+                                                position: absolute;
+                                                font-size: 9px;
+                                                background: #1daaa3;
+                                                line-height: 12px;
+                                                padding: 0 4px;
+                                                bottom: 32px;
+                                                right: 0;
+                                                color: white
+                                            } 
+                                            .new1{
+                                                position: absolute;
+                                                font-size: 9px;
+                                                background: #1daaa3;
+                                                line-height: 12px;
+                                                padding: 0 4px;
+                                                bottom: 32px;
+                                                right: 42px;
+                                                color: white
+                                            } 
+                                            .new2{
+                                                position: absolute;
+                                                font-size: 9px;
+                                                background: #1daaa3;
+                                                line-height: 12px;
+                                                padding: 0 4px;
+                                                bottom: 32px;
+                                                right: 52px;
+                                                color: white
+                                            } 
+                                            .right1{
+                                                position: absolute;
+                                                color: #1daaa3;
+                                                bottom: 26px;
+                                                right: 5px;
+                                                z-index: 1;
+                                            }  
+                                            .right2{
+                                                position: absolute;
+                                                color: #EF7C0A;
+                                                bottom: 26px;
+                                                right: 5px;
+                                                z-index: 1;
+                                            } 
+                                            .right3{
+                                                position: absolute;
+                                                color: #1daaa3;
+                                                bottom: 26px;
+                                                right: 51px;
+                                                z-index: 1;
+                                            }  
+                                            .right4{
+                                                position: absolute;
+                                                color: #1daaa3;
+                                                bottom: 26px;
+                                                right: 60px;
+                                                z-index: 1;
+                                            }   
+                                             
+                                            
+                                            
+                                        }
+                                        .icon-shop-1{
+                                            position: relative;
+                                        }
+                                    }
+                                }
+                                .shop-left-2{
+                                    display: flex;
+                                    justify-content: space-between;
+                                    margin-top: 40px;
+                                    ul{
+                                        display: flex;
+                                        list-style: none;
+                                        padding-left: 15px;
+                                    
+                                        li{
+                                            margin-right: 33px;
+                                            border-right: 1px solid rgba(107, 107, 107, 0.11);
+                                            div{
+                                                line-height: normal;
+                                                margin-right: 63px;
+                                                
+                                                p{
+                                                    font-size: 13px;
+                                                }
+                                                h4{
+                                                    font-size: 13px;
+                                                    i{
+                                                        margin-right: 10px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .none{
+                                            border: none;
+                                        }
+                                    }
+                                }
+                               
+                            }
+                            .shop-right{
+                                width: 24%;
+                                line-height: normal;
+                                .img-shop{
+                                    img{
+                                        width: 100%;
+                                        transition: all 0.5s ease-in-out;
+                                        cursor: pointer;
+                                        &:hover{
+                                            transform: scale(1.1);
+                                        }
+                                    }
+                                    .color{
+                                        margin-top: 15px;
+                                        div{
+                                            border-radius: 50%;
+                                            width: 15px;
+                                            height: 15px;
+                                            display: inline-block;
+                                            margin-right: 2px;
+                                            cursor: pointer;
+                                            
+                                        }
+                                        .color-1{
+                                            background: black;
+                                        }
+                                        .color-2{
+                                            background: #769ec1;
+                                        }
+                                        .color-3{
+                                            background: #ba6d09;
+                                        }
+                                        .color-4{
+                                            background: #dd3333;
+                                        }
+                                        .color-5{
+                                            background: #eded55;
+                                        }
+                                    }
+                                  
+                                }
+                            }
+                            
+                            
+                        }
+                    }
+                    .sub-menu-blog{
+                        position: absolute;    
+                        z-index: 5;            
+                        background: white;  
+                        box-shadow: 0 0 2px rgba(0,0,0,.1);
+                        left: 9.7%;
+                        top: 75px;
+                        transition: all 2s ease-in-out;
+                        display: none;
+                        .container-sub{
+                            display: flex;
+                            flex-direction: column;
+                            padding: 5px 25px 10px 0px;
+                            .sub-menu-1{
+                                list-style: none;
+                                padding-left: 16px;
+                                line-height: 38px;
+                                li{
+                                    font-size: 13px;
+                                    &:hover{
+                                        color:#1daaa3;
+                                    } 
+                                    position: relative;
+                                    font-size: 12px;
+                                    .hot{
+                                        position: absolute;
+                                        font-size: 9px;
+                                        background: #EF7C0A;
+                                        line-height: 12px;
+                                        padding: 0 4px;
+                                        bottom: 32px;
+                                        left: 47px;
+                                        color: white
+                                    } 
+                                    .new{
+                                        position: absolute;
+                                        font-size: 9px;
+                                        background: #1daaa3;
+                                        line-height: 12px;
+                                        padding: 0 4px;
+                                        bottom: 32px;
+                                        left: 47px;
+                                        color: white
+                                    }    
+                                    .right{
+                                        position: absolute;
+                                        color: #EF7C0A;
+                                        bottom: 26px;
+                                        left: 49px;
+                                        z-index: 1;
+                                    }  
+                                    .right1{
+                                        position: absolute;
+                                        color: #1daaa3;
+                                        bottom: 26px;
+                                        left: 49px;
+                                        z-index: 1;
+                                    }  
+                                    
+                                }
+                            }
+                        }
+                    }
+                    .sub-menu-pages{
+                        position: absolute;  
+                        z-index: 10;                   
+                        background: white;  
+                        box-shadow: 0 0 2px rgba(0,0,0,.1);
+                        left: 13.3%;
+                        top: 75px;
+                        transition: all 2s ease-in-out;
+                        display: none;
+                        .container-sub{
+                            display: flex;
+                            padding: 5px 25px 10px 0px;
+                            .sub-menu-1{
+                                list-style: none;
+                                padding-left: 16px;
+                                line-height: 38px;
+                                margin-right: 50px;
+                                li{
+                                    font-size: 13px;
+                                    position: relative;
+                                    i{
+                                        margin-right: 10px;
+                                    }
+                                    &:hover{
+                                        color:#1daaa3;
+                                    }   
+                                    .hot{
+                                        position: absolute;
+                                        font-size: 9px;
+                                        background: #EF7C0A;
+                                        line-height: 12px;
+                                        padding: 0 4px;
+                                        bottom: 32px;
+                                        left: 86px;
+                                        color: white
+                                    }    
+                                    .right{
+                                        position: absolute;
+                                        color: #EF7C0A;
+                                        bottom: 26px;
+                                        left: 90px;
+                                        z-index: 1;
+                                    }  
+                                    
+                                }
+                            }
+                        }
+                    }
+                    .sub-menu-feat{
+                        position: absolute;  
+                        z-index: 10;                   
+                        background: white;  
+                        box-shadow: 0 0 2px rgba(0,0,0,.1);
+                        left: 17.8%;
+                        top: 75px;
+                        transition: all 2s ease-in-out;
+                        display: none;
+                        background-image: url(../../assets/image8/menu-baner-1.jpg);
+                        background-position: right;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+
+                        .container-sub{
+                            display: flex;
+                            padding: 5px 25px 10px 0px;
+                            .sub-menu-1{
+                                list-style: none;
+                                padding-left: 16px;
+                                line-height: 38px;
+                                margin-right: 50px;
+                                li{
+                                    font-size: 13px;
+                                    position: relative;
+                                    i{
+                                        margin-right: 10px;
+                                    }
+                                    &:hover{
+                                        color:#1daaa3;
+                                    }   
+                                    .new{
+                                        position: absolute;
+                                        font-size: 9px;
+                                        background: #1daaa3;
+                                        line-height: 12px;
+                                        padding: 0 4px;
+                                        bottom: 32px;
+                                        right: 0;
+                                        color: white
+                                    } 
+                                    .hot{
+                                        position: absolute;
+                                        font-size: 9px;
+                                        background: #EF7C0A;
+                                        line-height: 12px;
+                                        padding: 0 4px;
+                                        bottom: 32px;
+                                        right: 0;
+                                        color: white
+                                    } 
+                                    .hot3{
+                                        position: absolute;
+                                        font-size: 9px;
+                                        background: #EF7C0A;
+                                        line-height: 12px;
+                                        padding: 0 4px;
+                                        bottom: 32px;
+                                        right: 20px;
+                                        color: white
+                                    } 
+                                
+                                    .right{
+                                        position: absolute;
+                                        color: #EF7C0A;
+                                        bottom: 26px;
+                                        right: 5px;
+                                        z-index: 1;
+                                    }  
+                                    .right1{
+                                        position: absolute;
+                                       
+                                        color: #1daaa3;
+                                        bottom: 26px;
+                                        right: 5px;
+                                        z-index: 1;
+                                    } 
+                                    .right3{
+                                        position: absolute;
+                                        color: #EF7C0A;
+                                        bottom: 26px;
+                                        right: 26px;
+                                        z-index: 1;
+                                    } 
+                           
+                                    
+                                }
+                            }
+                            .sub-menu-2{
+                                list-style: none;
+                                padding-left: 16px;
+                                line-height: 35px;
+                                margin-right: 200px;
+                                li{
+                                    font-size: 13px;
+                                    position: relative;
+                                    i{
+                                        margin-right: 10px;
+                                    }
+                                    &:hover{
+                                        color:#1daaa3;
+                                    }   
+                                    .new{
+                                        position: absolute;
+                                        font-size: 9px;
+                                        background: #1daaa3;
+                                        line-height: 12px;
+                                        padding: 0 4px;
+                                        bottom: 32px;
+                                        right: 0;
+                                        color: white
+                                    } 
+                                    .hot{
+                                        position: absolute;
+                                        font-size: 9px;
+                                        background: #EF7C0A;
+                                        line-height: 12px;
+                                        padding: 0 4px;
+                                        bottom: 32px;
+                                        right: 0;
+                                        color: white
+                                    } 
+                                   
+                                
+                                    .right{
+                                        position: absolute;
+                                        color: #EF7C0A;
+                                        bottom: 26px;
+                                        right: 5px;
+                                        z-index: 1;
+                                    }  
+                                    .right1{
+                                        position: absolute;                                      
+                                        color: #1daaa3;
+                                        bottom: 26px;
+                                        right: 5px;
+                                        z-index: 1;
+                                    } 
+                               
+                                }
+                            }
+                        }
+                    }
+                    &:hover{
+                        .sub-menu-blog{
+                            display: block;
+                            transition: all 2s ease-in-out;
+                        }
+                        .sub-menu-pages{
+                            display: block;
+                            transition: all 2s ease-in-out;
+                        }
+                        .sub-menu-feat{
+                            display: block;
+                            transition: all 2s ease-in-out;
+                        }
+                        .sub-menu-shop{
+                            display: block;
+                            transition: all 2s ease-in-out;
+                        }
+                        .sub-menu-home{
+                            display: block;
+                            transition: all 2s ease-in-out;
+                        }
+                    }
+
+                }
+            }
+        }
+        .menu-right{
+            width: 43%;
+            display: flex;
+            justify-content: flex-end;
+            .login{
+                border-right: 2px solid #f5f5f5;
+                a{
+                    line-height: 90px;
+                    padding-right: 35px;
+                    font-family: $font-fam;
+                    font-size: 13px;
+                    cursor: pointer;
+                    font-style: italic;
+                    &:hover{
+                        color: #1daaa3;
+                    }
+                }    
+
+
+            }
+            div ul{
+                display: flex;
+                list-style: none;
+                li{
+                    margin-right: 20px;
+                    padding-top: 21px;
+                    cursor: pointer;
+                    .fa-heart{
+                        position: relative;
+                        span{
+                            font-size: 11px;
+                            padding: 0px 5px;
+                            background: #1daaa3;
+                            border-radius: 50%;
+                            position: absolute;
+                            bottom: 10px;
+                            left: 14px;
+                            color: white
+                        }
+                    }
+                }
+            }
+        }
+        .logo{
+            padding-top: 23px;
+            width: 14%;
+            cursor: pointer;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+@media only screen and (max-width:1440px){
+    .menu .container-menu .menu-left .main-menu li .sub-menu-shop .container-sub{
+        width: 90%;
+    }
+}
+@media only screen and (max-width:1024px){
+    .menu{
+        display: none
+    }
+    .menu-mobile{
+        display: block;
+    }
+}
+@media only screen and (max-width:768px){
+    .menu-mobile{
+        .container-mobile{
+            .logo{
+                padding-top: 27px;
+                width: 25%;
+            }
+        }
+    }
+}
+@media only screen and (max-width:600px){
+    .menu-mobile{
+        .container-mobile{
+            .logo{
+                padding-top: 21px;
+                width: 43%;
+            }
+            .menu-right{
+                display: none;
+            }
+        }
+    }
+}
+@media only screen and (max-width:415px){
+    .menu-mobile{
+        .container-mobile{
+            .logo{
+                padding-top: 27px;
+            }
+        }
+    }
+}
+@media only screen and (max-width:360px){
+    .menu-mobile{
+        .container-mobile{
+            .logo{
+                padding-top: 20px;
+            }
+            .icon-nav{
+                line-height: 70px;
+            }
+        }
+    }
+}

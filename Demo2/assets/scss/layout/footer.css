@@ -1,0 +1,65 @@
+.footer {
+  margin: 0px 10px;
+  margin-bottom: 10px;
+  background: black; }
+  .footer .info-footer {
+    display: flex;
+    margin: 0 auto;
+    width: 65%;
+    color: white;
+    padding-top: 45px;
+    justify-content: space-between;
+    line-height: 30px;
+    padding-bottom: 90px;
+    border-bottom: 1px solid #4E4E4E; }
+    .footer .info-footer .footer-1 {
+      width: 23%;
+      padding-top: 6px; }
+      .footer .info-footer .footer-1 img {
+        width: 38%;
+        padding-top: 9px;
+        margin-bottom: -4px; }
+      .footer .info-footer .footer-1 div i {
+        padding-right: 15px; }
+      .footer .info-footer .footer-1 div span {
+        color: #EFEFEF; }
+      .footer .info-footer .footer-1 p {
+        color: #EFEFEF; }
+    .footer .info-footer .footer-2 {
+      width: 23%; }
+      .footer .info-footer .footer-2 p {
+        border-bottom: 1px solid #4E4E4E; }
+    .footer .info-footer .footer-3 {
+      width: 23%; }
+    .footer .info-footer .footer-4 {
+      width: 23%; }
+      .footer .info-footer .footer-4 i {
+        padding-right: 15px; }
+  .footer .follow {
+    display: flex;
+    margin: 0 auto;
+    width: 65%;
+    justify-content: space-between;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 25px; }
+    .footer .follow div span {
+      padding-right: 10px; }
+
+.scrolltop {
+  display: none;
+  padding: 0px 8px;
+  position: fixed;
+  z-index: 99;
+  right: 22px;
+  top: 86%;
+  background: #FFD81B;
+  cursor: pointer;
+  opacity: 0.6;
+  color: black;
+  overflow: hidden; }
+
+.scrolltop:hover {
+  opacity: 1.0; }
+
+/*# sourceMappingURL=footer.css.map */

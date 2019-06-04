@@ -1,0 +1,68 @@
+.map {
+  display: flex; }
+  .map .detail {
+    width: 60%; }
+    .map .detail .container-detail {
+      padding: 10% 7%; }
+      .map .detail .container-detail h2 {
+        font-size: 50px;
+        font-family: 'Merriweather';
+        font-weight: 300;
+        font-size: 37px;
+        position: relative; }
+      .map .detail .container-detail h2::before {
+        content: ' ';
+        border-bottom: 1px solid;
+        height: 2px;
+        position: absolute;
+        top: 75px;
+        margin: 0 auto;
+        color: #c7d3d6;
+        width: 15%; }
+      .map .detail .container-detail .text-map {
+        font-family: "Merriweather";
+        font-size: 14px;
+        line-height: 32px;
+        padding-top: 40px;
+        color: #7e8890; }
+      .map .detail .container-detail .question {
+        padding-top: 35px; }
+        .map .detail .container-detail .question .question1 {
+          padding: 20px;
+          background: #b9675e;
+          margin-bottom: 10px;
+          transition: all 0.5s ease-out;
+          cursor: pointer; }
+          .map .detail .container-detail .question .question1 span {
+            font-family: "Merriweather";
+            font-size: 14px;
+            margin-right: 10px; }
+            .map .detail .container-detail .question .question1 span i {
+              padding: 5px;
+              background-color: #333333;
+              color: white; }
+          .map .detail .container-detail .question .question1:hover {
+            background: #90A8AD; }
+  .map .map-1 {
+    width: 40%; }
+    .map .map-1 iframe {
+      height: 100%; }
+
+@media only screen and (max-width: 800px) {
+  .map {
+    display: block; }
+    .map .detail {
+      width: 100%; }
+    .map .map-1 {
+      width: 100%;
+      height: 500px; } }
+@media only screen and (max-width: 360px) {
+  .map {
+    display: block; }
+    .map .detail .container-detail .question .question1 {
+      padding: 20px 13px; } }
+@media only screen and (max-width: 320px) {
+  .map .detail .container-detail .question .question1 span {
+    font-size: 12px; } }
+
+/*# sourceMappingURL=map.css.map */

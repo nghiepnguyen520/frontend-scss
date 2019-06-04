@@ -1,0 +1,54 @@
+
+// @mixin main-font-fam {
+//     font-family: $font-family;
+// }
+// $font-family : 'Amatic SC';
+
+@mixin set-font($name, $link){
+    @font-face{
+        font-family: $name;
+        src: url($link) format("opentype"); 
+    }
+};
+
+@mixin set-f-s-cl($fam, $size, $cl){
+    font-size: $size;
+    color: $cl;
+    font-family: $fam;
+};
+
+@mixin flex($dir){
+    display: flex;
+    flex-direction: $dir;
+    @content
+};
+
+@mixin res($width) {
+    @media screen and(max-width: $width) {
+        @content;
+    }
+}
+
+@mixin res2($max-w, $min-w) {
+    @media only screen and (max-width:$max-w) and (min-width:$min-w){
+        @content;
+    } 
+}
+@mixin h2{
+    font-size: 50px;
+    font-family: 'Merriweather';
+    font-weight: 300;
+}
+@mixin h2-border{
+    content: ' ';
+    border-bottom: 1px solid;
+    height: 2px;
+    position: absolute;
+    top: 75px;
+    margin: 0 auto;
+    color: #c7d3d6
+}
+
+$main-color : white;
+$font-fam : 'Merriweather';
+$font-fam1 : 'Montserrat';

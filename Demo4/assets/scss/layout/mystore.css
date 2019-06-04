@@ -1,0 +1,107 @@
+.mystore {
+  overflow: hidden; }
+  .mystore .available {
+    background-color: #35baf2; }
+    .mystore .available .container-available {
+      margin: 0 auto;
+      width: 65%;
+      display: flex;
+      padding: 40px 0px; }
+      .mystore .available .container-available div {
+        width: 50%;
+        color: white;
+        font-family: "Source Sans Pro", Arial, Helvetica, sans-serif; }
+        .mystore .available .container-available div h2 {
+          font-size: 40px;
+          font-weight: 300;
+          margin-bottom: 0px;
+          margin-top: 0px; }
+        .mystore .available .container-available div p {
+          font-size: 18px;
+          margin-top: 3%;
+          line-height: 30px; }
+      .mystore .available .container-available center {
+        width: 50%; }
+        .mystore .available .container-available center button {
+          color: black;
+          border: none;
+          background: white;
+          padding: 14px 25px;
+          border-radius: 3px;
+          margin-top: 32px;
+          cursor: pointer;
+          transition: all 0.5s ease-out; }
+        .mystore .available .container-available center button:hover {
+          color: #35baf2; }
+  .mystore .container-mystore {
+    margin: 0 auto;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6%;
+    padding-bottom: 6%; }
+    .mystore .container-mystore .info-mystore {
+      width: 44%;
+      font-family: "Source Sans Pro", Arial, Helvetica, sans-serif; }
+      .mystore .container-mystore .info-mystore .fa-map-marker-alt {
+        color: #35baf2;
+        padding: 16px 20px;
+        border-radius: 50%;
+        background: none;
+        border: 1px solid #35baf2; }
+      .mystore .container-mystore .info-mystore .fa-archive {
+        color: #35baf2;
+        padding: 16px 16px;
+        border-radius: 50%;
+        background: none;
+        border: 1px solid #35baf2; }
+      .mystore .container-mystore .info-mystore h3 {
+        font-size: 25px;
+        font-weight: 300;
+        margin-bottom: 0px;
+        color: #515b69; }
+      .mystore .container-mystore .info-mystore p {
+        font-size: 18px;
+        line-height: 30px;
+        color: #7f8795;
+        margin-bottom: 25px; }
+      .mystore .container-mystore .info-mystore button {
+        color: white;
+        border: none;
+        background: #74849C;
+        padding: 13px 20px;
+        border-radius: 3px;
+        font-size: 12px;
+        cursor: pointer;
+        transition: all 0.5s ease-out; }
+      .mystore .container-mystore .info-mystore button:hover {
+        background: #35baf2; }
+
+@media only screen and (max-width: 1367px) {
+  .mystore .available .container-available div {
+    width: 55%; } }
+@media only screen and (max-width: 1024px) {
+  .mystore .available .container-available {
+    width: 80%; }
+    .mystore .available .container-available div {
+      width: 65%; } }
+@media only screen and (max-width: 800px) {
+  .mystore .available .container-available {
+    width: 80%;
+    display: block; }
+    .mystore .available .container-available div {
+      width: 100%; }
+    .mystore .available .container-available center {
+      width: 100%; }
+  .mystore .container-mystore {
+    width: 80%; } }
+@media only screen and (max-width: 600px) {
+  .mystore .container-mystore {
+    padding-bottom: 0%;
+    width: 80%;
+    display: block; }
+    .mystore .container-mystore .info-mystore {
+      width: 100%;
+      margin-bottom: 15%; } }
+
+/*# sourceMappingURL=mystore.css.map */

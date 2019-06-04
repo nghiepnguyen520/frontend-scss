@@ -1,0 +1,207 @@
+
+.review{
+    background-image: url(../../assets/image9/section-background-stripes2.svg);
+    background-color: rgba(241,72,51,0.9);
+    background-size: cover;
+    .container-rev{
+        padding: 2% 0px;
+       
+        .slide-rev{
+            width: 100%;
+            position: relative;
+            background-color: rgba(0,0,0,0.2);
+            height: 330px;
+            padding: 3% 0px;
+            div{
+                i{
+                    color :white;
+                }
+            }
+            .slide-item-rev{
+                position: relative;           
+                .fade {
+                    -webkit-animation-name: fade;
+                    -webkit-animation-duration: 1.5s;
+                    animation-name: fade;
+                    animation-duration: 1.5s;
+                }
+                @-webkit-keyframes fade {
+                    from {opacity: .4} 
+                    to {opacity: 1}
+                  }
+                  
+                @keyframes fade {
+                    from {opacity: .4} 
+                    to {opacity: 1}
+                }
+                .rev{
+                    display: none;
+                    .slide-content{
+                        width: 100%;
+                        position: absolute;          
+                        .slide-content-main{
+                            color: #fff;
+                            margin: 0 auto;
+                            width: 80%;
+                            text-align: center;
+                            .slide-left{
+                                width: 100%;
+                                position: relative;
+                                h2{
+                                    color: white;
+                                    font-size: 30px;
+                                    font-family: $font-fam1;
+                                    font-weight: 300;
+                                    margin-bottom: 30px;
+                                    a{
+                                        border-right: 2px solid #f14833;
+                                        padding-right: 18px;
+                                    }
+                                }
+                                h3{
+                                    color: white;
+                                    font-size: 20px;
+                                    font-family: $font-fam1;
+                                    font-weight: 300;
+                                    margin-top: 0px;
+                                }
+                                p{
+                                    color: white;
+                                    font-size: 15px;
+                                    font-family: $font-fam;
+                                    font-weight: 300;
+                                    line-height: 32px;      
+                                }
+                            }
+                        } 
+                    }
+                }
+            }
+            .dots1{
+                display: flex;
+                position: relative;
+                justify-content: center;
+                padding: 1% 0px;
+                top: 65%
+            }
+            .dots1 p{
+                width: 9px;
+                height: 9px;
+                border-radius: 50%;
+                background: #E0A39A;
+
+                margin: 0 5px;
+                cursor: pointer;
+                transition: all 1s;
+            }    
+            .dots1 p:hover{
+                background: #fff;
+            }
+        }
+    }
+}
+@media only screen and (max-width : 1024px){
+    .review{
+        .container-rev{
+            .slide-rev{
+                .dots1{
+                    top: 71%
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width : 800px){
+    .review{
+        .container-rev{
+            .slide-rev{
+                padding: 5% 0px;
+                .slide-item-rev{
+                    .rev{
+                        .slide-content{
+                            .slide-content-main{
+                                width: 85%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width : 600px){
+    .review{
+        .container-rev{
+            padding: 4% 0px;
+            .slide-rev{
+                padding-bottom: 12%;
+                .dots1{
+                    top: 81%
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width : 415px){
+    .review{
+        .container-rev{
+            padding: 4% 0px;
+            .slide-rev{
+                padding-bottom: 32%;
+                .dots1{
+                    top: 102%
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width : 385px){
+    .review{
+        .container-rev{
+            .slide-rev{
+                padding-bottom: 35%;
+                .slide-item-rev{
+                    .rev{
+                        .slide-content{
+                            .slide-content-main{
+                                .slide-left{
+                                    p{
+                                        font-size: 13px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width : 385px){
+    .review{
+        .container-rev{
+            .slide-rev{
+                padding-bottom: 35%;
+                .slide-item-rev{
+                    .rev{
+                        .slide-content{
+                            .slide-content-main{
+                                .slide-left{
+                                    h2{
+                                        font-size: 25px;
+                                    }
+                                    p{
+                                        font-size: 12px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .dots1{
+                    top: 97%
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,189 @@
+
+
+footer{
+    background-color: black;
+    .container-footer{
+        margin: 0 auto;
+        width: 65%;
+        color: white;
+        padding: 4% 0px;
+        .logo-white{
+            width: 28%;
+            cursor: pointer;
+        }
+        div{
+            span{
+                margin-right: 10px;
+                color:rgba(255,255,255,.6);
+                transition: all 0.5s ease-in-out;
+                cursor: pointer;
+                &:hover{
+                    color: white;
+                }
+            }
+        }
+        .info-footer{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 45px;
+            .footer-1{
+                width: 35%;
+                h3{
+                    font-family: $font-fam;
+                    font-size: 16px;
+                    letter-spacing: 1px;
+                    position: relative;
+                    margin-bottom: 35px;
+                }
+                h3::before{
+                    content: ' ';
+                    border-bottom: 2px solid white;
+                    height: 2px;
+                    position: absolute;
+                    margin: 0 auto;
+                    width: 18%;
+                     bottom: -10px;
+                    
+                }
+                p{
+                    font-family: $font-fam;
+                    font-size: 14px;
+                    line-height: 25px;
+                    cursor: pointer;
+                    color: rgba(255,255,255,.6);
+
+                    a:hover{ 
+                        transform: scaleX(1); 
+                        border-bottom: solid 1px white;  
+                        color: white
+                    }
+                }
+            }
+            .footer-1-1{
+                h3{
+                    font-family: $font-fam;
+                    font-size: 16px;
+                    letter-spacing: 1px;
+                    margin-bottom: 35px;
+                    position: relative;
+                }
+                h3::before{
+                    content: ' ';
+                    border-bottom: 2px solid white;
+                    height: 2px;
+                    position: absolute;
+                    margin: 0 auto;
+                    width: 10%;
+                     bottom: -10px;
+                    
+                }
+                p{
+                    font-family: $font-fam;
+                    font-size: 14px;
+                    line-height: 25px;
+                    color: rgba(255,255,255,.6);
+                    .fa-mobile-alt{
+                        margin-right: 15px;
+                        
+                    }
+                    .fa-location-arrow{
+                        margin-right: 10px;
+                    }
+                }
+                img{
+                    margin-top: 25px;
+                }
+            }
+        }
+    }
+    .footer-2{
+        margin: 0 auto;
+        width: 65%;    
+        border-top: 2px solid rgba(255,255,255,.1);
+        padding: 20px;
+        color: rgba(255,255,255,.6);
+        center{
+            font-family: $font-fam;
+            font-size: 14px;
+            span{
+                color:white;
+                cursor: pointer;
+                span{
+                    color: red;
+                }
+                &:hover{
+                    border-bottom: 1px solid white;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:1367px){
+    footer{
+        .container-footer{
+            width: 90%;
+        }
+    }
+}
+@media only screen and (max-width:800px){
+    footer{
+        .container-footer{
+            width: 85%;
+            .info-footer{
+                flex-wrap: wrap;
+                .footer-1{
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:600px){
+    footer{
+        .container-footer{
+            .logo-white{
+                width: 40%;
+            }
+        }
+        .footer-2{
+            width: 90%;
+            line-height: 23px
+        }
+    }
+}
+@media only screen and (max-width:415px){
+    footer{
+        .container-footer{
+            .logo-white{
+                width: 55%;
+            }
+        }
+    }
+}
+@media only screen and (max-width:384px){
+    footer{
+        .container-footer{
+            .logo-white{
+                width: 55%;
+            }
+        }
+        .footer-2{
+            width: auto;
+        }
+    }
+}
+@media only screen and (max-width:320px){
+    footer{
+        .container-footer{
+            .logo-white{
+                width: 70%;
+            }
+            .info-footer{
+                display: block;
+                .footer-1{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

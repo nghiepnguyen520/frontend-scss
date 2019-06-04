@@ -1,0 +1,331 @@
+
+
+footer{
+    padding-top: 40px;
+    margin-bottom: 0px;
+    .container-footer{
+        margin: 0 auto;
+        width: 90%;
+        display: flex;
+        font-family: 'Mukta', sans-serif;
+        justify-content: space-between;
+        padding-bottom: 5%;
+        .footer1{
+            width: 32%;
+            line-height: 35px;
+            img{
+                width: 55%;
+                padding-top: 20px;
+                cursor: pointer;
+            }
+            p{
+                color: #747474;
+            }
+            h4{
+                color: #747474
+            }
+            div{
+                color: #747474;
+              
+                span{
+                    padding-right: 3px;
+                    cursor: pointer;
+                    .fa-facebook-f{
+                        padding: 9px 13px;
+                        background: #3B5999;
+                        border-radius: 5px;
+                        color: white;
+                    }
+                    .fa-twitter{
+                        padding: 9px;
+                        color: white;
+                        background: #55ACEF;
+                        border-radius: 5px;
+                    }
+                    .fa-instagram{
+                        padding: 9px 10px;
+                        color: white;
+                        background: #3E729A;
+                        border-radius: 5px;
+                    }
+                    .fa-pinterest-p{
+                        padding: 9px 11px;
+                        color: white;
+                        background: #BD081D;
+                        border-radius: 5px;
+                    }
+                    .fa-linkedin-in{
+                        padding: 9px;
+                        color: white;
+                        background: #0077B4;
+                        border-radius: 5px;
+                    }
+                    .fa-paypal{
+                        padding: 9px 11px;
+                        color: white;
+                        background: #013088;
+                        border-radius: 5px;
+                    }
+                }
+                span:hover{
+                    opacity: 0.8;
+                }
+            }
+        }
+        .contact{
+            color: #747474;
+            width: 32%;
+            h3{
+                position: relative;
+                padding-bottom: 26px;
+            }
+            h3::before{
+                content:' ';
+                border-bottom: 2px solid #3BAEC0;
+                height: 2px;
+                width: 9%;
+                margin: 0 auto;
+                left: 0;
+                position: absolute;
+                top: 50px;
+            }
+            .contact1{
+                span{
+                    padding-right: 15px;
+                    .fa-map-marker-alt{
+                        padding: 2px;
+                    }
+                    i{
+                        color: #3BAEC0
+                    }
+                }           
+            }
+            #iframe{
+                border:0;
+                padding-top: 10%
+            }
+        }
+        .medical{
+            color: #747474;
+            width: 32%;
+            h3{
+                position: relative;
+                padding-bottom: 26px;
+            }
+            h3::before{
+                content:' ';
+                border-bottom: 2px solid #3BAEC0;
+                height: 2px;
+                width: 9%;
+                margin: 0 auto;
+                left: 0;
+                position: absolute;
+                top: 50px;
+            }
+            .medical1{
+                padding-bottom: 3px;
+                span{
+                    padding-right: 10px;
+                    i{
+                        padding: 4px 7px;
+                        background: #3BAEC0;
+                        border-radius: 50%;
+                        color: white
+                    }
+                }
+            }
+            button{
+                padding: 10px 50px;
+                font-family: 'Mukta', sans-serif;
+                background: none;
+                border: 1px solid black;
+                margin-top: 10%;
+                font-size: 15px;
+                letter-spacing: 2px;
+                cursor: pointer;
+                transition: all 0.5s ease-out
+            }
+            button:hover{
+                background: #3BAEC0;
+                color:white;
+                border: 1px solid #3BAEC0
+            }
+
+        }
+    }
+    .bottom-footer{
+        background: #F7F7F7;
+        p{  
+            color: #747474;
+            padding: 30px 72px;
+            font-family: 'Mukta', sans-serif;
+            margin-bottom: 0px
+        }
+    }
+}
+.scrolltop{
+	display: none;
+	position:fixed;
+	right:65px;
+	top: 95%;
+	background: black;
+	cursor:pointer;
+	color:white;
+	font-size: 20px;
+    overflow: hidden;
+    border-radius: 7px 7px 0px 0px;
+    padding: 10px 15px;
+    opacity: 0.9;
+}
+
+.scrolltop:hover
+{
+    opacity:1.0;
+    background: #3BAEC0
+}
+@media only screen and (max-width: 1024px){
+    footer{
+        .container-footer{
+            .contact{
+                h3::before{
+                    width: 12%;
+                }
+            }
+            .footer1{
+                img{
+                    width: 70%;
+                }
+            }
+            .medical{
+                button{
+                    padding: 10px 43px;
+                }
+                h3::before{
+                    width: 12%;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 800px){
+    footer{
+        .container-footer{
+            display: block;
+            .footer1{
+                width: 100%;
+                img{
+                    width: 35%;
+                }
+            }
+            .contact{
+                width: 100%;
+                padding-top: 30px;
+                #iframe{
+                    padding-top: 5%
+                }
+                h3::before{
+                    width: 6%;
+                }
+            }
+            .medical{
+                width: 100%;
+                padding-top: 30px;
+                button{
+                    margin-top: 5%
+                }
+                h3::before{
+                    width: 6%;
+                }
+            }
+        }
+        .bottom-footer{
+            text-align: center
+        }
+    }
+}
+@media only screen and (max-width: 600px){
+    footer{
+        .container-footer{
+            .footer1{
+                img{
+                    width: 44%;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 415px){
+    footer{
+        .container-footer{
+            .footer1{
+                img{
+                    width: 55%;
+                }
+            }
+            .medical{
+                h3::before{
+                    width: 10%;
+                }
+            }
+            .contact{
+                h3::before{
+                    width: 10%;
+                }
+            }
+        }
+        .bottom-footer{
+            p{
+                padding: 30px 35px;
+            }
+        }
+    }
+}   
+@media only screen and (max-width: 384px){
+    footer{
+        .container-footer{
+            .footer1{
+                img{
+                    width: 61%;
+                    padding-top: 0px;
+                }
+            }
+        }
+        .bottom-footer{
+            p{
+                padding: 30px 35px;
+            }
+        }
+    }
+    .scrolltop{
+        top: 94%
+    }
+}  
+@media only screen and (max-width: 375px){
+}
+@media only screen and (max-width: 321px){
+    footer{
+        .container-footer{
+            .footer1{
+                img{
+                    width: 73%;
+                }
+            }
+            .contact{
+                h3::before{
+                    width: 12%;
+                }
+            }
+            .medical{
+                h3::before{
+                    width: 12%;
+                }
+                button{
+                    padding: 10px 27px;
+                }
+            }
+        }
+    }
+    .scrolltop{
+        top: 93%
+    }
+} 

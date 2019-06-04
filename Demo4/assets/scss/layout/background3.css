@@ -1,0 +1,57 @@
+.background3 {
+  background-image: url(../../assets/image4/bg_feat_section_three.jpg);
+  background-size: cover;
+  height: 700px;
+  position: relative;
+  overflow: hidden; }
+  .background3 .text-bg3 {
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    width: 33%;
+    top: 68%;
+    left: 20%; }
+    .background3 .text-bg3 h2 {
+      font-size: 40px;
+      font-weight: 300;
+      margin-bottom: 10px; }
+    .background3 .text-bg3 p {
+      font-size: 20px;
+      line-height: 35px; }
+
+@media only screen and (max-width: 1400px) {
+  .background3 .text-bg3 {
+    width: 39%; } }
+@media only screen and (max-width: 1024px) {
+  .background3 .text-bg3 {
+    width: 50%; } }
+@media only screen and (max-width: 800px) {
+  .background3 {
+    background-position: center; }
+    .background3 .text-bg3 {
+      width: 63%;
+      top: 60%;
+      left: 10%; } }
+@media only screen and (max-width: 768px) {
+  .background3 {
+    background-position: center; }
+    .background3 .text-bg3 {
+      width: 71%; } }
+@media only screen and (max-width: 600px) {
+  .background3 {
+    height: 600px; }
+    .background3 .text-bg3 {
+      top: 50%; } }
+@media only screen and (max-width: 415px) {
+  .background3 .text-bg3 {
+    width: 84%;
+    top: 46%; } }
+@media only screen and (max-width: 376px) {
+  .background3 .text-bg3 {
+    width: 80%;
+    top: 46%; } }
+@media only screen and (max-width: 320px) {
+  .background3 .text-bg3 {
+    top: 40%; } }
+
+/*# sourceMappingURL=background3.css.map */

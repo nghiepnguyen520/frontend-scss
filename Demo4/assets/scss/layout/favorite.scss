@@ -1,0 +1,105 @@
+
+
+.favorite{
+    overflow: hidden;
+    .container-favor{
+        margin: 0 auto;
+        width: 65%;
+        font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+        padding-bottom: 75px;
+        h2{
+            font-size: 40px;
+            font-weight: 300;
+            padding-top: 5%;
+            margin-bottom: 10px;
+            color: #515b69
+        }
+        p{
+            font-size: 19px;
+            width: 50%;
+            line-height: 30px;
+            color: #747474;
+        }
+        .favor-1{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 60px;
+            div{
+                img{
+                    width: 85%;
+                    cursor: pointer;
+                    transition: all 0.5s ease-in;
+                }
+                img:hover{
+                    transform: scale(1.1)
+                }
+            }
+        }
+        .favor-2{
+            margin: 0 auto;
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 55px;
+            div{
+                img{
+                    width: 85%;
+                    cursor: pointer;
+                    transition: all 0.5s ease-in;
+                }
+                img:hover{
+                    transform: scale(1.1)
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 800px){
+    .favorite{
+        .container-favor{
+            width: 80%;
+            p{
+                width: 100%;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 600px){
+    .favorite{
+        .container-favor{
+            padding-bottom: 0px;
+           .favor-1{
+                display: block;
+                div{
+                    margin-bottom: 18%;
+                    img{
+                       width: 100%;
+                    }
+                }
+           }
+           .favor-2{
+                display: block;
+                width: 100%;
+                padding-top: 0%;
+            div{
+                margin-bottom: 18%;
+                img{
+                   width: 100%;
+                }
+            }
+       }
+        }
+    }
+}
+@media only screen and (max-width: 320px){
+    .favorite{
+        .container-favor{
+            h2{
+                font-size: 35px;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+}   

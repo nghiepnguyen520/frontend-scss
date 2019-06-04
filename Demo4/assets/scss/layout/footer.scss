@@ -1,0 +1,83 @@
+
+
+
+footer{
+    overflow: hidden;
+    background-color: #ecf0f5;
+    .container-footer{
+        margin: 0 auto;
+        width: 65%;
+        padding: 40px 0px;
+        p{
+            color: #7f8795;
+            margin-top: 0px;
+            span{
+                cursor: pointer;
+            }
+            span:hover{
+                color: #35baf2
+            }
+        }
+        div{
+            .fa-facebook-f{
+                color: white;
+                padding: 10px 14px;
+                background: #bcc5d1;
+                border-radius: 4px;
+                margin-right: 4px;
+                cursor: pointer;
+                &:hover{
+                    opacity: 0.8;
+                }
+            }
+            .fa-twitter{
+                color: white;
+                padding: 10px 11px;
+                background: #bcc5d1;
+                border-radius: 4px;
+                margin-right: 4px;
+                cursor: pointer;
+                &:hover{
+                    opacity: 0.8;
+                }
+            }
+            .fa-instagram{
+                color: white;
+                padding: 10px 12px;
+                background: #bcc5d1;
+                border-radius: 4px; 
+                cursor: pointer;
+                &:hover{
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1024px){
+   footer{
+       .container-footer{
+           width: 80%;
+       }
+   }
+
+}
+@media only screen and (max-width: 800px){
+    footer{
+        .container-footer{
+            width: 85%;
+        }
+    }
+ 
+}
+@media only screen and (max-width: 600px){
+    footer{
+        .container-footer{
+            width: 85%;
+            p{
+                line-height: 30px;
+            }
+        }
+    }
+ 
+ }

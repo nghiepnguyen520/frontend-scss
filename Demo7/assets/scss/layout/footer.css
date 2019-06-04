@@ -1,0 +1,60 @@
+footer {
+  background: #90a8ad; }
+  footer .container-footer {
+    padding: 2% 0px; }
+    footer .container-footer center {
+      margin: 0 auto;
+      width: 50%; }
+      footer .container-footer center h3 {
+        font-size: 50px;
+        font-family: 'Merriweather';
+        font-weight: 300;
+        font-size: 35px;
+        position: relative;
+        color: white;
+        margin-top: -15px; }
+      footer .container-footer center h2 {
+        font-size: 50px;
+        font-family: 'Merriweather';
+        font-weight: 300;
+        font-size: 22px;
+        position: relative;
+        color: #cbe5ea; }
+      footer .container-footer center p {
+        font-family: "Merriweather";
+        font-size: 14px;
+        line-height: 32px;
+        color: #cbe5ea;
+        font-size: 13px; }
+        footer .container-footer center p span {
+          color: white;
+          cursor: pointer; }
+
+.scrolltop {
+  display: none;
+  position: fixed;
+  right: 65px;
+  top: 95%;
+  background: black;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  overflow: hidden;
+  border-radius: 7px 7px 0px 0px;
+  padding: 10px 15px;
+  opacity: 0.9; }
+
+.scrolltop:hover {
+  opacity: 0.7; }
+
+@media only screen and (max-width: 1024px) {
+  footer .container-footer center {
+    width: 90%; } }
+@media only screen and (max-width: 385px) {
+  .scrolltop {
+    top: 94%; } }
+@media only screen and (max-width: 321px) {
+  .scrolltop {
+    top: 93%; } }
+
+/*# sourceMappingURL=footer.css.map */

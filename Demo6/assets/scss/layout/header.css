@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "amaticSC";
+  src: url("../fonts/AmaticSC-Bold.ttf") format("opentype"); }
+body {
+  margin: 0px; }
+
+.full-bg .container-full-bg .menu-mobile {
+  display: none;
+  background: #3661b0; }
+  .full-bg .container-full-bg .menu-mobile .container-mobile {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+    padding: 20px 0px; }
+    .full-bg .container-full-bg .menu-mobile .container-mobile .container-right {
+      color: white;
+      padding-top: 20px; }
+      .full-bg .container-full-bg .menu-mobile .container-mobile .container-right a {
+        cursor: pointer; }
+.full-bg .container-full-bg #menu-one {
+  display: none;
+  background: #4568b9; }
+  .full-bg .container-full-bg #menu-one .menu1 .active1 {
+    background: #4f72c2; }
+  .full-bg .container-full-bg #menu-one .menu1 div {
+    padding: 20px;
+    border-bottom: 1px solid #5282c4; }
+    .full-bg .container-full-bg #menu-one .menu1 div a {
+      padding-left: 25px;
+      text-decoration: none;
+      color: white;
+      line-height: 30px;
+      font-family: 'Lato';
+      font-size: 16px; }
+  .full-bg .container-full-bg #menu-one .menu1 div:hover {
+    background: #4f72c2; }
+.full-bg .container-full-bg .content header .header-bg {
+  background-image: url(../../assets/image6/kids_conner_4.jpg);
+  background-size: cover;
+  height: 351px;
+  background-position: center; }
+.full-bg .container-full-bg .content header .info-header {
+  background: white; }
+  .full-bg .container-full-bg .content header .info-header .container-header {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 50px; }
+    .full-bg .container-full-bg .content header .info-header .container-header .img-header {
+      width: 40%; }
+      .full-bg .container-full-bg .content header .info-header .container-header .img-header img {
+        width: 100%;
+        padding-top: 33px; }
+    .full-bg .container-full-bg .content header .info-header .container-header .info-header-1 {
+      width: 55%; }
+      .full-bg .container-full-bg .content header .info-header .container-header .info-header-1 h2 {
+        font-size: 40px;
+        font-family: amaticSC;
+        position: relative;
+        position: relative;
+        margin-bottom: 50px; }
+      .full-bg .container-full-bg .content header .info-header .container-header .info-header-1 h2::before {
+        content: ' ';
+        border-bottom: 2px dashed;
+        height: 2px;
+        position: absolute;
+        top: 80px;
+        border-color: #fb6667;
+        width: 54%;
+        top: 70px; }
+      .full-bg .container-full-bg .content header .info-header .container-header .info-header-1 p {
+        line-height: 30px;
+        font-family: 'Lato';
+        font-size: 16px;
+        color: #8f8f8f; }
+
+@media only screen and (max-width: 1920px) {
+  .full-bg .container-full-bg .content header .header-bg {
+    height: 413px; } }
+@media only screen and (max-width: 1680px) {
+  .full-bg .container-full-bg .content header .header-bg {
+    height: 374px; } }
+@media only screen and (max-width: 1600px) {
+  .full-bg .container-full-bg .content header .header-bg {
+    height: 361px; } }
+@media only screen and (max-width: 1537px) {
+  .full-bg .container-full-bg .content header .header-bg {
+    height: 351px; } }
+@media only screen and (max-width: 1440px) {
+  .full-bg .container-full-bg .content header .header-bg {
+    height: 335px; } }
+@media only screen and (max-width: 1400px) {
+  .full-bg .container-full-bg .content header .header-bg {
+    height: 330px; } }
+@media only screen and (max-width: 1024px) {
+  .full-bg .container-full-bg .content header .header-bg {
+    height: 322px; } }
+@media only screen and (max-width: 600px) {
+  .full-bg .container-full-bg .content header .header-bg {
+    height: 322px; }
+  .full-bg .container-full-bg .content header .info-header .container-header {
+    display: block; }
+    .full-bg .container-full-bg .content header .info-header .container-header .img-header {
+      width: 100%; }
+    .full-bg .container-full-bg .content header .info-header .container-header .info-header-1 {
+      width: 100%; } }
+
+/*# sourceMappingURL=header.css.map */

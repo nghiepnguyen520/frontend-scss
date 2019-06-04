@@ -1,0 +1,93 @@
+
+
+.columns{
+    display: flex;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    .column-1{
+        background-color:  #3BAEC0;
+        .container-col{
+            padding: 34px;
+            h4{
+                font-size: 20px;
+            }
+            p{
+                padding-bottom: 15px;
+            }
+            button{
+                padding: 6px 28px;
+                background: none;
+                color: white;
+                cursor: pointer;
+                border: 1px solid white;
+                font-family: 'Mukta', sans-serif;
+                margin-bottom: 15px;
+                transition: all 0.5s ease-out;
+                letter-spacing: 2px
+            }
+            button:hover{
+                background: white;
+                color: #3BAEC0;
+            }
+        }
+    }
+    .column-2{
+        background-color:  #3697C2;
+        .container-col{
+            padding: 34px;
+            h4{
+                font-size: 20px;
+            }
+            p{
+                padding-bottom: 15px;
+            }
+            button{
+                padding: 6px 28px;
+                background: none;
+                color: white;
+                cursor: pointer;
+                border: 1px solid white;
+                font-family: 'Mukta', sans-serif;
+                margin-bottom: 15px;
+                transition: all 0.5s ease-out;
+                letter-spacing: 2px
+            }
+            button:hover{
+                background: white;
+                color: #3BAEC0;
+            }
+        }
+    }
+    .column-3{
+        background-color:  #327FC7;
+        .container-col{
+            padding: 34px;
+            h4{
+                font-size: 20px;
+            }
+            p{
+                padding-bottom: 15px;
+            }
+            button{
+                padding: 6px 28px;
+                background: none;
+                color: white;
+                cursor: pointer;
+                border: 1px solid white;
+                font-family: 'Mukta', sans-serif;
+                margin-bottom: 15px;
+                transition: all 0.5s ease-out;
+                letter-spacing: 2px
+            }
+            button:hover{
+                background: white;
+                color: #3BAEC0;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 600px){
+    .columns{
+        display: block;
+    }
+}

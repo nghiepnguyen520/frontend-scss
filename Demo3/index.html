@@ -1,0 +1,573 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<link rel="stylesheet" href="assets/css/owl.carousel.css">
+
+	<link rel="stylesheet" href="assets/css/owl.theme.css">
+
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+	<script src="assets/js/jquery-1.9.1.min.js"></script>
+
+	<script src="assets/js/owl.carousel.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Mukta|Open+Sans" rel="stylesheet"> 
+	
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+	<script>
+		AOS.init();
+	</script>
+	
+	<!-- Menu - Mobile -->
+	<div class="menu-mobile">
+			<div class="container-mobile">
+				<div class="logo">
+					<img src="assets/image3/medical_logo_2x_light.png" alt="">
+				</div>
+				<a class="click">
+					<i class="fas fa-align-justify fa-lg"></i>
+				</a>				
+			</div>
+
+		</div>
+
+			<div id="menu-one" >
+				<div class="menu1">	
+					<div class="block">
+						<a href="#"><b>HOME</b></a>
+					</div>	
+					<div>
+						<a href="#"><b>ABOUT</b></a>
+					</div>		
+					<div class="menu2">
+						<a href="#"><b>DEPARTMENTS</b></a>
+						<a class="click-menu2"><i class="fas fa-chevron-down"></i></a>						
+					</div>	
+					<div class="menu-sub2">
+						<a href="#"><b>- General Practice</b></a>
+					</div>
+					<div class="menu-sub2">
+						<a href="#"><b>- Cardiology</b></a>
+					</div>
+					<div class="menu-sub2">
+						<a href="#"><b>- Pediatrics</b></a>
+					</div>
+					<div>
+						<a href="#"><b>ARTICLE</b></a>
+					</div>
+					<div>
+						<a href="#"><b>MAKE APPOINTMENT</b></a>
+					</div>				
+				</div>					
+			</div>
+			<!-- End menu moblie -->
+			<script>
+				$( ".click" ).click(function () {
+					$("#menu-one").toggle('slow');
+				 });
+			</script>
+
+			<script>
+				$( ".click-menu2" ).click(function () {
+					$(".menu-sub2").toggle('slow');
+				 });
+			</script>
+		</div>
+
+		<!-- Top menu -->
+			<div class="top-menu" id="navbar" >
+				<div class="container-top-menu">
+					<div class="logo" id="logo">
+						<img id="light" src="assets/image3/medical_logo_2x_light.png" alt="">
+						<img id="dark" src="assets/image3/medical_logo_1x_dark.png" alt="">
+					</div>
+					<div class="menu">
+						<div id="menu-sub1">
+							<a id="menu-1" href="#">HOME</a>
+							<a id="menu-1" href="#">ABOUT</a>
+							<a id="menu-1" href="#">DEPARTMENTS</a>
+							<a id="menu-1" href="#">ARTICLES</a>
+							<span><button><b>MAKE APPOINTMENT</b></button></span>
+						</div>
+						<div id="menu-sub2">
+							<a id="menu-2" href="#">HOME</a>
+							<a id="menu-2" href="#">ABOUT</a>
+							<a id="menu-2" href="#">DEPARTMENTS</a>
+							<a id="menu-2" href="#">ARTICLES</a>
+							<span><button><b>MAKE APPOINTMENT</b></button></span>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		<!-- Sticky Navbar -->
+		<script>
+			window.onscroll = function() {myFunction()};
+			
+			var navbar = document.getElementById("navbar");
+			var sticky = navbar.offsetTop;
+			var y = document.getElementById("dark");
+			var z = document.getElementById("menu-sub2");
+			var x = document.getElementById("menu-sub1");
+            
+
+			
+			function myFunction() {
+			  	if (window.pageYOffset >= sticky) {
+					navbar.classList.add("sticky")
+					y.style.display = "block";
+					z.style.display = "flex";
+					x.style.display = "none";
+			  	} else {
+					navbar.classList.remove("sticky");
+					y.style.display = "none";
+					z.style.display = "none";
+					x.style.display = "flex";
+			  	}
+			}
+		</script>
+
+
+
+<div style="overflow: hidden;">
+	<header data-aos="zoom-in">	
+
+
+		<!-- icon -->
+		<div class="icon">
+			<button><i class="fas fa-cog fa-lg"></i></button>
+		</div>
+		<!-- main header -->
+		<div class="main-header">
+			<div class="info" data-aos="fade-right" data-aos-duration="2000">
+				<h1>Caring <span>For Life</span></h1>
+				<p>Kind words can be short and easy to speak, but their echoes are truly endless
+					. Avada Health focuses on you as if it was our own family
+				</p>
+				<button>LEARN MORE</button>
+			</div>
+			<div class="hours" data-aos="fade-left" data-aos-duration="2000">
+				<div class="container-hours">
+					<div class="container-hours-1">
+						<div class="office">
+							<center>
+								<span><i class="fas fa-clock"></i></span>
+								<span>OFFICE HOURS</span>
+							</center>	
+						</div>
+						
+						<div class="time">
+							<div>
+								<span>Monday-Friday</span>
+								<span>8:00 - 9:00</span>
+							</div>
+							<div>
+								<span>Saturday</span>
+								<span>9:00 - 5:00</span>
+							</div>
+							<div>
+								<span>Sunday</span>
+								<span>11:00 - 4:00</span>
+							</div>
+						</div>
+						<div class="phone">
+							<center>
+								<span><i class="fas fa-phone"></i></span>
+								<span>+44(0) 1865 339665</span>
+							</center>	
+						</div>
+					</div>				
+				</div>
+			</div>
+		</div>
+	</header>
+	
+
+	<!-- Welcome -->
+	<section class="welcome">
+		<div class="container-wel" >
+			<center>
+				<h2 data-aos="flip-up">Welcome to Avada Health</h2>
+				<p class="text1" data-aos="flip-up">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
+					laudantium, totam rem aperiam, eaque ipsa quae ab illo
+				</p>
+				<div class="info-wel" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
+					<div class="info-wel-1">
+						<img src="assets/image3/icon-1.png">
+						<h4>SAME DAY APPOINTMENTS</h4>
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptam accusantim</p>
+					</div>
+					<div class="info-wel-1">
+						<img src="assets/image3/icon-2.png">
+						<h4>WORLD DAY FACILITIES</h4>
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptam accusantim</p>
+					</div>
+					<div class="info-wel-1">
+						<img src="assets/image3/icon-3.png">
+						<h4>EXPERTS DOCTORS</h4>
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptam accusantim</p>
+					</div>
+					<div class="info-wel-1">
+						<img src="assets/image3/icon-4.png">
+						<h4>COMPLEMENTARY THERAPIES</h4>
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptam accusantim</p>
+					</div>
+				</div>
+			</center>
+		</div>
+	</section>
+
+	<!-- Doctors -->
+	<section class="doctors">
+		<div class="container-doctors">
+			<center data-aos="zoom-out">
+				<img class="icon5" src="assets/image3/icon-5.png">
+				<div>
+					<h2>MEET OUR DOCTORS</h2>
+				</div>	
+				<div class="text-doc">
+					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+						accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo 
+						inventore veritatis et quasi architecto beatae
+					</p>
+				</div>	
+			
+			</center>
+			<div class="info-doctors">
+				<div class="info-doctor-1" data-aos="fade-right"data-aos-duration="1500">
+					<img src="assets/image3/doctor-1.jpg">
+					<div class="about-doctor">
+						<div class="container-about">
+							<p>JOHN SNOW</p>
+							<p>Anethesiologist</p>
+							<p>At vero eos et accusamus et iusto odio dignissimos ducimus 
+								qui blanditiis praestium voluptatum deleniti atque.</p>
+							<div class="links-doctor">
+								<span><i class="fab fa-facebook-f"></i></span>
+								<span><i class="fab fa-twitter"></i></span>
+								<span><i class="fab fa-instagram"></i></span>
+							</div>
+						</div>				
+					</div>
+				</div>
+				<div class="info-doctor-1" data-aos="fade-up"data-aos-duration="1500">
+					<img src="assets/image3/doctor-2.jpg">
+					<div class="about-doctor">
+						<div class="container-about">
+							<p>TONY STARK</p>
+							<p>Cardiologist</p>
+							<p>At vero eos et accusamus et iusto odio dignissimos ducimus 
+									qui blanditiis praestium voluptatum deleniti atque.</p>
+							<div class="links-doctor">
+								<span><i class="fab fa-facebook-f"></i></span>
+								<span><i class="fab fa-twitter"></i></span>
+								<span><i class="fab fa-instagram"></i></span>
+							</div>
+						</div>				
+					</div>
+				</div>
+				<div class="info-doctor-1" data-aos="fade-left"data-aos-duration="1500">
+					<img src="assets/image3/doctor-3.jpg">	
+					<div class="about-doctor">
+						<div class="container-about">
+							<p>ANNA SMITH</p>
+							<p>Nurse</p>
+							<p>At vero eos et accusamus et iusto odio dignissimos ducimus 
+									qui blanditiis praestium voluptatum deleniti atque.</p>
+							<div class="links-doctor">
+								<span><i class="fab fa-facebook-f"></i></span>
+								<span><i class="fab fa-twitter"></i></span>
+								<span><i class="fab fa-instagram"></i></span>
+							</div>
+						</div>				
+					</div>
+				</div>
+			</div>	
+		</div>
+	</section>
+
+	<!-- Services -->
+	<section class="services">
+		<div class="container-service">
+			<center >
+				<img src="assets/image3/icon-6.png" data-aos="flip-left"  data-aos-duration="1500">
+				<h2 data-aos="flip-left">OUR HEALTH SERVICES</h2>
+				<p class="text-service" data-aos="flip-left">Sed ut perspiciatis unde omnis iste natus error sit 
+					voluptatem accusantium doloremque laudantium, totam rem aperiam, 
+					eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
+				</p>
+				<div class="info-service">
+					<div class="info-service-1" data-aos="fade-down-right"  data-aos-duration="1500">
+						<img src="assets/image3/icon-14.png">
+						<h4>REHABILITATION CENTER</h4>
+						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+							blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas </p>
+					</div>
+					<div class="info-service-1" data-aos="fade-down"  data-aos-duration="1500">
+						<img src="assets/image3/icon-15.png">
+						<h4>DENTAL IMPLANTS</h4>
+						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+							blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas </p>
+					</div>
+					<div class="info-service-1" data-aos="fade-down-left"  data-aos-duration="1500">
+						<img src="assets/image3/icon-16.png">
+						<h4>MEDICINE RESEARCH</h4>
+						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+							blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas </p>
+					</div>
+					<div class="info-service-1" data-aos="fade-up-right"  data-aos-duration="1500">
+						<img src="assets/image3/icon-11.png">
+						<h4>BLOOD BANK</h4>
+						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+							blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas </p>
+					</div>
+					<div class="info-service-1" data-aos="fade-up"  data-aos-duration="1500">
+						<img src="assets/image3/icon-12.png">
+						<h4>PHARMACEUTICAL ADVICE</h4>
+						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+							blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas </p>
+					</div>
+					<div class="info-service-1" data-aos="fade-up-left" data-aos-duration="1500">
+						<img src="assets/image3/icon-13.png">
+						<h4>MEDICAL COUNSELING</h4>
+						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+							blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas </p>
+					</div>
+				</div>
+			</center>
+		</div>
+	</section>
+
+	<!-- Facilities -->
+	<section class="facilities" data-aos="zoom-in">
+		<div class="container-faci" data-aos="zoom-out" data-aos-duration="2000">
+			<center>
+				<img src="assets/image3/icon-7.png">
+				<h2>
+					TOUR OUR FACILITIES
+				</h2>
+				<p class="text-faci">Sed ut perspiciatis unde omnis iste natus error sit 
+						voluptatem accusantium doloremque laudantium, totam rem aperiam, 
+						eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
+				</p>
+				<img src="assets/image3/play-icon.png"data-aos="flip-left"
+				data-aos-easing="ease-out-cubic"
+				data-aos-duration="2500">
+			</center>
+
+		</div>
+	
+	</section>
+
+	<!-- Color-Columns -->
+	<section class="columns" >
+		
+			<div class="column-1"	data-aos="fade-right" data-aos-anchor-placement="center-center">
+				<center>
+					<div class="container-col" >
+						<h4>Emegency Care</h4>
+						<img src="assets/image3/wave-divider.png">
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque</p>
+						<button>LEARN MORE</button>
+					</div>
+				</center>			
+			</div>
+			<div class="column-2" data-aos="fade-up" data-aos-anchor-placement="center-center">
+				<center>
+					<div class="container-col">
+						<h4>Expert Diagnostics</h4>
+						<img src="assets/image3/wave-divider.png">
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque</p>
+						<button>LEARN MORE</button>
+					</div>					
+				</center>
+				
+			</div>
+			<div class="column-3" data-aos="fade-left" data-aos-anchor-placement="center-center">
+				<center>
+					<div class="container-col">
+						<h4>Superb Rehabilitaion</h4>
+						<img src="assets/image3/wave-divider.png">
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque</p>
+						<button>LEARN MORE</button>
+					</div>					
+				</center>
+			
+			</div>	
+	</section>
+
+	<!-- Appointment -->
+	<section class="appointment" data-aos="fade-up">
+		<div class="container-appoint" data-aos="zoom-in" data-aos-duration="4000">
+			<center data-aos="zoom-in" data-aos-duration="4000">
+				<h2>Make An Apointment</h2>
+				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
+					laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
+				</p>
+			</center>
+			
+			<div class="form" data-aos="zoom-in" data-aos-duration="7000">
+				<div class="form1">
+					<input type="text" placeholder="NAME">
+					<input type="text" placeholder="PHONE NUMBER">
+				</div>
+				<div class="form1">
+					<input type="text" placeholder="EMAIL ADDRESS*">
+					<input type="text" placeholder="APPOINTMENT DAY">
+				</div>
+				<div>
+					<textarea placeholder="MESSAGE"></textarea>
+				</div>
+
+				<button>
+					MAKE AN APPOINTMENT
+				</button>
+			</div>
+		</div>
+	</section>
+
+	<!-- Slideshow-Image -->
+	<section class="slide" data-aos="flip-down">
+		<div class="container-slide">
+			<div id="slider-image" class="owl-carousel owl-theme">
+				<div class="image1">           
+					<img src="assets/image3/client-logos-4.png" alt="">
+				</div>
+				<div class="image1">
+					<img src="assets/image3/client-logos-3.png" alt="">
+				</div>
+				<div class="image1">
+					<img src="assets/image3/client-logos-2.png" alt="">
+				</div>
+				<div class="image1">
+					<img src="assets/image3/client-logos-4.png" alt="">
+				</div>
+				<div class="image1">
+					<img src="assets/image3/client-logos-1.png" alt="">
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+			<!--Slideshow Image  -->
+		<script>
+			$(document).ready(function(){
+			$('#slider-image').owlCarousel({
+				items:4, 
+				autoHeight:true,
+				autoPlay: 5000,
+				autoHeightClass: 'owl-height',
+				responsiveClass: true,
+				responsive : {
+					1024 : {
+						items: 3
+					},	
+					600 : {
+						items: 2
+					},	
+					384 : {
+						items: 1
+					},
+						
+				}
+			})
+		});
+		</script>
+
+	
+	<!-- Footer -->
+	<footer data-aos="zoom-in" data-aos-duration="2000">
+		<div class="container-footer">
+			<div class="footer1">
+				<img src="assets/image3/medical_logo_1x_dark.png">
+				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolemue launti 
+					totam aperiam, eaque ipsa quae abillo. Invente veriatis et quasi architecto beatae luptatem
+					 accusantium, remaperiamsiat. 
+				</p>
+				<h4>LEARN MORE ABOUT US</h4>
+				<div>
+					<span><i class="fab fa-facebook-f"></i></span>
+					<span><i class="fab fa-twitter"></i></span>
+					<span><i class="fab fa-instagram"></i></span>
+					<span><i class="fab fa-pinterest-p"></i></span>
+					<span><i class="fab fa-linkedin-in"></i></span>
+					<span><i class="fab fa-paypal"></i></span>
+				</div>
+			</div>
+			<div class="contact">
+				<h3>CONTACT INFORMATION</h3>
+				<div class="contact1">
+					<span><i class="fas fa-map-marker-alt"></i></span>
+					<span>121 King Street, London United Kingdom</span>
+				</div>
+				<div class="contact1">
+					<span><i class="fas fa-phone"></i></span>
+					<span>1.800.458.556</span>			
+				</div>
+				<iframe id="iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7857.2603318616575!2d105.76734799577025!3d10.04734570121929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1541079358412"
+				width="100%" height="200" frameborder="0" allowfullscreen>
+			   </iframe>
+			</div>
+			<div class="medical">
+				<h3>MEDICAL DEPARTMENTS</h3>
+				<div class="medical1">
+					<span><i class="fas fa-chevron-right fa-xs"></i></span>
+					<span>Cardiology</span>
+				</div>
+				<div class="medical1">
+					<span><i class="fas fa-chevron-right fa-xs"></i></span>
+					<span>Pediactrics</span>
+				</div>
+				<div class="medical1">
+					<span><i class="fas fa-chevron-right fa-xs"></i></i></span>
+					<span>Diabetes Care</span>
+				</div>
+				<div class="medical1">
+					<span><i class="fas fa-chevron-right fa-xs"></i></i></span>
+					<span>Pre-natel Care</span>
+				</div>
+				<div class="medical1">
+					<span><i class="fas fa-chevron-right fa-xs"></i></i></span>
+					<span>Ultrasound Echocardiogram</span>
+				</div>
+				<button>VIEW OUR DEPARTMENTS</button>
+			</div>
+		</div>
+		<div class="bottom-footer">
+			<p>© Copyright 2012 - 2018   |   Avada Theme by Theme Fusion   |   All Rights Reserved   |   Powered by WordPress</p>
+		</div>
+	</footer>
+</div>
+
+	<div href="javascript:;" class="scrolltop" onclick="scrolltop()"><i class="fa fa-chevron-up"></i></div>
+	<script type="text/javascript">
+     
+    	$(window).scroll(function(){
+    		if($(window).scrollTop() >= 30) {
+    			$('.scrolltop').show();
+    		} else {
+    			$('.scrolltop').hide();
+    		}
+    	});
+    	
+    	function scrolltop(){
+    		$('html,body').animate({
+    			scrollTop: 0
+    	    }, 'fast');
+    	}
+	</script>
+
+</body>
+</html>

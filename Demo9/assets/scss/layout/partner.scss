@@ -1,0 +1,59 @@
+
+
+.partner{
+    background-image: url(../../assets/image9/background-white-85.svg);
+    .container-partner{
+        margin: 0 auto;
+        width: 75%;
+        padding: 3% 0px;
+        h2{
+            font-family: $font-fam1;
+            font-weight: 300;
+            font-size: 32px;
+            span{
+                @include span;
+            }
+           
+           
+        }
+        .slide-partner{
+            margin-top: 50px;
+            #slider-image{
+                .image1{
+                    width: 100%;
+                    img{
+                        width: 100%;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width : 600px){
+    .partner{
+        .container-partner{
+            width: 80%;
+        }
+    }
+}
+@media only screen and (max-width : 415px){
+    .partner{
+        .container-partner{
+            padding-bottom: 6%;
+            h2{
+                span::before{
+                    top: 94px;
+                }
+                span::after{
+                    top: 95px;
+                }
+            }
+            .slide-partner{
+                margin: 0 auto;
+                width: 70%;
+                margin-top: 55px;
+            }
+        }
+    }
+}

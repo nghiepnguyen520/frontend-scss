@@ -1,0 +1,246 @@
+
+@import '../helper/mixin.scss';
+
+header{
+    .container-header{
+        margin: 0 auto;
+        width: 77%;
+        display: flex;
+        justify-content: space-between;
+        padding: 2% 0px;
+        .slideshow{
+            width: 70%; 
+            position: relative;
+            height: 453px;   
+            .slide-item{
+                position: relative;   
+                height: 453px;        
+                .fade {
+                    -webkit-animation-name: fade;
+                    -webkit-animation-duration: 1.5s;
+                    animation-name: fade;
+                    animation-duration: 1.5s;
+                }
+                @-webkit-keyframes fade {
+                    from {opacity: .4} 
+                    to {opacity: 1}
+                  }
+                  
+                @keyframes fade {
+                    from {opacity: .4} 
+                    to {opacity: 1}
+                }
+             
+                .item{
+                    display: none;
+                    background-image: url(../../assets/image10/slider-v4-background.jpg);
+                    background-size: cover;
+                    height: 100%;
+                    .slide-content{
+                        width: 100%;
+                        position: absolute;
+                        .slide-content-main{
+                            display: flex;
+                            justify-content: space-between;
+                            .slide-left{
+                                font-family: $font-fam;
+                                color: rgb(51, 62, 72);
+                                width: 36%;
+                                padding: 52px;
+                                padding-right: 0px;
+                                .new{ 
+                                    font-size: 58px;
+                                    display: flex;
+                                    line-height: 50px;
+                                    .new1{
+                                        letter-spacing: -7px;
+                                        margin-right: 17px;
+                                        div{
+                                            display: inline-block;
+                                        }
+                                    }
+                                    .new2{
+                                        letter-spacing: -7px;
+                                        div{
+                                            display: inline-block;
+                                        }
+                                    }                                 
+                                }
+                                .standard{
+                                    font-size: 50px;
+                                    letter-spacing: -7px;
+                                    div{
+                                        display: inline-block;
+                                    }
+                                }
+                                .favor{
+                                    display: flex;
+                                    font-weight: bolder;
+                                    font-size: 15.2px;
+                                    .favor1{
+                                        margin-right: 7px;
+                                        letter-spacing: -2px;
+                                        div{
+                                            display: inline-block;
+                                        }
+                                    }
+                                }
+                                .from{
+                                    font-size: 13px;
+                                    letter-spacing: -1.7px;
+                                    position: relative;
+                                    top: 18px;
+                                    div{
+                                        display: inline-block;
+                                    }
+                                }
+                                .price{
+                                    display: flex;
+                                    font-size: 29px;
+                                    color: rgb(51, 62, 72);                                            
+                                    font-weight: bolder;
+                                    position: relative;
+                                    top: 10px;
+                                    .price3{
+                                        position: relative;
+                                        top: 4px;
+                                    }
+                                    .price1{
+                                        display: flex;
+                                        div{
+                                            font-size: 50px;
+
+                                        }                                
+                                    }
+                                    .price2{
+                                        display: flex;
+                                        position: relative;
+                                        top: 4px;
+                                    }
+
+                                }
+                                button{
+                                    color: rgb(51, 62, 72);
+                                    background: rgb(254, 215, 0);
+                                    font-size: 15px;
+                                    font-family: $font-fam;
+                                    border-radius: 10px;
+                                    padding: 13px 50px;
+                                    border: none;
+                                    margin-top: 30px;
+                                    cursor: pointer;
+                                    transition: all 0.5s ease-in-out;
+                                    &:hover{
+                                        background: rgb(234, 198, 0);
+                                    }
+                                }
+                            }
+                            .slide-right1{
+                                width: 43%;
+                                position: relative;
+                                top: 20px;
+                                right: 7%;
+                                img{
+                                    width: 100%;
+                                }
+                            }
+                            .slide-right2{
+                                width: 60%;
+                                position: relative;
+                                top: 50px;
+                                right: 3%;
+                                img{
+                                    width: 100%;
+                                }
+                            }
+                            .slide-right3{
+                                width: 51%;
+                                position: relative;
+                                top: 54px;
+                                right: 7%;
+                                img{
+                                    width: 100%;
+                                }
+                            }
+
+                        } 
+                    }
+                }
+            }
+            .dots{
+                display: flex;
+                position: relative;
+                padding: 1% 0px;
+                bottom: 50px;
+                padding-left: 45px;
+            }
+            .dots p{
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                background: #bcbcbc;
+                margin: 0 8px;
+                cursor: pointer;
+                transition: all 1s;
+            }    
+            .dots p:hover{
+                opacity: 0.7
+            }
+        }
+        .right-header{
+            width: 28%;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            .right-1{
+                background: #f5f5f5;
+                .container-right-1{
+                    padding: 12px 24px 12px 5px;
+                    display: flex;
+                    justify-content: space-between;
+                    cursor: pointer;
+                    .img{
+                        width: 45%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .content{
+                        width: 45%;
+                        color: #333e48;
+                        
+                        .content-1{        
+                            font-family: $font-fam;                 
+                            font-size: 17px;
+                            font-weight: 200;
+                            margin-bottom: 5px;
+                        }
+                        p{
+                            font-family: $font-fam;
+                            font-size: 14px;
+                            margin-top: 5px;
+                            i{
+                                color: white;
+                                padding: 4px 6px;;
+                                border-radius: 50%;
+                                background: #fed700;
+                                margin-left: 7px;
+                            }
+                            .number{
+                                font-size: 26px;
+                                font-weight: bolder;
+                            }
+                            .percent{
+                                font-weight: bolder;
+                                position: relative;
+                                top: -10px;
+                                margin-left: -2px;
+                            }
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,119 @@
+.flux-os {
+  overflow: hidden; }
+  .flux-os .container-flux {
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 3%; }
+    .flux-os .container-flux .flux-1 {
+      display: flex;
+      justify-content: space-between; }
+      .flux-os .container-flux .flux-1 .info-flux-1 {
+        font-family: "Source Sans Pro", Arial, Helvetica, sans-serif; }
+        .flux-os .container-flux .flux-1 .info-flux-1 h2 {
+          font-size: 45px;
+          font-weight: 300;
+          margin: 0;
+          color: #515b69; }
+        .flux-os .container-flux .flux-1 .info-flux-1 .text-flux-1 {
+          font-size: 24px;
+          color: #89919f; }
+        .flux-os .container-flux .flux-1 .info-flux-1 p {
+          font-size: 20px;
+          line-height: 35px;
+          color: #89919f; }
+    .flux-os .container-flux .flux-2 {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding-top: 40px; }
+      .flux-os .container-flux .flux-2 .info-flux-2 {
+        display: flex;
+        width: 32%;
+        font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+        padding-bottom: 25px; }
+        .flux-os .container-flux .flux-2 .info-flux-2 i {
+          color: #35baf2;
+          cursor: pointer;
+          transition: all 1s ease-out; }
+        .flux-os .container-flux .flux-2 .info-flux-2 i::before {
+          border-radius: 50%;
+          border: 1px solid; }
+        .flux-os .container-flux .flux-2 .info-flux-2 i:hover::before {
+          background: #d6d6d6;
+          border-color: #d6d6d6; }
+        .flux-os .container-flux .flux-2 .info-flux-2 i:hover {
+          transform: scale(0.9); }
+        .flux-os .container-flux .flux-2 .info-flux-2 .fa-wrench::before {
+          padding: 12px; }
+        .flux-os .container-flux .flux-2 .info-flux-2 .fa-bell::before {
+          padding: 12px 15px; }
+        .flux-os .container-flux .flux-2 .info-flux-2 .fa-toggle-on::before {
+          padding: 12px 11px; }
+        .flux-os .container-flux .flux-2 .info-flux-2 .fa-sync-alt::before {
+          padding: 12px; }
+        .flux-os .container-flux .flux-2 .info-flux-2 .fa-power-off::before {
+          padding: 12px; }
+        .flux-os .container-flux .flux-2 .info-flux-2 .fa-inbox::before {
+          padding: 12px 11px; }
+        .flux-os .container-flux .flux-2 .info-flux-2 div {
+          position: relative;
+          bottom: 39px;
+          padding-left: 20px;
+          line-height: 27px; }
+          .flux-os .container-flux .flux-2 .info-flux-2 div h3 {
+            margin-bottom: 12px;
+            font-size: 23px;
+            font-weight: 400;
+            color: #515b69; }
+          .flux-os .container-flux .flux-2 .info-flux-2 div p {
+            color: #89919f;
+            font-size: 18px; }
+
+@media only screen and (max-width: 1920px) {
+  .flux-os .container-flux .flux-1 .info-flux-1 {
+    width: 50%; } }
+@media only screen and (max-width: 1400px) {
+  .flux-os .container-flux {
+    width: 70%; } }
+@media only screen and (max-width: 1024px) {
+  .flux-os .container-flux {
+    width: 85%; }
+    .flux-os .container-flux .flux-1 {
+      margin-bottom: 35px; }
+      .flux-os .container-flux .flux-1 .img-flux-1 {
+        width: 50%; }
+        .flux-os .container-flux .flux-1 .img-flux-1 img {
+          width: 100%; } }
+@media only screen and (max-width: 800px) {
+  .flux-os .container-flux .flux-1 {
+    display: block; }
+    .flux-os .container-flux .flux-1 .img-flux-1 {
+      width: 100%; }
+    .flux-os .container-flux .flux-1 .info-flux-1 {
+      width: 100%; }
+  .flux-os .container-flux .flux-2 {
+    display: block; }
+    .flux-os .container-flux .flux-2 .info-flux-2 {
+      width: 100%; } }
+@media only screen and (max-width: 415px) {
+  .flux-os .container-flux .flux-1 .info-flux-1 h2 {
+    font-size: 42px; } }
+@media only screen and (max-width: 384px) {
+  .flux-os .container-flux .flux-1 .info-flux-1 h2 {
+    font-size: 38px; } }
+@media only screen and (max-width: 360px) {
+  .flux-os .container-flux .flux-1 .info-flux-1 h2 {
+    font-size: 35px; }
+  .flux-os .container-flux .flux-1 .info-flux-1 p {
+    font-size: 18px; } }
+@media only screen and (max-width: 320px) {
+  .flux-os .container-flux .flux-1 .info-flux-1 h2 {
+    font-size: 31px; }
+  .flux-os .container-flux .flux-1 .info-flux-1 p {
+    font-size: 17px; }
+  .flux-os .container-flux .flux-2 .info-flux-2 div h3 {
+    font-size: 22px; }
+  .flux-os .container-flux .flux-2 .info-flux-2 div p {
+    font-size: 15px; } }
+
+/*# sourceMappingURL=flux-os.css.map */

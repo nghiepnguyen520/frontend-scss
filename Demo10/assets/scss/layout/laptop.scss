@@ -1,0 +1,185 @@
+
+
+
+.laptop{
+    .container-laptop{
+        margin: 0 auto;
+        width: 77%;
+        padding: 3% 0px;
+        font-family: $font-fam;
+        .top-laptop{
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #dadada;
+            .top-left{
+                h3{
+                    font-size: 24px;
+                    font-weight: 300;
+                    margin-top: 14px;
+                    margin-bottom: 0px;
+                    @include h2-border;
+                    &::before{
+                        bottom: -12px;
+                    }
+                    
+                }
+            }
+            .top-right{
+                ul{
+                    list-style: none;
+                    display: flex;
+                    margin-bottom: 10px;
+                    li{
+                        padding: 3px 20px;
+                        border: 1.5px solid white;
+                        color: #7b8186;
+                        cursor: pointer;
+                    }
+                    .active{
+                        border: 2px solid $color;
+                        border-radius: 20px;
+                        color: #333e48
+                    }
+                }
+            }
+        }
+        .main-laptop{
+            display: flex;
+            color: #333e48;
+            .laptop-1{
+                width: 20%;
+                ul{
+                    list-style: none;
+                    line-height: 40px;
+                    padding-left: 0px;
+                    padding-right: 25px;
+                    margin-top: 30px;
+                    li{
+                        border-bottom: 1px solid #dadada;
+                        padding-left: 20px;
+                        font-size: 14px;
+                        cursor: pointer;
+                        &:hover{
+                            font-weight: bolder;
+                        }
+                    }
+                    .li-1{
+                        border-bottom: none;
+                    }
+                }
+            }
+            .laptop-2{
+                width: 30%;
+                margin-top: 6px;
+                position: relative;
+                cursor: pointer;
+                .container-laptop-2{
+                    padding: 13px 20px;
+                    .lap-2-1{
+                        img{
+                            width: 100%;
+                            margin-top: 10px;
+                        }
+                        p{
+                            font-size: 12px;
+                        }
+                        h3{
+                            font-size: 15px;
+                            color: #0062bd;
+                            font-size: 15px;
+                            margin-top: -5px;
+                            height: 40px;
+                            width: 60%;
+                            margin-bottom: 0px;
+                        }
+                        .img-lap{
+                            display: flex;
+                            .img-lap-1{
+                                width: 24%;
+                                
+                                margin-right: 10px;
+                                img{
+                                    width: 100%;
+                                    border: 1px solid #eaeaea;
+                                    &:hover{
+                                        border-bottom: 2px solid #fed700
+                                    }
+                                }
+                                
+                            }
+                        }
+                        .price{
+                            display: flex;
+                            justify-content: space-between;
+                            margin-top: 5px;
+                            p{
+                                margin: 0px;
+                                font-size: 20px;
+                                margin-top: 4px;
+                                color: #e00;
+                                del{
+                                    font-size: 12px;
+                                    margin-left: 6px;
+                                    color: #848484;
+                                }
+                            }
+                            i{
+                                background: #efecec;
+                                padding: 10px;
+                                border-radius: 50%;
+                                color: white;
+                            }
+                            .fa-cart-arrow-down{
+                                padding: 10px 9px;
+                            }
+                        }
+                        .invi{
+                            display: none;
+                            font-size: 13px;
+                            justify-content: space-between;
+                            color: #949494;
+                            padding-top: 12px;
+                            position: relative;
+                            div:hover{
+                                color:  #3b3b3b;
+                            }
+                        }
+                    }
+                }
+                &:hover{                     
+                    .container-laptop-2{   
+                        position: absolute;   
+                        box-shadow: 0 0 6px 0 rgba(1,1,1,.3);
+                        background-color: #fff;   
+                        z-index: 1;            
+                        .lap-2-1{
+                            &::after{
+                                border-right: unset;
+                            }
+                            .price{
+                                border-bottom: 1px solid #eaeaea;
+                                padding-bottom: 8px;
+                                 i{
+                                    background-color: #fed700;
+                                    color: white;
+                                }
+                            }
+                            .invi{
+                                display: flex;
+                            }
+                        }
+                    }
+                }
+            }   
+            .laptop-3{
+                width: 50%;
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 6px;
+                .fea-1{
+                    @include feature;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+
+
+.trends{
+    background: #141416;
+    color: white;
+    center{
+        margin: 0 auto;
+        width: 60%;
+        padding-top: 40px;
+        padding-bottom: 6%;
+        h2{
+            font-size: 35px;
+            font-weight: 400;
+            font-family: "Abril Fatface", Arial, Helvetica, sans-serif;
+            margin-top: 0px;
+            margin-bottom: 15px;
+        }
+        p{
+            font-family: "Roboto", Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            line-height: 30px;
+        }
+        .img-trend{
+            width: 100%;
+            padding-top: 30px;
+        }
+    }
+}
+@media only screen and (max-width: 800px){
+    .trends{
+        center{
+            width: 85%;
+        }
+    }
+}

@@ -1,0 +1,72 @@
+
+
+.details{
+    .container-details{
+        margin: 0 auto;
+        width: 65%;
+        padding: 5% 0px;
+        h2{
+            @include h2;
+            font-size: 28px;
+            font-weight: 300;
+            color: #747474;
+            line-height: 50px;
+            margin-bottom: 50px;
+            span{
+                color: #b9675e
+            }
+        }
+        p{
+            width: 70%;
+            font-size: 17px;
+            line-height: 30px;
+            color: #747474;
+
+        }
+        div{
+            margin-top: 50px;
+            p{
+                cursor: pointer;
+                font-size: 15px;
+                font-family: $font-fam;
+                span{
+                    color: #b9675e;
+                    transition: all 0.5s ease-out;
+                    &:hover{
+                        color:#90a8ad
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:1367px){
+    .details{
+        .container-details{
+            width: 75%;
+            p{
+                width: 75%;
+            }
+        }
+    }
+}
+@media only screen and (max-width:1024px){
+    .details{
+        .container-details{
+            width: 90%;
+            p{
+                width: 100%;
+            }
+        }
+    }
+}
+@media only screen and (max-width:385px){
+    .details{
+        .container-details{
+            padding-bottom: 10%;
+            h2{
+                font-size: 22px;
+            }
+        }
+    }
+}

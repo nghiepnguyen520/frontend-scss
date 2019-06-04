@@ -1,0 +1,150 @@
+
+
+.columns{
+    display: flex;
+    overflow: hidden;
+    .guide-tours{
+        width: 33.3333%;
+        background-image: url(../../assets/image4/guide_tours_bg.jpg);
+        height: 550px;
+        background-size: cover;
+        background-position: center;
+        div{
+            color: white;
+            position: relative;
+            top: 44%;
+            padding: 0px 45px;
+            font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+            h2{
+                font-size: 38px;
+                font-weight: 300;
+                margin-bottom: 2px;
+            }
+            p{
+                font-size: 18px;
+                line-height: 30px;
+                margin-bottom: 28px;
+                margin-top: 9px;
+            }
+            button{
+                color: white;
+                background: #74849C;
+                border: none;
+                padding: 14px 32px;
+                border-radius: 3px;
+                font-size: 14px;
+                transition: all 0.5s ease-out;
+                cursor: pointer;
+            }
+            button:hover{
+                background-color: #35baf2
+            }
+        }
+    }
+    .commercials{
+        width: 33.3333%;
+        background-image: url(../../assets/image4/commercials_ads_bg.jpg);
+        height: 550px;
+        background-size: cover;
+        background-position: center;
+        div{
+            color: white;
+            position: relative;
+            top: 44%;
+            padding: 0px 45px;
+            font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+            h2{
+                font-size: 38px;
+                font-weight: 300;
+                margin-bottom: 2px;
+            }
+            p{
+                font-size: 18px;
+                line-height: 30px;
+                margin-bottom: 28px;
+                margin-top: 9px;
+            }
+            button{
+                color: white;
+                background: #74849C;
+                border: none;
+                padding: 14px 32px;
+                border-radius: 3px;
+                font-size: 14px;
+                transition: all 0.5s ease-out;
+                cursor: pointer;
+            }
+            button:hover{
+                background-color: #35baf2
+            }
+        }
+    }
+    .tutorials{
+        width: 33.3333%;
+        background-image: url(../../assets/image4/tutorials_bg.jpg);
+        height: 550px;
+        background-size: cover;
+        background-position: center;
+        div{
+            color: white;
+            position: relative;
+            top: 44%;
+            padding: 0px 45px;
+            font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+            h2{
+                font-size: 38px;
+                font-weight: 300;
+                margin-bottom: 2px;
+            }
+            p{
+                font-size: 18px;
+                line-height: 30px;
+                margin-bottom: 28px;
+                margin-top: 9px;
+            }
+            button{
+                color: white;
+                background: #74849C;
+                border: none;
+                padding: 14px 32px;
+                border-radius: 3px;
+                font-size: 14px;
+                transition: all 0.5s ease-out;
+                cursor: pointer;
+            }
+            button:hover{
+                background-color: #35baf2
+            }
+        }
+    }
+}
+@media only screen and (max-width: 800px){
+    .columns{
+        display: block;
+        .guide-tours{
+            width: 100%;
+        }
+        .commercials{
+            width: 100%;
+            margin-top: -32px;
+        }
+        .tutorials{
+            width: 100%;
+            margin-top: -32px;
+        }
+    }
+}
+@media only screen and (max-width: 385px){
+    .columns{
+        display: block;
+        .guide-tours{
+            height: 460px;
+        }
+        .commercials{
+            height: 460px;
+        }
+        .tutorials{
+            height: 460px;
+        }
+    }
+}

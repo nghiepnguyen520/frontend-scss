@@ -1,0 +1,186 @@
+
+
+.bg1{
+    
+    background-image: url(../../assets/image9/bckg-4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  
+    .container-bg1{
+        background-color: rgba(0,0,0,0.5);
+        width: 100%;
+        padding: 7% 0px;
+        color: white;
+        font-family: $font-fam1;
+        svg{
+            width: 600%;
+            min-width: 600%;
+            height: 24px;
+            overflow: hidden;
+            transform: rotateY(180deg) translateX(50%);
+            position: relative;
+            left: 50%;
+            bottom: 107px;
+            path{
+                fill: rgba(220, 220, 220, 0.25);
+            }
+        }
+        h2{
+            font-size: 40px;
+            width: 50%;
+            font-weight: 300;
+            line-height: 50px
+        }
+        p{
+            line-height: 30px;
+            width: 90%;
+        }
+    }
+}
+@media only screen and (max-width : 1920px){
+    .bg1{
+        .container-bg1{
+            svg{
+                bottom: 134px;
+            }
+        }
+    }
+}
+@media only screen and (max-width : 1680px){
+    .bg1{
+        .container-bg1{
+            svg{
+                bottom: 116px;
+            }
+        }
+    }
+}
+@media only screen and (max-width : 1680px){
+    .bg1{
+        .container-bg1{
+            svg{
+                bottom: 111px;
+            }
+        }
+    }
+}
+@media only screen and (max-width : 1537px){
+    .bg1{
+        .container-bg1{
+            svg{
+                bottom: 107px;
+            }
+        }
+    }
+}
+@media only screen and (max-width : 1440px){
+    .bg1{
+        .container-bg1{
+            svg{
+                bottom: 100px;
+            }
+        }
+    }
+}
+@media only screen and (max-width : 1400px){
+    .bg1{
+        .container-bg1{
+            svg{
+                bottom: 97px;
+            }
+        }
+    }
+}
+@media only screen and (max-width : 1367px){
+    .bg1{
+        .container-bg1{
+            svg{
+                bottom: 95px;
+            }
+        }
+    }
+}
+@media only screen and (max-width : 1024px){
+    .bg1{
+        .container-bg1{
+            svg{
+                bottom: 71px;
+            }
+        }
+    }
+}
+@media only screen and (max-width : 800px){
+    .bg1{
+        .container-bg1{
+            svg{
+                bottom: 55px;
+            }
+        }
+    }
+}
+@media only screen and (max-width : 768px){
+    .bg1{
+        .container-bg1{
+            svg{
+                bottom: 52px;
+            }
+        }
+    }
+}
+@media only screen and (max-width : 600px){
+    .bg1{
+        .container-bg1{
+            svg{
+                bottom: 41px;
+            }
+        }
+    }
+}
+@media only screen and (max-width : 1024px){
+    .bg1{
+        .container-bg1{
+            h2{
+                width: 90%;
+            }
+        }
+    }
+}
+@media only screen and (max-width : 415px){
+    .bg1{
+        .container-bg1{
+            h2{
+                font-size: 30px;
+            }
+            svg{
+                bottom: 28px;
+            }
+        }
+    }
+}
+@media only screen and (max-width : 384px){
+    .bg1{
+        .container-bg1{
+            svg{
+                bottom: 26px;
+            }
+        }
+    }
+}
+@media only screen and (max-width : 360px){
+    .bg1{
+        .container-bg1{
+            svg{
+                bottom: 24px;
+            }
+        }
+    }
+}
+@media only screen and (max-width : 320px){
+    .bg1{
+        .container-bg1{
+            svg{
+                bottom: 22px;
+            }
+        }
+    }
+}

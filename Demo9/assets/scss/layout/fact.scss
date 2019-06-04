@@ -1,0 +1,36 @@
+
+
+.fact{
+    background-image: url(../../assets/image9/section-background-stripes.svg);
+    background-color: #303030;
+    color: white;
+    .container-fact{
+        margin: 0 auto;
+        width: 60%;
+        padding: 3% 0px;
+        h2{
+            font-family: $font-fam;
+            font-weight: 300;
+            color : #e0978f;
+            font-size: 30px;
+            margin-top: 0px;
+            margin-bottom: 35px;
+            span{
+                @include span;
+            }
+        }
+        p{
+            font-family: $font-fam;
+            line-height: 25px;
+            font-size: 15px;
+            color: #b8b8b8
+        }
+    }
+}
+@media only screen and (max-width : 1024px){
+    .fact{
+        .container-fact{
+            width: 90%;
+        }
+    }
+}

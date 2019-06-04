@@ -1,0 +1,189 @@
+.news {
+  display: flex; }
+  .news .fashion-news {
+    background-color: black;
+    width: 50%; }
+    .news .fashion-news .container-fas {
+      color: white;
+      margin: 0 auto;
+      width: 80%;
+      padding-top: 15%;
+      padding-bottom: 15%; }
+      .news .fashion-news .container-fas h2 {
+        font-size: 35px;
+        font-weight: 400;
+        font-family: "Abril Fatface", Arial, Helvetica, sans-serif;
+        margin-top: 0px;
+        margin-bottom: 15px; }
+      .news .fashion-news .container-fas h4 {
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 2px;
+        margin-bottom: 85px; }
+      .news .fashion-news .container-fas .new-1 {
+        display: flex;
+        margin-bottom: 25px; }
+        .news .fashion-news .container-fas .new-1 img {
+          padding-right: 20px; }
+        .news .fashion-news .container-fas .new-1 div h3 {
+          font-size: 25px;
+          font-weight: 400;
+          font-family: "Abril Fatface", Arial, Helvetica, sans-serif;
+          margin-top: 0px;
+          cursor: pointer; }
+          .news .fashion-news .container-fas .new-1 div h3:hover {
+            color: #4ca9b4; }
+        .news .fashion-news .container-fas .new-1 div .text-new {
+          font-size: 13px;
+          font-family: "Roboto", Arial, Helvetica, sans-serif;
+          margin-top: -23px; }
+        .news .fashion-news .container-fas .new-1 div p {
+          font-family: "Roboto", Arial, Helvetica, sans-serif;
+          font-size: 15px;
+          line-height: 30px; }
+  .news .testimonials {
+    background-image: url(../../assets/image5/testimonials_bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 754px;
+    width: 50%; }
+    .news .testimonials .container-tes {
+      color: white;
+      margin: 0 auto;
+      width: 80%;
+      padding-top: 15%;
+      padding-bottom: 15%; }
+      .news .testimonials .container-tes h2 {
+        font-size: 35px;
+        font-weight: 400;
+        font-family: "Abril Fatface", Arial, Helvetica, sans-serif;
+        margin-top: 0px;
+        margin-bottom: 15px; }
+      .news .testimonials .container-tes h4 {
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 2px;
+        margin-bottom: 50px; }
+      .news .testimonials .container-tes .slide-rev {
+        width: 100%;
+        height: 470px;
+        position: relative; }
+        .news .testimonials .container-tes .slide-rev .slide-rev-1 {
+          position: relative; }
+          .news .testimonials .container-tes .slide-rev .slide-rev-1 .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s; }
+@-webkit-keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+@keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+          .news .testimonials .container-tes .slide-rev .slide-rev-1 .rev {
+            display: none; }
+            .news .testimonials .container-tes .slide-rev .slide-rev-1 .rev .slide-content-rev {
+              width: 100%;
+              position: absolute; }
+              .news .testimonials .container-tes .slide-rev .slide-rev-1 .rev .slide-content-rev .slide-content-rev-1 {
+                color: #fff;
+                margin-top: 30%;
+                margin: 0 auto;
+                width: 100%;
+                padding-top: 7%;
+                font-family: "Roboto", Arial, Helvetica, sans-serif; }
+                .news .testimonials .container-tes .slide-rev .slide-rev-1 .rev .slide-content-rev .slide-content-rev-1 img {
+                  border-radius: 50%; }
+                .news .testimonials .container-tes .slide-rev .slide-rev-1 .rev .slide-content-rev .slide-content-rev-1 .text-rev {
+                  line-height: 30px; }
+                .news .testimonials .container-tes .slide-rev .slide-rev-1 .rev .slide-content-rev .slide-content-rev-1 p {
+                  padding-top: 13px; }
+        .news .testimonials .container-tes .slide-rev .dots1 {
+          display: flex;
+          flex-direction: row;
+          position: absolute;
+          left: 47%;
+          top: 86%; }
+        .news .testimonials .container-tes .slide-rev .dots1 p {
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          margin: 0 5px;
+          cursor: pointer;
+          transition: all 1s;
+          border: 1px solid #fff; }
+        .news .testimonials .container-tes .slide-rev .dots1 p:hover {
+          background: #fff; }
+
+@media only screen and (max-width: 1920px) {
+  .news .testimonials {
+    height: 790px; } }
+@media only screen and (max-width: 1680px) {
+  .news .testimonials {
+    height: 779px; } }
+@media only screen and (max-width: 1600px) {
+  .news .testimonials {
+    height: 766px; } }
+@media only screen and (max-width: 1537px) {
+  .news .testimonials {
+    height: 758px; } }
+@media only screen and (max-width: 1440px) {
+  .news .testimonials {
+    height: 742px; } }
+@media only screen and (max-width: 1400px) {
+  .news .testimonials {
+    height: 736px; } }
+@media only screen and (max-width: 1367px) {
+  .news .testimonials {
+    height: 732px; } }
+@media only screen and (max-width: 1024px) {
+  .news .fashion-news .container-fas {
+    padding-bottom: 3%; }
+    .news .fashion-news .container-fas .new-1 img {
+      height: 175px; }
+  .news .testimonials {
+    height: 806px; }
+    .news .testimonials .container-tes .slide-rev .dots1 {
+      top: 95%; } }
+@media only screen and (max-width: 800px) {
+  .news {
+    display: block; }
+    .news .fashion-news {
+      width: 100%; }
+      .news .fashion-news .container-fas .new-1 img {
+        height: 100%; }
+    .news .testimonials {
+      width: 100%;
+      height: 745px; }
+      .news .testimonials .container-tes {
+        padding-top: 10%; }
+        .news .testimonials .container-tes .slide-rev .dots1 {
+          top: 85%; } }
+@media only screen and (max-width: 600px) {
+  .news .testimonials .container-tes .slide-rev .dots1 {
+    top: 90%; } }
+@media only screen and (max-width: 415px) {
+  .news .fashion-news .container-fas {
+    padding-bottom: 8%; }
+    .news .fashion-news .container-fas .new-1 {
+      display: block;
+      margin-bottom: 40px; }
+      .news .fashion-news .container-fas .new-1 div h3 {
+        margin-top: 10px; }
+  .news .testimonials .container-tes .slide-rev .dots1 {
+    top: 100%;
+    left: 44%; } }
+@media only screen and (max-width: 376px) {
+  .news .testimonials .container-tes .slide-rev .dots1 {
+    margin-top: 22px; } }
+@media only screen and (max-width: 320px) {
+  .news .testimonials .container-tes .slide-rev .dots1 {
+    margin-top: 45px;
+    left: 41%; } }
+
+/*# sourceMappingURL=news.css.map */

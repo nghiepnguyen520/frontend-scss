@@ -1,0 +1,107 @@
+
+
+.sign-up{
+    background-image: url(../../assets/image8/main-big-baner-8.jpg);
+    background-size: cover;
+    background-position: center;
+    .container-sign{
+        padding: 8% 0px ;
+        margin: 0 auto;
+        width: 65%;
+        color : white;
+        h3{
+            font-size: 24px;
+            font-style: italic;
+            font-family: $font-fam1;
+            font-weight: 300;
+            margin-bottom: 12px;
+            margin-top: 0px;
+        }
+        h2{
+            font-size: 47px;
+            font-family: $font-fam1;
+            font-weight: 300;
+            margin-top: 0px;
+            margin-bottom: 10px;
+        }
+        p{
+            font-family: $font-fam1;
+            font-size: 13px;
+            width: 60%;
+            line-height: 29px;
+            letter-spacing: 0.8px;
+            color: rgba(255,255,255,.8);
+        }
+        .form{
+            width: 57%;
+            display: flex;
+            margin-top: 34px;
+            .input{
+                display: flex;
+                position: relative;
+                width: 70%;
+                input{
+                    position: relative;
+                    background: none;
+                    border: none;
+                    border-bottom: 2px solid white;
+                    padding: 10px;
+                    width: 100%;
+                    padding: 13px 30px;
+                }
+                i{
+                    position: absolute;
+                    top: 12px;
+                    color: rgba(255,255,255,.8)
+                }
+            }
+            button{
+                width: 30%;
+                background: white;
+                border: 2px solid white;
+                font-family: $font-fam1;
+                color: #5F5F5F;
+                cursor: pointer;
+                transition: all 0.5s ease-in;
+                &:hover{
+                    background: black;
+                    color: white;
+                    border: 2px solid black;
+                }
+            }
+            
+        }
+    }
+}
+@media only screen and (max-width:1024px){
+    .sign-up{
+        .container-sign{
+            p{
+                width: 100%;
+            }
+            .form{
+                width: 75%;
+            }
+        }
+    }
+}
+@media only screen and (max-width:600px){
+    .sign-up{
+        .container-sign{
+            width: 85%;
+        }
+    }
+}
+@media only screen and (max-width:415px){
+    .sign-up{
+        .container-sign{
+            padding: 12% 0px;
+            h2{
+                font-size: 36px;
+            }
+            .form{
+                width: 100%;
+            }
+        }
+    }
+}

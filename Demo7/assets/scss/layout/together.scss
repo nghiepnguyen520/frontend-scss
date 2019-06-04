@@ -1,0 +1,61 @@
+
+@import '../helper/mixin.scss';
+.together{
+    .container-together{
+        margin: 0 auto;
+        width: 49%;
+        padding: 7% 0px;
+        h2{
+            @include h2;
+            font-size: 37px;
+            position: relative;
+        }
+        h2::before{
+            @include h2-border;
+            width: 15%;
+            left: 0;
+            right: 0;
+        }
+        p{
+            font-family: $font-fam;
+            font-size: 14px;
+            line-height: 32px;
+            padding-top: 40px;
+            color: #7e8890;
+        }
+    }
+    .bg-together{
+        background-image: url(../../assets/image7/parallax_image_02-1.jpg);
+        background-size: cover;
+        height: 500px;
+        background-position: center top;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .together{
+        .container-together{
+            width: 90%;
+        }
+        .bg-together{
+            height: 350px;
+        }
+    }
+} 
+@media only screen and (max-width: 415px){
+    .together{
+        .container-together{
+            h2::before{
+                width: 25%;
+            }
+        }
+    }
+} 
+@media only screen and (max-width: 360px){
+    .together{
+        .container-together{
+            h2::before{
+                top: 120px
+            }
+        }
+    }
+} 
